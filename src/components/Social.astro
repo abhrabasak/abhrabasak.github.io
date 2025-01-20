@@ -1,0 +1,13 @@
+---
+import contacts from "../data/contacts.json";
+---
+
+<div class="social callout">
+  {
+    Object.entries(contacts).map(([site, url]) => (
+      <a href={url} class={`webicon large ${site.toLowerCase()}`}>
+        {site}
+      </a>
+    ))
+  }
+</div>

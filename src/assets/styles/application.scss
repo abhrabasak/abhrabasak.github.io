@@ -1,0 +1,48 @@
+﻿// --- Dependencies ---
+@import "includes/zf-dependencies";
+// --- Application Settings ---
+@import "full-settings";
+@import "settings";
+// --- Components ---
+@import "includes/zf-components";
+// --- HTML Class Generation ---
+@import "includes/zf-html-classes";
+@import "base";
+
+body {
+  @include xy-grid-container(100%);
+  padding: 0 !important;
+  > section {
+    @include xy-grid;
+  }
+}
+header,
+main,
+footer {
+  @include xy-cell($gutter-type:none);
+}
+#site-nav-title {
+  font-family: Helvetica;
+  color: white;
+}
+nav.top-bar {
+  margin-bottom: 0;
+  a {
+    color: white;
+    font-size: 0.8125rem;
+  }
+}
+.view {
+  @include xy-grid;
+  min-height: 500px;
+}
+.pane {
+  text-align: center;
+}
+footer {
+  background: rgb(201, 180, 159);
+  padding: 10px;
+  text-align: center;
+  font-size: rem-calc(14);
+  line-height: 120%;
+}

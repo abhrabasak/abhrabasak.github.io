@@ -1,0 +1,26 @@
+---
+import Head from "../components/Head.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+import "../assets/styles/application.scss";
+---
+
+<!doctype html>
+<!-- https://docs.astro.build -->
+<html lang="en" class="svg">
+  <Head {...Astro.props} />
+  <body>
+    <section>
+      <Header />
+      <slot />
+      <Footer />
+    </section>
+  </body>
+</html>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(document).foundation();
+  });
+</script>

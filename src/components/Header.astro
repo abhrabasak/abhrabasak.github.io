@@ -1,0 +1,53 @@
+---
+import TopNavToggle from "./navigation/TopNavToggle.astro";
+
+const pages = {
+  left: new Map([
+    ["Home", "/index.html"],
+    ["About", "/about.html"],
+    ["Projects", "/projects.html"],
+    ["Code", "/code.html"],
+    ["Blog", "/blog.html"],
+  ]),
+  right: new Map([
+    ["Contact", "/contact.html"],
+    ["Credits", "/credits.html"],
+  ]),
+};
+
+// Pages:
+// Portfolio - Engineering, Art, Music & Dance, Writing, Gaming
+// Career Experience - Microsoft, Freelancing
+// Technical Expertise - Skills, Certifications, Technologies
+// Opprtunities - Mentoring, Coaching, Consultancy
+// Geography - Maps, Locations, Travel
+---
+
+<header>
+  <!-- <TopNavToggle menuId="site-header-menu" /> -->
+  <nav class="top-bar" id="site-header-menu">
+    <section class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text" id="site-nav-title">ABHRA BASAK</li>
+        {
+          Array.from(pages.left, ([page, url]) => (
+            <li>
+              <a href={url}>{page}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+    <section class="top-bar-right">
+      <ul class="menu">
+        {
+          Array.from(pages.right, ([page, url]) => (
+            <li>
+              <a href={url}>{page}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </nav>
+</header>

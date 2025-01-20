@@ -1,0 +1,24 @@
+@import "foundation-sites/scss/global";
+@import "foundation-sites/scss/xy-grid/xy-grid";
+@import "base";
+
+.display-pic {
+  @include xy-cell(2);
+  margin-top: 10px;
+}
+.hello-intro {
+  @include xy-cell(6);
+}
+.tagline {
+  text-align: center;
+}
+.home-social {
+  @include xy-cell(4);
+  text-align: center;
+  .webicon {
+    margin: 0 5px;
+    &:hover {
+      margin: 0 5px;
+    }
+  }
+}
