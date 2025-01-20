@@ -1,26 +1,6 @@
 ---
 import TopNavToggle from "./navigation/TopNavToggle.astro";
-
-const pages = {
-  left: new Map([
-    ["Home", "/index.html"],
-    ["About", "/about.html"],
-    ["Projects", "/projects.html"],
-    ["Code", "/code.html"],
-    ["Blog", "/blog.html"],
-  ]),
-  right: new Map([
-    ["Contact", "/contact.html"],
-    ["Credits", "/credits.html"],
-  ]),
-};
-
-// Pages:
-// Portfolio - Engineering, Art, Music & Dance, Writing, Gaming
-// Career Experience - Microsoft, Freelancing
-// Technical Expertise - Skills, Certifications, Technologies
-// Opprtunities - Mentoring, Coaching, Consultancy
-// Geography - Maps, Locations, Travel
+import { left as pagesLeft, right as pagesRight } from "../data/pages.json";
 ---
 
 <header>
@@ -30,7 +10,7 @@ const pages = {
       <ul class="menu">
         <li class="menu-text" id="site-nav-title">ABHRA BASAK</li>
         {
-          Array.from(pages.left, ([page, url]) => (
+          Object.entries(pagesLeft).map(([page, url]) => (
             <li>
               <a href={url}>{page}</a>
             </li>
@@ -41,7 +21,7 @@ const pages = {
     <section class="top-bar-right">
       <ul class="menu">
         {
-          Array.from(pages.right, ([page, url]) => (
+          Object.entries(pagesRight).map(([page, url]) => (
             <li>
               <a href={url}>{page}</a>
             </li>

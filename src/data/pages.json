@@ -1,0 +1,13 @@
+{
+  "left": {
+    "Home": "/index.html",
+    "About": "/about.html",
+    "Projects": "/projects.html",
+    "Code": "/code.html",
+    "Blog": "/blog.html"
+  },
+  "right": {
+    "Contact": "/contact.html",
+    "Credits": "/credits.html"
+  }
+}
