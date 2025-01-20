@@ -1,0 +1,11 @@
+---
+import IconPane from "./IconPane.astro";
+
+const { intro } = Astro.props;
+---
+
+<section class={`${intro.id}-intro`}>
+  <h4>{intro.title}</h4>
+  <p>{intro.excerpt}</p>
+  <IconPane itemtype={intro.id} items={intro.icons} />
+</section>

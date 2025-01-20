@@ -1,0 +1,25 @@
+---
+import music from "../data/music.json";
+import code from "../data/code.json";
+import IntroPane from "../components/IntroPane.astro";
+import App from "../layouts/App.astro";
+
+import "../assets/styles/about.scss";
+import "../assets/styles/webicons.scss";
+---
+
+<App title="About">
+  <main class="about view">
+    <section class="about-intro">
+      <h4>About Me</h4>
+      <p>
+        Although I am skilled in several disciplines, I'm more of a dynamic and
+        multi-skilled Web Developer and Programmer with a passion for creating
+        innovative and eccentric stuff, exploring and experimenting with new
+        things, regardless of the brief.
+      </p>
+    </section>
+    <IntroPane intro={music} />
+    <IntroPane intro={code} />
+  </main>
+</App>

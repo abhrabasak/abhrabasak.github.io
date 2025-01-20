@@ -1,0 +1,9 @@
+@import "foundation-sites/scss/global";
+@import "foundation-sites/scss/xy-grid/xy-grid";
+@import "base";
+
+.about-intro,
+.music-intro,
+.code-intro {
+  @include xy-cell(4);
+}

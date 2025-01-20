@@ -1,0 +1,17 @@
+---
+interface Props {
+  itemtype: string;
+  items: { [key: string]: string };
+}
+const { itemtype, items }: Props = Astro.props;
+---
+
+<div class={`${itemtype} pane`}>
+  {
+    Object.entries(items).map(([item, address]) => (
+      <a href={address} class={`webicon large ${item.toLowerCase()}`}>
+        {item}
+      </a>
+    ))
+  }
+</div>
