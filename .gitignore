@@ -1,5 +1,5 @@
 # build output
-dist/
+deploy/
 
 # generated types
 .astro/
