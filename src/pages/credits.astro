@@ -1,0 +1,38 @@
+---
+import techStack from "../data/tech-stack.json";
+import App from "../layouts/App.astro";
+
+import "../assets/styles/credits.scss";
+---
+
+<App title="Credits">
+  <main class="credits view">
+    <section class="credits-intro">
+      <h4>Credits</h4>
+      <p>
+        This website has been proudly hand-crafted by me using
+        <strong><a href="https://get.foundation">Foundation</a></strong>, and <strong
+          ><a href="https://astro.build">Astro</a></strong
+        >, taking advantage of the power of <strong
+          ><a href="https://www.typescriptlang.org">TypeScript</a></strong
+        >
+        and <strong><a href="https://sass-lang.com">SASS</a></strong>. It is
+        hosted using <strong
+          ><a href="http://pages.github.com">GitHub Pages</a></strong
+        >.
+      </p>
+      <p>All Trademarks belong to their respective Owners.</p>
+      <h6 class="other-components">Other components</h6>
+      <ul class="credits-list">
+        {
+          Object.entries(techStack).map(([source, url]) => (
+            <li class="tech">
+              <a href={url}>{source}</a>
+            </li>
+          ))
+        }
+      </div>
+    </section>
+    <section class="credits-components"></section>
+  </main></App
+>

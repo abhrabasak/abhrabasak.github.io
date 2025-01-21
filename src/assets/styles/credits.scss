@@ -1,0 +1,17 @@
+@import "foundation-sites/scss/global";
+@import "foundation-sites/scss/xy-grid/xy-grid";
+@import "base";
+
+.credits-intro,
+.credits-components {
+  @include xy-cell(6);
+}
+.credits-list {
+  @include xy-grid;
+  @include xy-grid-layout(4, $selector: ".tech");
+  > .tech {
+    text-align: center;
+    list-style: none;
+    padding-bottom: 10px;
+  }
+}
