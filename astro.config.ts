@@ -4,8 +4,8 @@ import { defineConfig } from "astro/config";
 // https://astro.build/config
 export default defineConfig({
   site: "https://abhra.in",
-  srcDir: "src",
-  outDir: "deploy",
+  srcDir: "source",
+  outDir: "webapp",
   compressHTML: false,
   vite: {
     build: {
