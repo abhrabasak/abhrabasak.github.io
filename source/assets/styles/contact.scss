@@ -1,0 +1,32 @@
+@import "foundation-sites/scss/global";
+@import "foundation-sites/scss/xy-grid/xy-grid";
+
+.email {
+  @include xy-cell(3, $gutter-type: none);
+  @include xy-cell-offset(1);
+}
+.mail-logo {
+  position: relative;
+  top: 90px;
+}
+.contact-intro {
+  @include xy-cell(6, $gutter-type: none);
+  @include xy-cell-offset(1);
+  h4,
+  .social-icons {
+    text-align: center;
+  }
+  .social-icons .webicon {
+    margin: 0 5px;
+    &:hover {
+      margin: 0 5px;
+    }
+  }
+}
+.email-link {
+  color: purple;
+  font-weight: 600;
+  &:hover {
+    color: purple;
+  }
+}

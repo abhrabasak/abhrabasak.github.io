@@ -1,8 +1,10 @@
 ---
 import contacts from "../data/contacts.json";
+
+const { classnames } = Astro.props;
 ---
 
-<div class="social callout">
+<div class={classnames}>
   {
     Object.entries(contacts).map(([site, url]) => (
       <a href={url} class={`webicon large ${site.toLowerCase()}`}>
