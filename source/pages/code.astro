@@ -1,0 +1,28 @@
+---
+import App from "../layouts/App.astro";
+
+import "../assets/styles/code.scss";
+import "../assets/styles/webicons.scss";
+
+import IconPane from "../components/IconPane.astro";
+import Graph from "../components/Graph.astro";
+
+import code from "../data/code.json";
+import dev from "../data/dev.json";
+import skills from "../data/skills.json";
+---
+
+<App title="Code">
+  <main class="code view">
+    <section class="skills-intro">
+      <h4>Code/Skills</h4>
+      <p>
+        Here is an overview of my development and coding skills. Have a look at
+        my GitHub profile for some code samples.
+      </p>
+      <IconPane itemtype={code.id} items={code.icons} />
+    </section>
+    <Graph {...dev} />
+    <Graph {...skills} />
+  </main>
+</App>

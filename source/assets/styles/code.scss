@@ -1,0 +1,24 @@
+@import "full-settings";
+@import "settings";
+@import "foundation-sites/scss/global";
+@import "foundation-sites/scss/xy-grid/xy-grid";
+$include-html-media-classes: true;
+@import "foundation-sites/scss/components/progress-bar";
+$include-html-label-classes: true;
+@import "foundation-sites/scss/components/label";
+@import "base";
+
+@include foundation-progress-bar;
+@include foundation-label;
+
+.skills-intro,
+.dev-graph,
+.skills-graph {
+  @include xy-cell(4);
+}
+.label {
+  display: block;
+}
+.meter {
+  height: 12px;
+}

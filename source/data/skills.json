@@ -1,36 +1,17 @@
 {
-  "Go": "http://golang.org",
-  "C++": "http://isocpp.org",
-
-  "Swift": "http://swift.org",
-  "F#": "http://fsharp.org",
-  "Less": "http://lesscss.org",
-  "Tailwind CSS": "http://tailwindcss.com",
-
-  "C#": "http://microsoft.com/net",
-  "ASP.NET": "http://microsoft.com/net",
-  "Azure": "http://azure.microsoft.com",
-  "PowerShell": "http://microsoft.com/powershell",
-
-  "Ruby": "http://ruby-lang.org",
-  "Rails": "http://rubyonrails.org",
-  "Middleman": "http://middlemanapp.com",
-
-  "Python": "http://python.org",
-  "Numpy": "http://numpy.org",
-  "Pandas": "http://pandas.pydata.org",
-  "Matplotlib": "http://matplotlib.org",
-
-  "SQL": "http://www.iso.org/iso/home/standards/iso-standard.htm",
-  "KQL": "http://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/",
-  "Spark": "http://spark.apache.org",
-
-  "HTML5": "http://html5.org",
-  "JavaScript": "http://www.ecma-international.org/ecma-262/6.0/",
-  "TypeScipt": "http://www.typescriptlang.org",
-  "CSS": "http://www.w3.org/Style/CSS/Overview.en.html",
-  "CSS3": "http://www.w3.org/Style/CSS/Overview.en.html",
-  "Sass": "http://sass-lang.com",
-  "Bootstrap": "http://getbootstrap.com",
-  "Foundation": "http://foundation.zurb.com"
+  "id": "skills",
+  "items": {
+    "On The Desktop": {
+      "C#": 90,
+      "Ruby": 70,
+      "C++": 70,
+      "Python": 60
+    },
+    "On The Web / Mobile": {
+      "Ruby": 80,
+      "C#": 80,
+      "JavaScript": 70,
+      "PHP": 60
+    }
+  }
 }
