@@ -1,0 +1,32 @@
+---
+interface Project {
+  name: string;
+  url: string;
+  text: string;
+  tech: string;
+  year: number;
+  occupation: string;
+  collab: { name: string; profile: string }[];
+}
+interface Props {
+  projects: Record<string, Project>;
+}
+const { projects }: Props = Astro.props;
+---
+
+<ul class="articles-list">
+  {
+    Object.entries(projects).map(([_, p]) => (
+      <li class="radius project">
+        <a href={p.url} class="project-url">
+          <i>{p.name}</i>
+        </a>
+        <p>
+          {p.text}
+          <br />
+          <i>{p.tech}</i> ({p.year})
+        </p>
+      </li>
+    ))
+  }
+</ul>

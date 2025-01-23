@@ -1,0 +1,24 @@
+---
+import App from "../layouts/App.astro";
+import ProjectsPane from "../components/ProjectsPane.astro";
+
+import projects from "../data/projects.json";
+import "../assets/styles/projects.scss";
+---
+
+<App title="Projects">
+  <main class="projects view">
+    <section class="projects-intro">
+      <h4>Projects</h4>
+      <p>
+        A list of stuff I've worked on and contributed to till date. I
+        personally attempt to use a different set of technologies for each
+        individual project. Each new project presents the opportunity to push
+        limits creatively and technically.
+      </p>
+    </section>
+    <section class="project-articles">
+      <ProjectsPane projects={projects} />
+    </section>
+  </main>
+</App>

@@ -1,0 +1,21 @@
+@import "foundation-sites/scss/global";
+@import "foundation-sites/scss/xy-grid/xy-grid";
+@import "base";
+
+.projects-intro {
+  @include xy-cell(3);
+}
+.project-articles {
+  @include xy-cell(9);
+  margin-top: 10px;
+}
+.articles-list {
+  @include xy-grid;
+  @include xy-grid-layout(3, $selector: ".project");
+}
+.project {
+  min-height: 100px;
+  p {
+    font-size: 80%;
+  }
+}
