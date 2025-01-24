@@ -19,7 +19,7 @@ body {
 header,
 main,
 footer {
-  @include xy-cell($gutter-type:none);
+  @include xy-cell($gutter-type: none);
 }
 #site-nav-title {
   font-family: Helvetica;
@@ -40,7 +40,7 @@ nav.top-bar {
   text-align: center;
 }
 footer {
-  background: rgb(201, 180, 159);
+  background: $body-background;
   padding: 10px;
   text-align: center;
   font-size: rem-calc(14);

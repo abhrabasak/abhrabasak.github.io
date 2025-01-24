@@ -6,8 +6,9 @@
 
 // 1. Global
 // ---------
-$body-background: rgb(236, 236, 236);
+$body-background: rgb(15, 23, 42);
 $body-font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, 'Liberation Sans', 'DejaVu Sans', Freesans, sans-serif;
+$body-font-color: $white;
 // 4. Base Typography
 // ------------------
 $header-font-family: $body-font-family;
@@ -15,7 +16,7 @@ $header-font-weight: 500;
 // 55. Top Bar
 // -----------
 $topbar-padding: 0.2rem;
-$topbar-background: rgb(52, 52, 52);
+$topbar-background: rgb(15, 23, 42);
 
 // $rem-base: 16px;
 
