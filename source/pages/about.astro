@@ -1,11 +1,11 @@
 ---
-import music from "../data/music.json";
-import code from "../data/code.json";
 import IntroPane from "../components/IntroPane.astro";
 import App from "../layouts/App.astro";
 
 import "../assets/styles/about.scss";
 import "../assets/styles/webicons.scss";
+import interests from "../data/interests.json";
+import Interest from "../components/Interest.astro";
 ---
 
 <App title="About">
@@ -19,7 +19,10 @@ import "../assets/styles/webicons.scss";
         things, regardless of the brief.
       </p>
     </section>
-    <IntroPane intro={music} />
-    <IntroPane intro={code} />
+    <section class="portfolio-categories">
+      <div class="categories-list">
+        {interests.map((int) => int.enabled && <Interest interest={int} />)}
+      </div>
+    </section>
   </main>
 </App>

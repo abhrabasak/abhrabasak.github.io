@@ -1,9 +1,53 @@
-{
-  "Astro": "https://astro.build",
-  "HTML5": "http://html5.org",
-  "SASS": "http://sass-lang.com",
-  "TypeScipt": "http://www.typescriptlang.org",
-  "Social Web Icons": "http://zurb.com/playground/social-webicons",
-  "NodeJS": "http://nodejs.org",
-  "VSCode": "http://code.visualstudio.com"
-}
+[
+  {
+    "name": "TypeScipt",
+    "url": "http://www.typescriptlang.org",
+    "icon": "typescript/typescript-original"
+  },
+  {
+    "name": "Astro",
+    "url": "https://astro.build",
+    "icon": "astro/astro-original"
+  },
+  {
+    "name": "HTML5",
+    "url": "http://html5.org",
+    "icon": "html5/html5-original-wordmark"
+  },
+  {
+    "name": "SASS",
+    "url": "http://sass-lang.com",
+    "icon": "sass/sass-original"
+  },
+  {
+    "name": "Foundation",
+    "url": "http://foundation.zurb.com",
+    "icon": "foundation/foundation-original-wordmark"
+  },
+  { "name": "JSON", "url": "http://json.org", "icon": "json/json-original" },
+  {
+    "name": "GitHub",
+    "url": "http://github.com",
+    "icon": "github/github-original-wordmark"
+  },
+  {
+    "name": "NodeJS",
+    "url": "http://nodejs.org",
+    "icon": "nodejs/nodejs-original-wordmark"
+  },
+  {
+    "name": "VSCode",
+    "url": "http://code.visualstudio.com",
+    "icon": "vscode/vscode-original"
+  },
+  {
+    "name": "Devicon",
+    "url": "http://zurb.com/playground/social-webicons",
+    "icon": "devicon/devicon-original"
+  },
+  {
+    "name": "Cloudflare",
+    "url": "https://www.cloudflare.com",
+    "icon": "cloudflare/cloudflare-original-wordmark"
+  }
+]

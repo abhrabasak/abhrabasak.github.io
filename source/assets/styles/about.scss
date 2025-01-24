@@ -7,3 +7,13 @@
 .code-intro {
   @include xy-cell(4);
 }
+.portfolio-categories {
+  @include xy-cell(8);
+}
+.categories-list{
+  @include xy-grid;
+  @include xy-grid-layout(4, $selector: ".interest-card");
+  > .interest-card {
+    @include xy-cell(6);
+  }
+}

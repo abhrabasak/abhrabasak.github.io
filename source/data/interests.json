@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Music",
+    "id": "music",
+    "enabled": true,
+    "excerpt": "An interesting piece of trivia, I'm deeply in love with music and mixes. My favorite genres include Pop, Blues, Dance, Pop Rock, Alternative Rock, Indie Rock and Hip-Hop. Find out my favorite artists and tracks in my music profile.",
+    "icons": {
+      "Spotify": "https://open.spotify.com/user/12151918372",
+      "Soundcloud": "https://soundcloud.com/abhra-basak",
+      "Mixcloud": "https://www.mixcloud.com/AbhraBasak",
+      "Lastfm": "https://www.last.fm/user/Abhra1992"
+    }
+  },
+  {
+    "title": "Software",
+    "id": "code",
+    "enabled": true,
+    "excerpt": "I have been a coordinator of the Website Information and Networks Group (WING) at IIT Mandi for over 3 years, where I learnt interesting cool stuff about computers and the Web. I program mainly in C#.NET, Ruby and JavaScript.",
+    "icons": {
+      "GitHub": "https://github.com/abhrabasak",
+      "BitBucket": "https://bitbucket.org/abhrabasak",
+      "CodePen": "https://codepen.io/abhrabasak",
+      "Gitlab": "https://gitlab.com/abhrabasak"
+    }
+  },
+  {
+    "title": "Digital Art",
+    "id": "art",
+    "excerpt": "Creating digital art allows me to express my creativity and imagination. I enjoy experimenting with different styles and techniques to produce unique and visually appealing pieces. My work often includes a mix of traditional and modern elements, reflecting my diverse artistic influences.",
+    "icons": {
+      "Behance": "https://www.behance.net/abhra",
+      "Unsplash": "https://unsplash.com/@abhrabasak",
+      "DeviantArt": "https://www.deviantart.com/abhrabasak"
+    }
+  },
+  {
+    "title": "Prose",
+    "id": "prose",
+    "excerpt": "I love to travel and explore new places. I have been to 10 states in India and 2 countries. I have a collection of travel photos on my Instagram profile.",
+    "icons": {
+      "Instagram": "https://www.instagram.com/abhrabasak"
+    }
+  },
+  {
+    "title": "Gaming",
+    "id": "gaming",
+    "excerpt": "I love to read books. I have a collection of books on my Goodreads profile.",
+    "icons": {
+      "Steam": "https://steamcommunity.com/profiles/76561199065280856/",
+      "Ubisoft": "https://club.ubisoft.com/en-US/profile/abhrabasak",
+      "Xbox": "https://www.xbox.com/en-US/play/user/Abhra1992",
+      "Epic": "https://store.epicgames.com/en-US/u/a82af95dbf604a0e9ac69236d884f7b5"
+    }
+  },
+  {
+    "title": "Cartography",
+    "id": "maps",
+    "excerpt": "I love to watch movies. I have a collection of movies on my Letterboxd profile.",
+    "icons": {
+      "Letterboxd": "https://letterboxd.com/abhrabasak"
+    }
+  }
+]
