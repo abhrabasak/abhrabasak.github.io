@@ -13,6 +13,9 @@
   @include xy-grid-layout(4, $selector: ".interest-card");
   > .interest-card {
     @include xy-cell(6);
+    h4 {
+      text-align: center;
+    }
   }
 }
 .interest-icons {
