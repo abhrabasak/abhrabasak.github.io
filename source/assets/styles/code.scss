@@ -2,14 +2,23 @@
 @import "settings";
 @import "foundation-sites/scss/global";
 @import "foundation-sites/scss/xy-grid/xy-grid";
-$include-html-media-classes: true;
 @import "foundation-sites/scss/components/progress-bar";
-$include-html-label-classes: true;
 @import "foundation-sites/scss/components/label";
 @import "base";
 
 @include foundation-progress-bar;
 @include foundation-label;
+
+.dev-icons {
+  @include xy-cell(12);
+}
+.devicons-grid {
+  @include xy-grid;
+  @include xy-grid-layout(12, $selector: "a");
+  > a {
+    @include xy-cell(1);
+  }
+}
 
 .skills-intro,
 .dev-graph,
@@ -21,4 +30,24 @@ $include-html-label-classes: true;
 }
 .meter {
   height: 12px;
+}
+.skills-categories {
+  @include xy-cell(8);
+}
+.categories-list {
+  @include xy-grid;
+  @include xy-grid-layout(4, $selector: ".domain-card");
+  > .domain-card {
+    @include xy-cell(6);
+    h4 {
+      text-align: center;
+    }
+  }
+}
+.domain-icons {
+  @include xy-grid;
+  @include xy-grid-layout(4, $selector: "a");
+  > a {
+    @include xy-cell(2);
+  }
 }

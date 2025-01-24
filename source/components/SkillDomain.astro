@@ -1,0 +1,20 @@
+---
+import Icons8 from "../icons/icons8/Icons8.astro";
+
+interface Props {
+  title: string;
+  skills: HyperIcon[];
+}
+const { title, skills } = Astro.props;
+---
+
+<div class="domain-card">
+  <h4>{title}</h4>
+  <div class="domain-icons">
+    {
+      skills.map(({ name, link, icon }) => (
+        <Icons8 iconName={icon} link={link} site={name} />
+      ))
+    }
+  </div>
+</div>
