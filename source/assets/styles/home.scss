@@ -15,10 +15,4 @@
 .home-social {
   @include xy-cell(4);
   text-align: center;
-  .webicon {
-    margin: 0 5px;
-    &:hover {
-      margin: 0 5px;
-    }
-  }
 }

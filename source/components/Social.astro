@@ -1,15 +1,14 @@
 ---
 import contacts from "../data/contacts.json";
+import Icons8 from "../icons/icons8/Icons8.astro";
 
 const { classnames } = Astro.props;
 ---
 
 <div class={classnames}>
   {
-    Object.entries(contacts).map(([site, url]) => (
-      <a href={url} class={`webicon large ${site.toLowerCase()}`}>
-        {site}
-      </a>
+    contacts.map(({ name, profile, icon }) => (
+      <Icons8 iconName={icon} link={profile} site={name} />
     ))
   }
 </div>

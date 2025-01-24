@@ -31,7 +31,7 @@
     "icons": {
       "GitHub": {
         "profile": "https://github.com/abhrabasak",
-        "icon": "glyph-neue/100/github"
+        "icon": "plasticine/100/github"
       },
       "BitBucket": {
         "profile": "https://bitbucket.org/abhrabasak",
@@ -39,7 +39,7 @@
       },
       "CodePen": {
         "profile": "https://codepen.io/abhrabasak",
-        "icon": "ios/100/codepen"
+        "icon": "fluency/100/codepen"
       },
       "Gitlab": {
         "profile": "https://gitlab.com/abhrabasak",
