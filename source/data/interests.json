@@ -5,10 +5,22 @@
     "enabled": true,
     "excerpt": "An interesting piece of trivia, I'm deeply in love with music and mixes. My favorite genres include Pop, Blues, Dance, Pop Rock, Alternative Rock, Indie Rock and Hip-Hop. Find out my favorite artists and tracks in my music profile.",
     "icons": {
-      "Spotify": "https://open.spotify.com/user/12151918372",
-      "Soundcloud": "https://soundcloud.com/abhra-basak",
-      "Mixcloud": "https://www.mixcloud.com/AbhraBasak",
-      "Lastfm": "https://www.last.fm/user/Abhra1992"
+      "Spotify": {
+        "profile": "https://open.spotify.com/user/12151918372",
+        "icon": "doodle/100/spotify"
+      },
+      "Soundcloud": {
+        "profile": "https://soundcloud.com/abhra-basak",
+        "icon": "bubbles/100/soundcloud"
+      },
+      "Mixcloud": {
+        "profile": "https://www.mixcloud.com/AbhraBasak",
+        "icon": "plasticine/100/mixcloud"
+      },
+      "Lastfm": {
+        "profile": "https://www.last.fm/user/Abhra1992",
+        "icon": "doodle/96/fm"
+      }
     }
   },
   {
@@ -17,10 +29,26 @@
     "enabled": true,
     "excerpt": "I have been a coordinator of the Website Information and Networks Group (WING) at IIT Mandi for over 3 years, where I learnt interesting cool stuff about computers and the Web. I program mainly in C#.NET, Ruby and JavaScript.",
     "icons": {
-      "GitHub": "https://github.com/abhrabasak",
-      "BitBucket": "https://bitbucket.org/abhrabasak",
-      "CodePen": "https://codepen.io/abhrabasak",
-      "Gitlab": "https://gitlab.com/abhrabasak"
+      "GitHub": {
+        "profile": "https://github.com/abhrabasak",
+        "icon": "glyph-neue/100/github"
+      },
+      "BitBucket": {
+        "profile": "https://bitbucket.org/abhrabasak",
+        "icon": "color/100/bitbucket"
+      },
+      "CodePen": {
+        "profile": "https://codepen.io/abhrabasak",
+        "icon": "ios/100/codepen"
+      },
+      "Gitlab": {
+        "profile": "https://gitlab.com/abhrabasak",
+        "icon": "doodle/100/gitlab"
+      },
+      "Kaggle": {
+        "profile": "https://www.kaggle.com/abhrabasak",
+        "icon": "bubbles/100/kaggle"
+      }
     }
   },
   {

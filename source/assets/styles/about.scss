@@ -2,18 +2,23 @@
 @import "foundation-sites/scss/xy-grid/xy-grid";
 @import "base";
 
-.about-intro,
-.music-intro,
-.code-intro {
+.about-intro {
   @include xy-cell(4);
 }
 .portfolio-categories {
   @include xy-cell(8);
 }
-.categories-list{
+.categories-list {
   @include xy-grid;
   @include xy-grid-layout(4, $selector: ".interest-card");
   > .interest-card {
     @include xy-cell(6);
+  }
+}
+.interest-icons {
+  @include xy-grid;
+  @include xy-grid-layout(4, $selector: "a");
+  > a {
+    @include xy-cell(2);
   }
 }

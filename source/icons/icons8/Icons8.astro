@@ -1,0 +1,8 @@
+---
+const { iconName, link, site } = Astro.props;
+const icons8src = `https://img.icons8.com/${iconName}.png`;
+---
+
+<a href={link}>
+  <img src={icons8src} alt={site} />
+</a>

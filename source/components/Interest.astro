@@ -1,9 +1,22 @@
 ---
-const { interest } = Astro.props;
+import Icons8 from '../icons/icons8/Icons8.astro';
+
+interface Props {
+  title: string;
+  excerpt: string;
+  icons: Record<string, { profile: string; icon: string }>;
+}
+const { title, excerpt, icons } = Astro.props;
 ---
 
 <div class="interest-card">
-  <h4>{interest.title}</h4>
-  <p>{interest.excerpt}</p>
-  <!-- <IconPane itemtype={interest.id} items={interest.icons} /> -->
+  <h4>{title}</h4>
+  <p>{excerpt}</p>
+  <div class="interest-icons">
+    {
+      Object.entries(icons).map(([key, icon]) => (
+        <Icons8 iconName={icon.icon} link={icon.profile} site={key} />
+      ))
+    }
+  </div>
 </div>

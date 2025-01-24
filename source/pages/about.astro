@@ -21,7 +21,7 @@ import Interest from "../components/Interest.astro";
     </section>
     <section class="portfolio-categories">
       <div class="categories-list">
-        {interests.map((int) => int.enabled && <Interest interest={int} />)}
+        {interests.map((int) => int.enabled && <Interest {...int} />)}
       </div>
     </section>
   </main>
