@@ -1,18 +1,6 @@
 ---
 import Icons8 from "../../icons/icons8/Icons8.astro";
-
-export interface Project {
-  enabled: boolean;
-  name: string;
-  icon: string;
-  url: string;
-  synopsis: string;
-  text: string;
-  tech: string;
-  year: number;
-  occupation: string;
-  collab: { name: string; profile: string }[];
-}
+import type { Project } from "./Project";
 
 const project = Astro.props as Project;
 ---
