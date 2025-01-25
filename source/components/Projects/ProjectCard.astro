@@ -6,6 +6,7 @@ export interface Project {
   name: string;
   icon: string;
   url: string;
+  synopsis: string;
   text: string;
   tech: string;
   year: number;
@@ -24,7 +25,7 @@ const project = Astro.props as Project;
       site={project.name}
     />
     <span class="project-url">{project.name}</span>
-    <span class="synopsis">{project.text.substring(0, 170)}...</span>
+    <span class="synopsis">{project.synopsis}</span>
     <span class="tech">{project.tech}</span>
     <span class="year">{project.year}</span>
   </div>
