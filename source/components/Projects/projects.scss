@@ -9,13 +9,31 @@
   @include xy-cell(9);
   margin-top: 10px;
 }
-.articles-list {
-  @include xy-grid;
-  @include xy-grid-layout(3, $selector: ".project");
-}
-.project {
-  min-height: 100px;
-  p {
-    font-size: 80%;
+.project-card {
+  @include xy-cell(8);
+  margin-bottom: 10px;
+  background-color: rgba($color: black, $alpha: 0.2);
+  // border: 0.5px solid red;
+  .project-grid {
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 0px;
+  }
+  .icons8-icon {
+    grid-area: 1 / 1 / 6 / 2;
+  }
+  .project-url {
+    grid-area: 1 / 2 / 2 / 4;
+    font-weight: bold;
+  }
+  .synopsis {
+    grid-area: 2 / 2 / 4 / 4;
+  }
+  .tech {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+  .year {
+    grid-area: 4 / 3 / 5 / 4;
   }
 }

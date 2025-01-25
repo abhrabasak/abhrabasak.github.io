@@ -1,0 +1,31 @@
+---
+import Icons8 from "../../icons/icons8/Icons8.astro";
+
+export interface Project {
+  enabled: boolean;
+  name: string;
+  icon: string;
+  url: string;
+  text: string;
+  tech: string;
+  year: number;
+  occupation: string;
+  collab: { name: string; profile: string }[];
+}
+
+const project = Astro.props as Project;
+---
+
+<article class="project-card">
+  <div class="project-grid">
+    <Icons8
+      iconName="dusk/400/total-sales"
+      link={project.url}
+      site={project.name}
+    />
+    <span class="project-url">{project.name}</span>
+    <span class="synopsis">{project.text.substring(0, 170)}...</span>
+    <span class="tech">{project.tech}</span>
+    <span class="year">{project.year}</span>
+  </div>
+</article>

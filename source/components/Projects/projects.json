@@ -1,5 +1,22 @@
 {
+  "iitmandi": {
+    "enabled": true,
+    "name": "IIT Mandi Website",
+    "year": "2010-13",
+    "url": "http://iitmandi.ac.in",
+    "text": "Official Website of Indian Institute of Technology Mandi, Himachal Pradesh. This is the main public-facing repository of information, pertaining to all aspects of the institute. Contains a special section for attracting prospective students.",
+    "tech": "JavaScript / Ruby / PHP / MySQL"
+  },
+  "usability": {
+    "enabled": true,
+    "name": "Usability Evaluation of the IIT Mandi Website",
+    "year": "2012",
+    "url": "http://www.slideshare.net/abracadabra2010/usability-evaluation-iit-mandi",
+    "text": "An exploratory evaluation of the usability of IIT Mandi website, by analyzing users' satisfaction with interactions on the website (mined from website usage data and surveys), and determining the degree of accessibility using Cambridge HCI Simulator. Prospective improvements upon the website configurations were suggested, accompanied by an improved prototype design.",
+    "tech": "JavaScript"
+  },
   "hazelward": {
+    "enabled": true,
     "name": "Hazelward - High Performance Computational Intelligence Framework",
     "occupation": "IIT Mandi",
     "year": "2013-14",
@@ -25,13 +42,6 @@
     "text": "A MVP of a iTunes-like music library manager for Windows",
     "tech": "C++"
   },
-  "iitmandi": {
-    "name": "IIT Mandi Website",
-    "year": "2010-13",
-    "url": "http://iitmandi.ac.in",
-    "text": "Official Website of Indian Institute of Technology Mandi, Himachal Pradesh. This is the main public-facing repository of information, pertaining to all aspects of the institute. Contains a special section for attracting prospective students.",
-    "tech": "JavaScript / Ruby / PHP / MySQL"
-  },
   "brivdiena": {
     "name": "Extended Leave Management System / Faculty Leave Register",
     "year": "2011-12",
@@ -40,6 +50,7 @@
     "tech": "JavaScript / PHP / MySQL"
   },
   "basin": {
+    "enabled": true,
     "name": "3D Non-Linear Basin Boundary Dynamics",
     "year": "2012",
     "url": "#",
@@ -47,6 +58,7 @@
     "tech": "Python / SciPy / Matplotlib"
   },
   "aitc": {
+    "enabled": true,
     "name": "Adaptive Intellisense Traffic-Signal Controller",
     "year": "2012",
     "url": "#",
@@ -68,6 +80,7 @@
     "tech": "JavaScript / PHP / MySQL"
   },
   "cbs": {
+    "enabled": true,
     "name": "Distributed Core Banking System",
     "year": "2013",
     "url": "https://github.com/vikhyat/CoreBankingSystem",
@@ -96,18 +109,12 @@
     "tech": "Matlab / Python / SciPy"
   },
   "internship": {
+    "enabled": true,
     "name": "Internship @ Microsoft",
     "year": "2013",
     "url": "#",
     "text": "Backend data processing for AutoSuggest Deep-links Navigation for Microsoft product support queries on Bing.com. Natural Language Processing to facilitate faceted search for Tech Help intent. Extraction and mining of official knowledge-base articles in support.microsoft.com. Links to officially accepted solved questions are extracted and retrieved from the AutoSuggest store when a similar or related query is detected.",
     "tech": "Ruby / Python / SQL Server"
-  },
-  "usability": {
-    "name": "Usability Evaluation of the IIT Mandi Website",
-    "year": "2012",
-    "url": "http://www.slideshare.net/abracadabra2010/usability-evaluation-iit-mandi",
-    "text": "An exploratory evaluation of the usability of IIT Mandi website, by analyzing users' satisfaction with interactions on the website (mined from website usage data and surveys), and determining the degree of accessibility using Cambridge HCI Simulator. Prospective improvements upon the website configurations were suggested, accompanied by an improved prototype design.",
-    "tech": "JavaScript"
   },
   "bus": {
     "name": "Vehicle Tracking and Synchronisation",

@@ -1,7 +1,6 @@
 ---
-import ProjectsPane from "./ProjectsPane.astro";
-
-import projects from "../../data/projects.json";
+import ProjectCard, { type Project } from "./ProjectCard.astro";
+import projects from "./projects.json";
 import "./projects.scss";
 ---
 
@@ -16,6 +15,10 @@ import "./projects.scss";
     </p>
   </section>
   <section class="project-articles">
-    <ProjectsPane projects={projects} />
+    {
+      Object.entries(projects).map(
+        ([_, p]) => p.enabled && <ProjectCard {...p} />
+      )
+    }
   </section>
 </main>
