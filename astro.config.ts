@@ -14,6 +14,7 @@ export default defineConfig({
     resolve: {
       alias: {
         $styles: "../../assets/styles",
+        $images: "../../assets/images",
         $data: "../../data",
       },
     },
