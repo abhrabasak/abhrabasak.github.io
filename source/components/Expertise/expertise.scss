@@ -1,10 +1,10 @@
-@import "full-settings";
-@import "settings";
+@import "$styles/full-settings";
+@import "$styles/settings";
 @import "foundation-sites/scss/global";
 @import "foundation-sites/scss/xy-grid/xy-grid";
 @import "foundation-sites/scss/components/progress-bar";
 @import "foundation-sites/scss/components/label";
-@import "base";
+@import "$styles/base";
 
 @include foundation-progress-bar;
 @include foundation-label;
@@ -20,9 +20,7 @@
   }
 }
 
-.skills-intro,
-.dev-graph,
-.skills-graph {
+.skills-intro {
   @include xy-cell(4);
 }
 .label {
@@ -39,6 +37,7 @@
   @include xy-grid-layout(4, $selector: ".domain-card");
   > .domain-card {
     @include xy-cell(6);
+    background-color: rgba($color: black, $alpha: 0.1);
     h4 {
       text-align: center;
     }

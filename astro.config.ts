@@ -11,6 +11,12 @@ export default defineConfig({
     build: {
       assetsInlineLimit: 4,
     },
+    resolve: {
+      alias: {
+        $styles: "../../assets/styles",
+        $data: "../../data",
+      },
+    },
   },
   build: {
     format: "file",
