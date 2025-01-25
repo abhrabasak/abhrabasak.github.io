@@ -1,46 +1,26 @@
 ---
 import Social from "./Social.astro";
-import Icons8 from "../icons/icons8/Icons8.astro";
-import photo from "../assets/images/photo.jpg";
+import photo from "../assets/images/MyPhoto.jpg";
 ---
 
 <main class="home view">
-  <section class="display-pic">
-    <img src={photo.src} alt="This is how I look" />
-  </section>
-  <section class="hello-intro">
-    <h3 class="tagline">
-      Computer Enthusiast / Gamer / Foodie<br />Jack of All Trades, Master of
-      None
-    </h3>
-    <p>
-      <strong>Hey, Hi and Hello!</strong> I am a 23-year old Computer Science Graduate
-      from
-      <strong><a href="http://iitmandi.ac.in">IIT Mandi</a></strong> (living in Hyderabad).
-      I am passionate about Web and Mobile Technologies, and also enjoy Football,
-      Puzzles, Action Movies and Pop Music. I'm glad you visited my website. Have
-      a look around.
-    </p>
-    <p>
-      I'm always looking for ideas that might make my work more creative. In my
-      free time, I read developers' blogs and build software that is easy to
-      use. I derive inspiration from popular music, and love listening to
-      Internet Radio. My professional interests include Software Engineering,
-      Machine Learning, Security and Big Data. And I love Hackathons.
-    </p>
-    <p>
-      I am currently working at <strong
-        ><a href="http://microsoft.com">Microsoft</a></strong
-      > IDC (Hyderabad), in <strong><a href="http://bing.com">Bing</a></strong> Entity
-      Experiences, where I build compelling user experiences using the Satori Knowledge
-      Graph. I am also currently involved in building an open-source framework,
-      <strong
-        ><a href="https://github.com/Abhra1992/hazelward">HazelWard</a></strong
-      > for NVIDIA CUDA, and am looking for contributors for the same.
-    </p>
+  <section class="intro-card">
+    <div class="intro-card-grid">
+      <div class="display-pic">
+        <img src={photo.src} alt="Profile Picture" />
+      </div>
+      <div class="statement">
+        <h1>ABHRA BASAK</h1>
+        <p>
+          Full-Stack Developer<br />
+          🇺🇸 Seattle Area, WA<br />
+          <!-- 🇮🇳 Hyderabad, TS <br /> -->
+          Microsoft Corporation
+        </p>
+      </div>
+    </div>
   </section>
   <section class="home-social">
-    <h5>Find out what I'm up to:</h5>
     <Social classnames="social-icons" />
   </section>
 </main>

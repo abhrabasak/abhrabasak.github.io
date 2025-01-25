@@ -12,6 +12,7 @@
 body {
   @include xy-grid-container(100%);
   padding: 0 !important;
+  background: url("/assets/images/cover/shapes.jpg") center center/cover;
   > section {
     @include xy-grid;
   }
@@ -34,7 +35,7 @@ nav.top-bar {
 }
 .view {
   @include xy-grid;
-  min-height: 500px;
+  min-height: 85vh;
 }
 .pane {
   text-align: center;

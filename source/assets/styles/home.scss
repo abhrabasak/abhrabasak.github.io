@@ -2,17 +2,31 @@
 @import "foundation-sites/scss/xy-grid/xy-grid";
 @import "base";
 
-.display-pic {
-  @include xy-cell(2);
+.intro-card{
+  @include xy-cell(6);
+  @include xy-cell-offset(3);
   margin-top: 10px;
 }
+.intro-card-grid{
+  @include xy-grid(vertical);
+}
+.display-pic {
+  @include xy-cell(2);
+  @include xy-cell-offset(5);
+}
+.statement {
+  @include xy-cell(8);
+  @include xy-cell-offset(2);
+  text-align: center;
+}
+.home-social {
+  @include xy-cell(12);
+  text-align: center;
+}
+
 .hello-intro {
   @include xy-cell(6);
 }
 .tagline {
-  text-align: center;
-}
-.home-social {
-  @include xy-cell(4);
   text-align: center;
 }
