@@ -3,11 +3,11 @@
     "Home": "/index.html",
     "About": "/about.html",
     "Projects": "/projects.html",
-    "Code": "/code.html",
+    "Expertise": "/expertise.html",
     "Blog": "/blog.html"
   },
   "right": {
-    "Contact": "/contact.html",
+    "Connect": "/connect.html",
     "Credits": "/credits.html"
   }
 }
