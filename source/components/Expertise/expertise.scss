@@ -9,44 +9,32 @@
 @include foundation-progress-bar;
 @include foundation-label;
 
-.dev-icons {
-  @include xy-cell(12);
-}
-.devicons-grid {
-  @include xy-grid;
-  @include xy-grid-layout(12, $selector: "a");
-  > a {
-    @include xy-cell(1);
-  }
-}
-
 .skills-intro {
-  @include xy-cell(4);
-}
-.label {
-  display: block;
-}
-.meter {
-  height: 12px;
+  @include xy-cell;
+  text-align: center;
 }
 .skills-categories {
-  @include xy-cell(8);
+  @include xy-cell;
 }
 .categories-list {
-  @include xy-grid;
-  @include xy-grid-layout(4, $selector: ".domain-card");
-  > .domain-card {
-    @include xy-cell(6);
-    background-color: rgba($color: black, $alpha: 0.1);
-    h4 {
-      text-align: center;
-    }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.domain-card {
+  background-color: rgba($color: black, $alpha: 0.1);
+  h4 {
+    text-align: center;
   }
 }
 .domain-icons {
-  @include xy-grid;
-  @include xy-grid-layout(4, $selector: "a");
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-items: center;
   > a {
-    @include xy-cell(2);
+    padding: 5px;
   }
 }

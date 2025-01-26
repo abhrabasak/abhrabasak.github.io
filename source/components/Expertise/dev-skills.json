@@ -8,9 +8,9 @@
         "icon": "plasticine/100/html-5"
       },
       {
-        "name": "JavaScript",
-        "link": "http://www.ecma-international.org/ecma-262/6.0/",
-        "icon": "fluency/100/javascript"
+        "name": "NodeJS",
+        "link": "http://nodejs.org",
+        "icon": "color/100/nodejs"
       },
       {
         "name": "TypeScipt",
@@ -73,11 +73,6 @@
         "icon": "external-flaticons-lineal-color-flat-icons/100/external-sql-mobile-app-development-flaticons-lineal-color-flat-icons"
       },
       {
-        "name": "Spark",
-        "link": "http://spark.apache.org",
-        "icon": "color/100/hadoop-distributed-file-system"
-      },
-      {
         "name": "Azure",
         "link": "http://azure.microsoft.com",
         "icon": "fluency/100/azure-1"
@@ -133,6 +128,11 @@
         "icon": "plasticine/100/c-sharp-logo"
       },
       {
+        "name": "JavaScript",
+        "link": "http://www.ecma-international.org/ecma-262/6.0/",
+        "icon": "fluency/100/javascript"
+      },
+      {
         "name": "Ruby",
         "link": "http://ruby-lang.org",
         "icon": "plasticine/100/ruby-programming-language"
@@ -141,11 +141,6 @@
         "name": "Go",
         "link": "http://golang.org",
         "icon": "color/100/golang"
-      },
-      {
-        "name": "NodeJS",
-        "link": "http://nodejs.org",
-        "icon": "color/100/nodejs"
       },
       {
         "name": "Python",
