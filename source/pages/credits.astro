@@ -1,33 +1,8 @@
 ---
 import App from "../layouts/App.astro";
-import Devicon from "../icons/devicons/Devicon.astro";
-
-import techStack from "../data/tech-stack.json";
-import "../assets/styles/credits.scss";
+import CreditsMain from "../components/Credits/CreditsMain.astro";
 ---
 
 <App title="Credits">
-  <main class="credits view">
-    <section class="tech-stack">
-      <h4>Tech Stack</h4>
-      <p>
-        This website has been proudly hand-crafted by me using
-        <strong><a href="https://get.foundation">Foundation</a></strong>, and
-        <strong><a href="https://astro.build">Astro</a></strong>, taking
-        advantage of the power of <strong>
-          <a href="https://www.typescriptlang.org">TypeScript</a>
-        </strong> and <strong><a href="https://sass-lang.com">SASS</a></strong>.
-        It is hosted using <strong>
-          <a href="http://pages.github.com">GitHub Pages</a>
-        </strong>.
-      </p>
-      <p>All Trademarks belong to their respective Owners.</p>
-      <div class="icons">
-        {techStack.map((tech) => <Devicon iconName={tech.icon} link={tech.url} />)}
-      </div>
-    </section>
-    <section class="imprint">
-      <!-- Typography, Design Palette and Logo -->
-    </section>
-  </main>
+  <CreditsMain />
 </App>

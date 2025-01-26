@@ -1,0 +1,30 @@
+---
+import Devicon from "../../icons/devicons/Devicon.astro";
+
+import techStack from "./tech-stack.json";
+import "./credits.scss";
+---
+
+<main class="credits view">
+  <section class="tech-stack">
+    <h4>Tech Stack</h4>
+    <p>
+      This website is creafted using <a href="https://astro.build">Astro</a> and
+      <a href="https://get.foundation">Foundation</a>, taking advantage of the
+      power of <a href="https://www.typescriptlang.org">TypeScript</a>
+      and <a href="https://sass-lang.com">SASS</a>. It is hosted using
+      <a href="http://pages.github.com">GitHub Pages</a> and
+      routed using <a href="http://pages.github.com">Cloudflare</a>.
+    </p>
+    <div class="icons">
+      {
+        techStack.map((tech) => (
+          <Devicon iconName={tech.icon} link={tech.url} />
+        ))
+      }
+    </div>
+  </section>
+  <section class="imprint">
+    <!-- Typography, Design Palette and Logo -->
+  </section>
+</main>
