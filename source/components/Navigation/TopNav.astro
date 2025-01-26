@@ -1,0 +1,15 @@
+---
+import pages from "./pages.json";
+---
+
+<header>
+  <nav class="site-header-nav">
+    {
+      Object.entries(pages).map(([name, page]) => (
+        <a class="site-page" href={page.url}>
+          {name}
+        </a>
+      ))
+    }
+  </nav>
+</header>

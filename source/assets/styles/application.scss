@@ -9,6 +9,8 @@
 @import "includes/zf-html-classes";
 @import "base";
 
+// https://cssgrid-generator.netlify.app/
+
 body {
   @include xy-grid-container(100%);
   padding: 0 !important;
@@ -22,16 +24,16 @@ main,
 footer {
   @include xy-cell($gutter-type: none);
 }
-#site-nav-title {
-  font-family: Helvetica;
-  color: white;
+nav.site-header-nav {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
 }
-nav.top-bar {
-  margin-bottom: 0;
-  a {
-    color: white;
-    font-size: 0.8125rem;
-  }
+.site-page {
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  background: $body-background;
 }
 .view {
   @include xy-grid;

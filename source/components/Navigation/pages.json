@@ -1,0 +1,9 @@
+{
+  "Home": { "url": "/index.html", "icon": "las la-home" },
+  "About": { "url": "/about.html", "icon": "las la-cubes" },
+  "Projects": { "url": "/projects.html", "icon": "las la-project-diagram" },
+  "Expertise": { "url": "/expertise.html", "icon": "las la-medal" },
+  "Blog": { "url": "/blog.html", "icon": "las la-blog" },
+  "Connect": { "url": "/connect.html", "icon": "las la-address-card" },
+  "Credits": { "url": "/credits.html", "icon": "las la-sitemap" }
+}

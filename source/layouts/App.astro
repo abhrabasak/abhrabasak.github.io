@@ -4,6 +4,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
 import "../assets/styles/application.scss";
+import TopNav from "../components/navigation/TopNav.astro";
 ---
 
 <!doctype html>
@@ -12,7 +13,7 @@ import "../assets/styles/application.scss";
   <Head {...Astro.props} />
   <body>
     <section>
-      <Header />
+      <TopNav />
       <slot />
       <Footer />
     </section>
