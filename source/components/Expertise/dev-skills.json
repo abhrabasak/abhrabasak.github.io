@@ -52,7 +52,6 @@
         "link": "http://jquery.com",
         "icon": "external-tal-revivo-shadow-tal-revivo/100/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo"
       }
-
     ]
   },
   {
@@ -171,6 +170,51 @@
     ]
   },
   {
+    "title": "Business Intelligence",
+    "skills": [
+      {
+        "name": "Power BI",
+        "link": "https://powerbi.microsoft.com/",
+        "icon": "color/100/power-bi"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "link": "https://docs.microsoft.com/en-us/dax/",
+        "icon": "officel/100/microsoft-power-apps"
+      },
+      {
+        "name": "SQL",
+        "link": "http://www.iso.org/iso/home/standards/iso-standard.htm",
+        "icon": "color/100/microsoft-sql-server"
+      },
+      {
+        "name": "Spark",
+        "link": "http://spark.apache.org",
+        "icon": "color/100/apache-spark"
+      }
+    ]
+  },
+  {
+    "title": "Infrastructure",
+    "skills": [
+      {
+        "name": "Microsoft Azure",
+        "link": "http://azure.microsoft.com",
+        "icon": "fluency/100/azure-1"
+      },
+      {
+        "name": "Docker",
+        "link": "http://docker.com",
+        "icon": "color/100/docker"
+      },
+      {
+        "name": "Kubernetes",
+        "link": "http://kubernetes.io",
+        "icon": "color/100/kubernetes"
+      }
+    ]
+  },
+  {
     "title": "Tools",
     "skills": [
       {
@@ -183,16 +227,10 @@
         "link": "https://code.visualstudio.com/",
         "icon": "color/100/visual-studio-code-2019"
       },
-      { "name": "Git", "link": "https://git-scm.com/", "icon": "color/100/git" },
       {
-        "name": "Docker",
-        "link": "https://www.docker.com/",
-        "icon": "color/100/docker"
-      },
-      {
-        "name": "Power BI",
-        "link": "https://powerbi.microsoft.com/",
-        "icon": "dusk/100/power-bi"
+        "name": "Git",
+        "link": "https://git-scm.com/",
+        "icon": "color/100/git"
       }
     ]
   }

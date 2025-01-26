@@ -2,6 +2,7 @@
   "iitmandi": {
     "enabled": true,
     "name": "IIT Mandi Website",
+    "icon": "bubbles/100/domain",
     "year": "2010-13",
     "url": "http://iitmandi.ac.in",
     "synopsis": "Official Website of Indian Institute of Technology (IIT) Mandi, Himachal Pradesh, India",
@@ -11,6 +12,7 @@
   "usability": {
     "enabled": true,
     "name": "Usability Evaluation of the IIT Mandi Website",
+    "icon": "external-filled-outline-design-circle/100/external-Usability-user-experience-filled-outline-design-circle",
     "year": "2012",
     "url": "http://www.slideshare.net/abracadabra2010/usability-evaluation-iit-mandi",
     "synopsis": "An exploratory evaluation of the usability of IIT Mandi website",
@@ -20,6 +22,7 @@
   "hazelward": {
     "enabled": true,
     "name": "Hazelward - High Performance Computational Intelligence Framework",
+    "icon": "fluency/100/video-card",
     "occupation": "IIT Mandi",
     "year": "2013-14",
     "url": "https://github.com/Abhra1992/hazelward",
@@ -55,6 +58,7 @@
   "basin": {
     "enabled": true,
     "name": "3D Non-Linear Basin Boundary Dynamics",
+    "icon": "stickers/100/airodynamic",
     "year": "2012",
     "url": "#",
     "synopsis": "Behaviour of strange attractors in a 3-dimensional Lorenz system",
@@ -64,6 +68,7 @@
   "aitc": {
     "enabled": true,
     "name": "Adaptive Intellisense Traffic-Signal Controller",
+    "icon": "external-flatart-icons-lineal-color-flatarticons/100/external-traffic-signal-internet-of-things-flatart-icons-lineal-color-flatarticons",
     "year": "2012",
     "url": "#",
     "synopsis": "Real-time Traffic Signal System based on Instantaneous Traffic Density",
@@ -87,6 +92,7 @@
   "cbs": {
     "enabled": true,
     "name": "Distributed Core Banking System",
+    "icon": "color/100/card-exchange--v1",
     "year": "2013",
     "url": "https://github.com/vikhyat/CoreBankingSystem",
     "synopsis": "Distributed CBS running on a High Performance Cluster",
@@ -117,6 +123,7 @@
   "internship": {
     "enabled": true,
     "name": "Internship @ Microsoft",
+    "icon": "bubbles/100/search",
     "year": "2013",
     "url": "#",
     "synopsis": "AutoSuggest Deep-links Navigation for Microsoft product support queries on Bing.com",

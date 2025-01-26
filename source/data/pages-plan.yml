@@ -1,8 +1,20 @@
 pages:
-  - Portfolio - Engineering, Digital Art, Music & Dance, Writing, Gaming, Cartography
+  - Portfolio - Engineering, Digital Art, Music & Dance, Writing (Prose), Gaming, Cartography
   - Career Experience - Microsoft, Freelancing
   - Technical Expertise - Skills, Certifications, Technologies
-  - Opprtunities - Mentoring, Coaching, Consultancy
+  - Opprtunities/Services:
+    Web App Development:
+      Frontend
+    Mobile App Development:
+      iOS
+    Mentoring:
+    Coaching:
+    Consultancy:
+    Open Source Collaboration:
   - Geography - Maps, Locations, Travel
   - Timeline - Life, Career, Projects, Events
   - Links & Resume
+  - Testimonials
+# https://www.linkedin.com/pulse/how-build-portfolio-software-engineer-fanny-nyayic-i03bf/
+# https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/
+# GSAP Animations

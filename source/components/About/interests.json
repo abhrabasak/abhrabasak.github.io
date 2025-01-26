@@ -48,6 +48,10 @@
       "Kaggle": {
         "profile": "https://www.kaggle.com/abhrabasak",
         "icon": "bubbles/100/kaggle"
+      },
+      "StackOverflow": {
+        "profile": "https://stackoverflow.com/users/1090241/abhra-basak",
+        "icon": "color/100/stackoverflow"
       }
     }
   },
