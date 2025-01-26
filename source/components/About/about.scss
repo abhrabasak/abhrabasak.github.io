@@ -1,6 +1,6 @@
 @import "foundation-sites/scss/global";
 @import "foundation-sites/scss/xy-grid/xy-grid";
-@import "base";
+@import "$styles/base";
 
 .about-intro {
   @include xy-cell(4);
