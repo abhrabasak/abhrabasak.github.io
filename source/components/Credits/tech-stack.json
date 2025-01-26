@@ -10,9 +10,9 @@
     "icon": "astro/astro-original"
   },
   {
-    "name": "HTML5",
-    "url": "http://html5.org",
-    "icon": "html5/html5-original-wordmark"
+    "name": "Foundation",
+    "url": "http://foundation.zurb.com",
+    "icon": "foundation/foundation-original"
   },
   {
     "name": "SASS",
@@ -20,20 +20,15 @@
     "icon": "sass/sass-original"
   },
   {
-    "name": "Foundation",
-    "url": "http://foundation.zurb.com",
-    "icon": "foundation/foundation-original-wordmark"
+    "name": "HTML5",
+    "url": "http://html5.org",
+    "icon": "html5/html5-original-wordmark"
   },
   { "name": "JSON", "url": "http://json.org", "icon": "json/json-original" },
   {
-    "name": "GitHub",
-    "url": "http://github.com",
-    "icon": "github/github-original-wordmark"
-  },
-  {
     "name": "NodeJS",
     "url": "http://nodejs.org",
-    "icon": "nodejs/nodejs-original-wordmark"
+    "icon": "nodejs/nodejs-original"
   },
   {
     "name": "VSCode",
@@ -46,8 +41,18 @@
     "icon": "devicon/devicon-original"
   },
   {
+    "name": "GitHub Actions",
+    "url": "http://github.com",
+    "icon": "githubactions/githubactions-original"
+  },
+  {
+    "name": "GitHub",
+    "url": "http://github.com",
+    "icon": "github/github-original-wordmark"
+  },
+  {
     "name": "Cloudflare",
     "url": "https://www.cloudflare.com",
-    "icon": "cloudflare/cloudflare-original-wordmark"
+    "icon": "cloudflare/cloudflare-original"
   }
 ]

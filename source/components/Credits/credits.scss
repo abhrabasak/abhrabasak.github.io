@@ -3,10 +3,16 @@
 @import "$styles/base";
 
 .tech-stack {
-  @include xy-cell(4);
-  @include xy-cell-offset(4);
+  @include xy-cell(8);
+  @include xy-cell-offset(2);
+  text-align: center;
   > .icons {
-    @include xy-grid;
-    @include xy-grid-layout(6, $selector: "a");
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 1fr;
+    grid-gap: 10px;
   }
+}
+.imprint{
+  @include xy-cell;
 }
