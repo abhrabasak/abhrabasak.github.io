@@ -54,11 +54,21 @@
   {
     "title": "Digital Art",
     "id": "art",
+    "enabled": true,
     "excerpt": "Creating digital art allows me to express my creativity and imagination. I enjoy experimenting with different styles and techniques to produce unique and visually appealing pieces. My work often includes a mix of traditional and modern elements, reflecting my diverse artistic influences.",
     "icons": {
-      "Behance": "https://www.behance.net/abhra",
-      "Unsplash": "https://unsplash.com/@abhrabasak",
-      "DeviantArt": "https://www.deviantart.com/abhrabasak"
+      "Behance": {
+        "profile": "https://www.behance.net/abhra",
+        "icon": "color/100/behance"
+      },
+      "Unsplash": {
+        "profile": "https://unsplash.com/@abhrabasak",
+        "icon": "external-tal-revivo-fresh-tal-revivo/100/external-unsplash-allows-user-contribute-photographers-and-generates-income-logo-fresh-tal-revivo"
+      },
+      "DeviantArt": {
+        "profile": "https://www.deviantart.com/abhrabasak",
+        "icon": "bubbles/100/devianart"
+      }
     }
   },
   {
@@ -66,24 +76,52 @@
     "id": "prose",
     "excerpt": "I love to travel and explore new places. I have been to 10 states in India and 2 countries. I have a collection of travel photos on my Instagram profile.",
     "icons": {
-      "Instagram": "https://www.instagram.com/abhrabasak"
+      "Instagram": {
+        "profile": "https://www.instagram.com/abhra_basak",
+        "icon": "color/100/behance"
+      },
+      "Substack": {
+        "profile": "https://www.behance.net/abhra",
+        "icon": "doodle/100/substack"
+      },
+      "Medium": {
+        "profile": "https://unsplash.com/@abhrabasak",
+        "icon": "bubbles/100/medium-new"
+      },
+      "Gitbook": {
+        "profile": "https://www.deviantart.com/abhrabasak",
+        "icon": "doodle/100/book"
+      }
     }
   },
   {
     "title": "Gaming",
     "id": "gaming",
-    "excerpt": "I love to read books. I have a collection of books on my Goodreads profile.",
+    "enabled": true,
+    "excerpt": "I enjoy playing Strategy Games - Turn-based, Real-time and Grand Strategy. I also enjoy City-building and Logistics games.",
     "icons": {
-      "Steam": "https://steamcommunity.com/profiles/76561199065280856/",
-      "Ubisoft": "https://club.ubisoft.com/en-US/profile/abhrabasak",
-      "Xbox": "https://www.xbox.com/en-US/play/user/Abhra1992",
-      "Epic": "https://store.epicgames.com/en-US/u/a82af95dbf604a0e9ac69236d884f7b5"
+      "Steam": {
+        "profile": "https://steamcommunity.com/profiles/76561199065280856/",
+        "icon": "plasticine/100/steam"
+      },
+      "Ubisoft": {
+        "profile": "https://club.ubisoft.com/en-US/profile/abhrabasak",
+        "icon": "doodle/100/ubisoft-connect"
+      },
+      "Xbox": {
+        "profile": "https://www.xbox.com/en-US/play/user/Abhra1992",
+        "icon": "doodle/100/xbox"
+      },
+      "Epic": {
+        "profile": "https://store.epicgames.com/en-US/u/a82af95dbf604a0e9ac69236d884f7b5",
+        "icon": "doodle/100/epic-games"
+      }
     }
   },
   {
     "title": "Cartography",
     "id": "maps",
-    "excerpt": "I love to watch movies. I have a collection of movies on my Letterboxd profile.",
+    "excerpt": "Reading and creating maps has always fascinated me. I enjoy exploring different cartographic techniques and using them to visualize geographic data in innovative ways.",
     "icons": {
       "Letterboxd": "https://letterboxd.com/abhrabasak"
     }
