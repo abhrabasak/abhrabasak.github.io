@@ -8,9 +8,8 @@
   text-align: center;
   > .icons {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: 1fr;
-    grid-gap: 10px;
+    grid: 1fr / repeat(12, 1fr);
+    gap: 1.5rem;
   }
 }
 .imprint{

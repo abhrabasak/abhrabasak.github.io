@@ -3,35 +3,40 @@
 @import "$styles/base";
 
 .projects-intro {
-  @include xy-cell(3);
+  @include xy-cell;
+  text-align: center;
 }
 .project-articles {
-  @include xy-cell(9);
+  @include xy-cell;
   margin-top: 10px;
 }
+.project-grid {
+  display: grid;
+  grid: auto / repeat(2, 1fr);
+  gap: 1rem;
+}
 .project-card {
-  @include xy-cell(8);
+  display: grid;
+  grid: repeat(3, 1fr) / 2fr 8fr 2fr;
   margin-bottom: 10px;
-  background-color: rgba($color: black, $alpha: 0.2);
-  .project-grid {
-    display: grid;
-    grid-template-columns: 2fr 8fr 2fr;
-    grid-template-rows: repeat(4, 1fr);
-  }
+  background-color: rgba($color: black, $alpha: 0.4);
+  border-radius: 1rem;
   .icons8-icon {
-    grid-area: 1 / 1 / 6 / 2;
+    grid-area: 1 / 1 / 5 / 2;
+    padding: 1rem;
   }
   .project-url {
     grid-area: 1 / 2 / 2 / 4;
     font-weight: bold;
+    padding-top: 1rem;
   }
   .synopsis {
-    grid-area: 2 / 2 / 4 / 4;
+    grid-area: 2 / 2 / 3 / 4;
   }
   .tech {
-    grid-area: 4 / 2 / 5 / 3;
+    grid-area: 3 / 2 / 4 / 3;
   }
   .year {
-    grid-area: 4 / 3 / 5 / 4;
+    grid-area: 3 / 3 / 4 / 4;
   }
 }

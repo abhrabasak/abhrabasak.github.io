@@ -10,6 +10,7 @@
 @import "base";
 
 // https://cssgrid-generator.netlify.app/
+// http://igalia.github.io/css-grid-layout/index.html
 
 body {
   @include xy-grid-container(100%);
@@ -26,8 +27,7 @@ footer {
 }
 nav.site-header-nav {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 1fr;
+  grid: 1fr / repeat(7, 1fr);
 }
 .site-page {
   color: white;

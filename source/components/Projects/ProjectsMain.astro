@@ -15,10 +15,12 @@ import "./projects.scss";
     </p>
   </section>
   <section class="project-articles">
-    {
-      Object.entries(projects).map(
-        ([_, p]) => p.enabled && <ProjectCard {...p} />
-      )
-    }
+    <div class="project-grid">
+      {
+        Object.entries(projects).map(
+          ([_, p]) => p.enabled && <ProjectCard {...p} />
+        )
+      }
+    </div>
   </section>
 </main>

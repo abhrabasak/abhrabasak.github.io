@@ -2,12 +2,7 @@
 @import "$styles/settings";
 @import "foundation-sites/scss/global";
 @import "foundation-sites/scss/xy-grid/xy-grid";
-@import "foundation-sites/scss/components/progress-bar";
-@import "foundation-sites/scss/components/label";
 @import "$styles/base";
-
-@include foundation-progress-bar;
-@include foundation-label;
 
 .skills-intro {
   @include xy-cell;
@@ -40,9 +35,8 @@ $max-badges: 3;
 .skill-badge {
   width: calc(100% / $max-badges);
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid: 1fr / 1fr 2fr;
   > .icons8-icon {
-    grid-area: 1 / 1 / 2 / 2;
     text-align: right;
   }
   img {
@@ -50,18 +44,6 @@ $max-badges: 3;
     margin-right: 5px;
   }
   .skill-name {
-    grid-area: 1 / 2 / 2 / 3;
     color: white;
   }
-  // justify-content: center;
-  // display: flex;
-  // align-items: center;
-  // img {
-  //   height: 1em;
-  //   margin-right: 5px;
-  // }
-  // .skill-name {
-  //   font-size: 1em;
-  //   color: white;
-  // }
 }
