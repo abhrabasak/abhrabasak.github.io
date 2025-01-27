@@ -1,6 +1,6 @@
 [
   {
-    "title": "Frontend",
+    "title": "Frontend Frameworks",
     "skills": [
       {
         "name": "HTML5",
@@ -13,19 +13,9 @@
         "icon": "color/100/nodejs"
       },
       {
-        "name": "TypeScipt",
+        "name": "TypeScript",
         "link": "http://www.typescriptlang.org",
         "icon": "fluency/100/typescript--v1"
-      },
-      {
-        "name": "CSS3",
-        "link": "http://www.w3.org/Style/CSS/Overview.en.html",
-        "icon": "plasticine/100/css3"
-      },
-      {
-        "name": "Sass",
-        "link": "http://sass-lang.com",
-        "icon": "color/100/sass"
       },
       {
         "name": "React",
@@ -38,16 +28,6 @@
         "icon": "color/100/redux"
       },
       {
-        "name": "Bootstrap",
-        "link": "http://getbootstrap.com",
-        "icon": "color-glass/100/bootstrap"
-      },
-      {
-        "name": "Tailwind CSS",
-        "link": "http://tailwindcss.com",
-        "icon": "color/100/tailwindcss"
-      },
-      {
         "name": "JQuery",
         "link": "http://jquery.com",
         "icon": "external-tal-revivo-shadow-tal-revivo/100/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo"
@@ -55,10 +35,35 @@
     ]
   },
   {
-    "title": "Backend",
+    "title": "UI Frameworks",
     "skills": [
       {
-        "name": ".NET",
+        "name": "CSS3",
+        "link": "http://www.w3.org/Style/CSS/Overview.en.html",
+        "icon": "plasticine/100/css3"
+      },
+      {
+        "name": "Sass",
+        "link": "http://sass-lang.com",
+        "icon": "color/100/sass"
+      },
+      {
+        "name": "Bootstrap",
+        "link": "http://getbootstrap.com",
+        "icon": "color-glass/100/bootstrap"
+      },
+      {
+        "name": "Tailwind",
+        "link": "http://tailwindcss.com",
+        "icon": "color/100/tailwindcss"
+      }
+    ]
+  },
+  {
+    "title": "Backend Frameworks",
+    "skills": [
+      {
+        "name": "ASP.NET",
         "link": "http://microsoft.com/net",
         "icon": "color/100/net-framework"
       },
@@ -68,19 +73,14 @@
         "icon": "office/100/ruby-programming-language"
       },
       {
-        "name": "SQL",
-        "link": "http://www.iso.org/iso/home/standards/iso-standard.htm",
-        "icon": "external-flaticons-lineal-color-flat-icons/100/external-sql-mobile-app-development-flaticons-lineal-color-flat-icons"
-      },
-      {
-        "name": "Azure",
-        "link": "http://azure.microsoft.com",
-        "icon": "fluency/100/azure-1"
-      },
-      {
         "name": "Codeigniter",
         "link": "http://codeigniter.com/",
         "icon": "external-tal-revivo-shadow-tal-revivo/100/external-codeigniter-is-an-open-source-software-rapid-development-web-framework-logo-shadow-tal-revivo"
+      },
+      {
+        "name": "SQL",
+        "link": "http://www.iso.org/iso/home/standards/iso-standard.htm",
+        "icon": "external-flaticons-lineal-color-flat-icons/100/external-sql-mobile-app-development-flaticons-lineal-color-flat-icons"
       }
     ]
   },
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "title": "Languages",
+    "title": "Programming Languages",
     "skills": [
       {
         "name": "C#.NET",
@@ -148,11 +148,6 @@
         "icon": "plasticine/100/python"
       },
       {
-        "name": "PowerShell",
-        "link": "http://microsoft.com/powershell",
-        "icon": "fluency/100/powershell"
-      },
-      {
         "name": "PHP",
         "link": "http://php.net",
         "icon": "officel/100/php-logo"
@@ -173,7 +168,7 @@
         "icon": "color/100/power-bi"
       },
       {
-        "name": "Microsoft Fabric",
+        "name": "MS Fabric",
         "link": "https://docs.microsoft.com/en-us/dax/",
         "icon": "officel/100/microsoft-power-apps"
       },
@@ -193,7 +188,7 @@
     "title": "Infrastructure",
     "skills": [
       {
-        "name": "Microsoft Azure",
+        "name": "Azure",
         "link": "http://azure.microsoft.com",
         "icon": "fluency/100/azure-1"
       },
@@ -218,9 +213,14 @@
         "icon": "fluency/100/visual-studio"
       },
       {
-        "name": "Visual Studio Code",
+        "name": "VS Code",
         "link": "https://code.visualstudio.com/",
         "icon": "color/100/visual-studio-code-2019"
+      },
+      {
+        "name": "PowerShell",
+        "link": "http://microsoft.com/powershell",
+        "icon": "fluency/100/powershell"
       },
       {
         "name": "Git",

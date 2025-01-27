@@ -12,30 +12,56 @@
 .skills-intro {
   @include xy-cell;
   text-align: center;
-  padding-top: 15px;
+  padding: 15px 0;
 }
 .skills-categories {
   @include xy-cell;
 }
 .categories-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 .domain-card {
-  background-color: rgba($color: black, $alpha: 0.1);
+  width: calc(100% / 3 - 2rem);
+  background-color: rgba($color: black, $alpha: 0.4);
+  border-radius: 1rem;
   h4 {
     text-align: center;
   }
 }
 .domain-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+$max-badges: 3;
+.skill-badge {
+  width: calc(100% / $max-badges);
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-items: center;
-  > a {
-    padding: 5px;
+  grid-template-columns: 1fr 2fr;
+  > .icons8-icon {
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: right;
   }
+  img {
+    height: 1em;
+    margin-right: 5px;
+  }
+  .skill-name {
+    grid-area: 1 / 2 / 2 / 3;
+    color: white;
+  }
+  // justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // img {
+  //   height: 1em;
+  //   margin-right: 5px;
+  // }
+  // .skill-name {
+  //   font-size: 1em;
+  //   color: white;
+  // }
 }
