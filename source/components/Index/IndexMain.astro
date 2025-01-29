@@ -7,20 +7,14 @@ import "$styles/webicons.scss";
 ---
 
 <main class="home view">
-  <section class="intro-card">
-    <div class="intro-card-grid">
-      <div class="display-pic">
-        <img src={photo.src} alt="Profile Picture" />
-      </div>
-      <div class="statement">
-        <h1>ABHRA BASAK</h1>
-        <p>
-          Full-Stack Developer<br />
-          🇺🇸 Seattle Area, WA<br />
-          <!-- 🇮🇳 Hyderabad, TS <br /> -->
-          Microsoft Corporation
-        </p>
-      </div>
+  <section class="intro-statement">
+    <div class="intro-lines">
+      <img class="display-pic" src={photo.src} alt="Profile Picture" />
+      <span class="full-name">ABHRA BASAK</span>
+      <span class="designation">Full-Stack Developer</span>
+      <span class="location">🇺🇸 Seattle Area, WA</span>
+      <!-- 🇮🇳 Hyderabad, TS -->
+      <span class="interests">Insights | Cloud | AI | UX | Search</span>
     </div>
   </section>
   <section class="home-social">

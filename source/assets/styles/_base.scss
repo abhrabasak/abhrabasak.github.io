@@ -1,5 +1,15 @@
-﻿// @import 'compass/css3';
+﻿// MIXINS
 
 @mixin outline {
   outline: 0.5px solid black;
+}
+
+@mixin circle-image {
+  border-radius: 50%;
+}
+
+@mixin circle-image-with($size: 1rem) {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
 }

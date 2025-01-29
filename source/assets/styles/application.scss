@@ -15,7 +15,7 @@
 body {
   @include xy-grid-container(100%);
   padding: 0 !important;
-  background: url("/assets/images/cover/shapes.jpg") center center/cover;
+  background: url("/assets/images/cover/starry.webp") center center/cover;
   > section {
     @include xy-grid;
   }
