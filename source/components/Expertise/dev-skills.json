@@ -185,7 +185,7 @@
     ]
   },
   {
-    "title": "Infrastructure",
+    "title": "Cloud Infrastructure",
     "skills": [
       {
         "name": "Azure",
@@ -205,7 +205,7 @@
     ]
   },
   {
-    "title": "Tools",
+    "title": "Development Tools",
     "skills": [
       {
         "name": "Visual Studio",
@@ -221,6 +221,11 @@
         "name": "PowerShell",
         "link": "http://microsoft.com/powershell",
         "icon": "fluency/100/powershell"
+      },
+      {
+        "name": "Postman",
+        "link": "https://www.postman.com/",
+        "icon": "external-tal-revivo-color-tal-revivo/100/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo"
       },
       {
         "name": "Git",
