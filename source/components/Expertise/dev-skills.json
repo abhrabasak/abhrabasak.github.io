@@ -201,6 +201,11 @@
         "name": "Kubernetes",
         "link": "http://kubernetes.io",
         "icon": "color/100/kubernetes"
+      },
+      {
+        "name": "Azure DevOps",
+        "link": "https://azure.microsoft.com/en-us/products/devops",
+        "icon": "external-tal-revivo-shadow-tal-revivo/100/external-development-experience-through-the-native-integrations-of-azure-with-visual-studio-logo-shadow-tal-revivo"
       }
     ]
   },

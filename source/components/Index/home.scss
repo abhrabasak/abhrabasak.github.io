@@ -2,9 +2,6 @@
 @import "foundation-sites/scss/xy-grid/xy-grid";
 @import "$styles/base";
 
-.intro-box {
-  display: grid;
-}
 .intro-statement {
   @include xy-cell(6);
   @include xy-cell-offset(3);
@@ -22,7 +19,7 @@
   }
   .full-name {
     grid-area: 2 / 1 / 3 / 4;
-    font-size: 600%;
+    font-size: 6rem;
   }
   .designation {
     grid-area: 3 / 1 / 4 / 2;
