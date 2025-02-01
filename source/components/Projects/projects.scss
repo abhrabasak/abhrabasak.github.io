@@ -3,7 +3,8 @@
 @import "$styles/base";
 
 .projects-intro {
-  @include xy-cell;
+  @include xy-cell(6);
+  @include xy-cell-offset(3);
   text-align: center;
 }
 .project-articles {

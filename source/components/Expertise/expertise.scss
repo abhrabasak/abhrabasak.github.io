@@ -12,9 +12,7 @@
   @include xy-cell;
 }
 .categories-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  @include flex-wrap-center;
   gap: 1rem;
 }
 .domain-card {
@@ -26,9 +24,7 @@
   }
 }
 .domain-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  @include flex-wrap-center;
 }
 $max-badges: 3;
 .skill-badge {

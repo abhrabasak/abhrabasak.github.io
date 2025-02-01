@@ -13,3 +13,9 @@
   height: $size;
   border-radius: 50%;
 }
+
+@mixin flex-wrap-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
