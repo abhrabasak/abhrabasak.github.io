@@ -1,32 +1,32 @@
 @import "foundation-sites/scss/global";
 @import "foundation-sites/scss/xy-grid/xy-grid";
 
-.email {
-  @include xy-cell(3, $gutter-type: none);
-  @include xy-cell-offset(1);
-}
-.mail-logo {
-  position: relative;
-  top: 90px;
-}
-.contact-intro {
-  @include xy-cell(6, $gutter-type: none);
-  @include xy-cell-offset(1);
-  h4,
-  .social-icons {
+.connect-services {
+  @include xy-cell(6);
+  @include xy-cell-offset(3);
+  > h4 {
     text-align: center;
   }
-  .social-icons .webicon {
-    margin: 0 5px;
-    &:hover {
-      margin: 0 5px;
-    }
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  > span {
+    width: calc(100% / 3 - 2rem);
+    border: 0.25px solid purple;
+    border-radius: 1rem;
+    text-align: center;
   }
 }
-.email-link {
-  color: purple;
-  font-weight: 600;
-  &:hover {
-    color: purple;
-  }
+.social-icons {
+  @include xy-cell(6);
+  @include xy-cell-offset(3);
+  text-align: center;
+}
+.email {
+  @include xy-cell(2, $gutter-type: none);
+  @include xy-cell-offset(5);
+  text-align: center;
 }
