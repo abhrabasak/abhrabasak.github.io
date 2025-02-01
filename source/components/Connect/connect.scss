@@ -26,7 +26,7 @@
   text-align: center;
 }
 .email {
-  @include xy-cell(2, $gutter-type: none);
-  @include xy-cell-offset(5);
+  @include xy-cell(1, $gutter-type: none);
+  @include xy-cell-offset(5.5);
   text-align: center;
 }

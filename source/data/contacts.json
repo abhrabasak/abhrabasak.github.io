@@ -2,31 +2,31 @@
   {
     "name": "Facebook",
     "profile": "https://facebook.com/abhra.auriolis",
-    "icon": "plasticine/100/facebook-new"
+    "icon": "glyph-neue/50/FFFFFF/facebook"
   },
   {
     "name": "Instagram",
     "profile": "https://instagram.com/abhrabasak",
-    "icon": "plasticine/100/instagram-new--v2"
-  },
-  {
-    "name": "LinkedIn",
-    "profile": "http://in.linkedin.com/in/abhrabasak",
-    "icon": "plasticine/100/linkedin"
-  },
-  {
-    "name": "Quora",
-    "profile": "https://quora.com/Abhra-Basak",
-    "icon": "plasticine/100/quora--v2"
-  },
-  {
-    "name": "Twitter",
-    "profile": "https://twitter.com/abhra_basak",
-    "icon": "color/100/twitterx--v1"
+    "icon": "glyph-neue/50/FFFFFF/instagram-new--v1"
   },
   {
     "name": "Reddit",
     "profile": "https://www.reddit.com/user/abhrabasak/",
-    "icon": "bubbles/100/reddit"
+    "icon": "glyph-neue/50/FFFFFF/reddit--v1"
+  },
+  {
+    "name": "Quora",
+    "profile": "https://quora.com/Abhra-Basak",
+    "icon": "external-tanah-basah-basic-outline-tanah-basah/50/FFFFFF/external-quora-social-media-tanah-basah-basic-outline-tanah-basah"
+  },
+  {
+    "name": "Twitter",
+    "profile": "https://twitter.com/abhra_basak",
+    "icon": "glyph-neue/50/FFFFFF/twitter"
+  },
+  {
+    "name": "LinkedIn",
+    "profile": "http://in.linkedin.com/in/abhrabasak",
+    "icon": "glyph-neue/50/FFFFFF/linkedin"
   }
 ]
