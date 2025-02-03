@@ -9,6 +9,12 @@ $outline-color: #4d575f;
   outline: 0.5px solid $outline-color;
 }
 
+@mixin card-z {
+  @include theme-outline;
+  background-color: rgba($color: black, $alpha: 0.4);
+  border-radius: 1rem;
+}
+
 @mixin hrule {
   height: 0.5px;
   width: 100%;

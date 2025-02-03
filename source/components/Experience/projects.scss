@@ -19,7 +19,7 @@
   gap: 1.5rem;
 }
 .project-card {
-  @include theme-outline;
+  @include card-z;
   width: calc(100% / 2 - 3rem);
   display: grid;
   grid:
@@ -28,8 +28,6 @@
     "year tech tech ." 1fr
     / 1.5fr 8fr 2fr;
   margin-bottom: 10px;
-  background-color: rgba($color: black, $alpha: 0.4);
-  border-radius: 1rem;
   .icons8-icon {
     grid-area: icon;
     padding: 1rem;
