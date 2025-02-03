@@ -9,13 +9,14 @@ import "./colophon.scss";
   <section class="tech-stack">
     <h4>Tech Stack</h4>
     <p>
-      This website is creafted using <a href="https://astro.build">Astro</a> and
-      <a href="https://get.foundation">Foundation</a>, with advantage of
-      <a href="https://typescriptlang.org">TypeScript</a>
+      This website is crafted using <a href="https://astro.build">Astro</a> and
+      <a href="https://typescriptlang.org">TypeScript</a>, and styled using
+      <a href="https://get.foundation">Foundation</a>
       and <a href="https://sass-lang.com">SASS</a>.<br />
       It is hosted using
-      <a href="http://pages.github.com">GitHub Pages</a> and routed using
-      <a href="https://dash.cloudflare.com">Cloudflare</a>.
+      <a href="http://pages.github.com">GitHub Pages</a>, deployed using
+      <a href="https://github.com/features/actions">GitHub Actions</a>, and
+      routed using <a href="https://dash.cloudflare.com">Cloudflare</a>.
     </p>
     <div class="icons">
       {
@@ -26,6 +27,27 @@ import "./colophon.scss";
     </div>
   </section>
   <section class="imprint">
-    <!-- Typography, Design Palette and Logo -->
+    <!-- Imprint: Typography, Design Palette, Icons and Logo -->
+    <!-- https://rsms.me/inter/ - Inter Font -->
+  </section>
+  <section class="design-decisions"></section>
+  <section class="approach"></section>
+  <section class="content"></section>
+  <section class="previous">
+    <h4>Previous Versions</h4>
+    This website was first crafted in 2014 using the static site generator
+    <a href="https://middlemanapp.com">Middleman</a>, written in
+    <a href="https://www.ruby-lang.org">Ruby</a>, with styling assets managed
+    using <a href="https://bower.io">Bower</a>.<br />
+    In 2015, I attempted a rewrite using
+    <a href="https://gulpjs.com">Gulp</a>, with optional components from
+    <a href="https://zurb.com/playground/foundation-panini">Panini</a> and
+    <a href="https://assemble.io">Assemble</a>.<br />
+    10 years later in 2025, I updated the website again, converting a lot of the
+    Middleman code to Astro, and the YAML to JSON, using GitHub Copilot.<br />
+    Astro provided the flexibility of supporting multiple templating frameworks,
+    and provided the extensive plugin ecosystem of Vite.<br />
+    I also updated the design to use Foundation 6.9, and adapted the SASS to use
+    the new syntax.
   </section>
 </main>

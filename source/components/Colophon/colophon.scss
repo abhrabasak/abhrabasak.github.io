@@ -12,6 +12,10 @@
     gap: 1.5rem;
   }
 }
-.imprint{
+.imprint {
   @include xy-cell;
+}
+.previous {
+  @include xy-cell;
+  text-align: center;
 }
