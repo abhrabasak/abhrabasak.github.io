@@ -7,37 +7,47 @@
   @include xy-cell-offset(3);
   text-align: center;
 }
+.hrule {
+  @include hrule;
+}
 .project-articles {
   @include xy-cell;
   margin-top: 10px;
 }
 .project-grid {
-  display: grid;
-  grid: auto / repeat(2, 1fr);
-  gap: 1rem;
+  @include flex-wrap-center;
+  gap: 1.5rem;
 }
 .project-card {
+  @include theme-outline;
+  width: calc(100% / 2 - 3rem);
   display: grid;
-  grid: repeat(3, 1fr) / 2fr 8fr 2fr;
+  grid:
+    "icon url url url" 1fr
+    "icon syn syn syn" 1fr
+    "year tech tech ." 1fr
+    / 1.5fr 8fr 2fr;
   margin-bottom: 10px;
   background-color: rgba($color: black, $alpha: 0.4);
   border-radius: 1rem;
   .icons8-icon {
-    grid-area: 1 / 1 / 5 / 2;
+    grid-area: icon;
     padding: 1rem;
+    text-align: center;
   }
   .project-url {
-    grid-area: 1 / 2 / 2 / 4;
+    grid-area: url;
     font-weight: bold;
     padding-top: 1rem;
   }
   .synopsis {
-    grid-area: 2 / 2 / 3 / 4;
+    grid-area: syn;
   }
   .tech {
-    grid-area: 3 / 2 / 4 / 3;
+    grid-area: tech;
   }
   .year {
-    grid-area: 3 / 3 / 4 / 4;
+    grid-area: year;
+    text-align: center;
   }
 }

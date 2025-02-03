@@ -2,7 +2,7 @@
   "iitmandi": {
     "enabled": true,
     "name": "IIT Mandi Website",
-    "icon": "bubbles/100/domain",
+    "icon": "bubbles/50/domain",
     "year": "2010-13",
     "url": "http://iitmandi.ac.in",
     "synopsis": "Official Website of Indian Institute of Technology (IIT) Mandi, Himachal Pradesh, India",
@@ -12,7 +12,7 @@
   "usability": {
     "enabled": true,
     "name": "Usability Evaluation of the IIT Mandi Website",
-    "icon": "external-filled-outline-design-circle/100/external-Usability-user-experience-filled-outline-design-circle",
+    "icon": "external-filled-outline-design-circle/50/external-Usability-user-experience-filled-outline-design-circle",
     "year": "2012",
     "url": "http://www.slideshare.net/abracadabra2010/usability-evaluation-iit-mandi",
     "synopsis": "An exploratory evaluation of the usability of IIT Mandi website",
@@ -22,10 +22,10 @@
   "hazelward": {
     "enabled": true,
     "name": "Hazelward - High Performance Computational Intelligence Framework",
-    "icon": "fluency/100/video-card",
+    "icon": "fluency/50/video-card",
     "occupation": "IIT Mandi",
     "year": "2013-14",
-    "url": "https://github.com/Abhra1992/hazelward",
+    "url": "https://github.com/abhrabasak/hazelward",
     "synopsis": "A generalized Concurrent Prediction Framework based on Machine Learning for GPUs",
     "text": "Designed a generalized Concurrent Prediction Framework based on Machine Learning for GPUs. Initial release of the framework tentatively includes Feed-Forward Neural Networks, Fuzzy Control Systems and Genetic Algorithms. Implemented in C++, the framework aspires to be a well-known standard library both in the machine learning and GPU computing communities.",
     "tech": "C++ / C++ AMP / CUDA C++",
@@ -58,7 +58,7 @@
   "basin": {
     "enabled": true,
     "name": "3D Non-Linear Basin Boundary Dynamics",
-    "icon": "stickers/100/airodynamic",
+    "icon": "stickers/50/airodynamic",
     "year": "2012",
     "url": "#",
     "synopsis": "Behaviour of strange attractors in a 3-dimensional Lorenz system",
@@ -68,7 +68,7 @@
   "aitc": {
     "enabled": true,
     "name": "Adaptive Intellisense Traffic-Signal Controller",
-    "icon": "external-flatart-icons-lineal-color-flatarticons/100/external-traffic-signal-internet-of-things-flatart-icons-lineal-color-flatarticons",
+    "icon": "external-flatart-icons-lineal-color-flatarticons/50/external-traffic-signal-internet-of-things-flatart-icons-lineal-color-flatarticons",
     "year": "2012",
     "url": "#",
     "synopsis": "Real-time Traffic Signal System based on Instantaneous Traffic Density",
@@ -85,14 +85,14 @@
   "bias": {
     "name": "Biomedical Information Analysis System",
     "year": "2012",
-    "url": "https://github.com/Abhra1992/bias",
+    "url": "https://github.com/abhrabasak/bias",
     "text": "Data Intensive Application intended to be a centralized repository for obtaining all medical history and information in a country. Information was provided via a RESTful API, suitable for consumption both by medical insurance websites, as well as mobile applications.",
     "tech": "JavaScript / PHP / MySQL"
   },
   "cbs": {
     "enabled": true,
     "name": "Distributed Core Banking System",
-    "icon": "color/100/card-exchange--v1",
+    "icon": "color/50/card-exchange--v1",
     "year": "2013",
     "url": "https://github.com/vikhyat/CoreBankingSystem",
     "synopsis": "Distributed CBS running on a High Performance Cluster",
@@ -102,7 +102,7 @@
   "dictionary": {
     "name": "Profiling Dictionary ADTs",
     "year": "2013",
-    "url": "https://github.com/Abhra1992/dictionary",
+    "url": "https://github.com/abhrabasak/dictionary",
     "text": "Performance analysis and comparison of performances of different implementations of the dictionary ADT. The implementations included data structures such as Binary Search Trees, AVL Trees, Red Black Trees, Splay Trees and Hash Tables.",
     "tech": "C# / WPF"
   },
@@ -123,7 +123,7 @@
   "internship": {
     "enabled": true,
     "name": "Internship @ Microsoft",
-    "icon": "bubbles/100/search",
+    "icon": "bubbles/50/search",
     "year": "2013",
     "url": "#",
     "synopsis": "AutoSuggest Deep-links Navigation for Microsoft product support queries on Bing.com",

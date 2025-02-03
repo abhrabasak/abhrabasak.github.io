@@ -14,6 +14,7 @@ import interests from "./interests.json";
       My approach is rooted in systems thinking, drawing connections across multiple disciplines.
     </p>
   </section>
+  <section class="hrule"></section>
   <section class="portfolio-categories">
     <div class="categories-list">
       {interests.map((int) => int.enabled && <Interest {...int} />)}

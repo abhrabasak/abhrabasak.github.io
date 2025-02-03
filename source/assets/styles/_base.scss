@@ -4,6 +4,17 @@
   outline: 0.5px solid black;
 }
 
+$outline-color: #4d575f;
+@mixin theme-outline {
+  outline: 0.5px solid $outline-color;
+}
+
+@mixin hrule {
+  height: 0.5px;
+  width: 100%;
+  @include theme-outline;
+}
+
 @mixin circle-image {
   border-radius: 50%;
 }

@@ -163,12 +163,12 @@
     "title": "Business Intelligence",
     "skills": [
       {
-        "name": "Power BI",
+        "name": "PowerBI",
         "link": "https://powerbi.microsoft.com/",
         "icon": "color/100/power-bi"
       },
       {
-        "name": "MS Fabric",
+        "name": "MSFabric",
         "link": "https://docs.microsoft.com/en-us/dax/",
         "icon": "officel/100/microsoft-power-apps"
       },
@@ -203,7 +203,7 @@
         "icon": "color/100/kubernetes"
       },
       {
-        "name": "Azure DevOps",
+        "name": "AzureDevOps",
         "link": "https://azure.microsoft.com/en-us/products/devops",
         "icon": "external-tal-revivo-shadow-tal-revivo/100/external-development-experience-through-the-native-integrations-of-azure-with-visual-studio-logo-shadow-tal-revivo"
       }
@@ -213,12 +213,12 @@
     "title": "Development Tools",
     "skills": [
       {
-        "name": "Visual Studio",
+        "name": "VisualStudio",
         "link": "https://visualstudio.microsoft.com/",
         "icon": "fluency/100/visual-studio"
       },
       {
-        "name": "VS Code",
+        "name": "VSCode",
         "link": "https://code.visualstudio.com/",
         "icon": "color/100/visual-studio-code-2019"
       },
@@ -236,6 +236,11 @@
         "name": "Git",
         "link": "https://git-scm.com/",
         "icon": "color/100/git"
+      },
+      {
+        "name": "Figma",
+        "link": "https://www.figma.com/",
+        "icon": "officel/100/figma"
       }
     ]
   }

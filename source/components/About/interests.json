@@ -7,19 +7,19 @@
     "icons": {
       "Spotify": {
         "profile": "https://open.spotify.com/user/12151918372",
-        "icon": "doodle/100/spotify"
+        "icon": "doodle/50/spotify"
       },
       "Soundcloud": {
         "profile": "https://soundcloud.com/abhra-basak",
-        "icon": "bubbles/100/soundcloud"
+        "icon": "bubbles/50/soundcloud"
       },
       "Mixcloud": {
         "profile": "https://www.mixcloud.com/AbhraBasak",
-        "icon": "plasticine/100/mixcloud"
+        "icon": "plasticine/50/mixcloud"
       },
       "Lastfm": {
         "profile": "https://www.last.fm/user/Abhra1992",
-        "icon": "doodle/96/fm"
+        "icon": "doodle/48/fm"
       }
     }
   },
@@ -31,27 +31,27 @@
     "icons": {
       "GitHub": {
         "profile": "https://github.com/abhrabasak",
-        "icon": "plasticine/100/github"
+        "icon": "plasticine/50/github"
       },
       "BitBucket": {
         "profile": "https://bitbucket.org/abhrabasak",
-        "icon": "color/100/bitbucket"
+        "icon": "color/50/bitbucket"
       },
       "CodePen": {
         "profile": "https://codepen.io/abhrabasak",
-        "icon": "fluency/100/codepen"
+        "icon": "fluency/50/codepen"
       },
       "Gitlab": {
         "profile": "https://gitlab.com/abhrabasak",
-        "icon": "doodle/100/gitlab"
+        "icon": "doodle/50/gitlab"
       },
       "Kaggle": {
         "profile": "https://www.kaggle.com/abhrabasak",
-        "icon": "bubbles/100/kaggle"
+        "icon": "bubbles/50/kaggle"
       },
       "StackOverflow": {
         "profile": "https://stackoverflow.com/users/1090241/abhra-basak",
-        "icon": "color/100/stackoverflow"
+        "icon": "color/50/stackoverflow"
       }
     }
   },
@@ -63,15 +63,15 @@
     "icons": {
       "Behance": {
         "profile": "https://www.behance.net/abhra",
-        "icon": "color/100/behance"
+        "icon": "color/50/behance"
       },
       "Unsplash": {
         "profile": "https://unsplash.com/@abhrabasak",
-        "icon": "external-tal-revivo-fresh-tal-revivo/100/external-unsplash-allows-user-contribute-photographers-and-generates-income-logo-fresh-tal-revivo"
+        "icon": "external-tal-revivo-fresh-tal-revivo/50/external-unsplash-allows-user-contribute-photographers-and-generates-income-logo-fresh-tal-revivo"
       },
       "DeviantArt": {
         "profile": "https://www.deviantart.com/abhrabasak",
-        "icon": "bubbles/100/devianart"
+        "icon": "bubbles/50/devianart"
       }
     }
   },
@@ -82,19 +82,19 @@
     "icons": {
       "Instagram": {
         "profile": "https://www.instagram.com/abhra_basak",
-        "icon": "color/100/behance"
+        "icon": "color/50/behance"
       },
       "Substack": {
         "profile": "https://www.behance.net/abhra",
-        "icon": "doodle/100/substack"
+        "icon": "doodle/50/substack"
       },
       "Medium": {
         "profile": "https://unsplash.com/@abhrabasak",
-        "icon": "bubbles/100/medium-new"
+        "icon": "bubbles/50/medium-new"
       },
       "Gitbook": {
         "profile": "https://www.deviantart.com/abhrabasak",
-        "icon": "doodle/100/book"
+        "icon": "doodle/50/book"
       }
     }
   },
@@ -106,19 +106,19 @@
     "icons": {
       "Steam": {
         "profile": "https://steamcommunity.com/profiles/76561199065280856/",
-        "icon": "plasticine/100/steam"
+        "icon": "plasticine/50/steam"
       },
       "Ubisoft": {
         "profile": "https://club.ubisoft.com/en-US/profile/abhrabasak",
-        "icon": "doodle/100/ubisoft-connect"
+        "icon": "doodle/50/ubisoft-connect"
       },
       "Xbox": {
         "profile": "https://www.xbox.com/en-US/play/user/Abhra1992",
-        "icon": "doodle/100/xbox"
+        "icon": "doodle/50/xbox"
       },
       "Epic": {
         "profile": "https://store.epicgames.com/en-US/u/a82af95dbf604a0e9ac69236d884f7b5",
-        "icon": "doodle/100/epic-games"
+        "icon": "doodle/50/epic-games"
       }
     }
   },

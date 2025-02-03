@@ -8,6 +8,9 @@
   @include xy-cell;
   text-align: center;
 }
+.hrule {
+  @include hrule;
+}
 .skills-categories {
   @include xy-cell;
 }
@@ -16,9 +19,11 @@
   gap: 1rem;
 }
 .domain-card {
+  @include theme-outline;
   width: calc(100% / 3 - 2rem);
   background-color: rgba($color: black, $alpha: 0.4);
   border-radius: 1rem;
+  padding: 0.5rem;
   h4 {
     text-align: center;
   }

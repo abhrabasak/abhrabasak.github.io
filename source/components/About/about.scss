@@ -3,21 +3,27 @@
 @import "$styles/base";
 
 .about-intro {
-  @include xy-cell(6);
-  @include xy-cell-offset(3);
+  @include xy-cell(8);
+  @include xy-cell-offset(2);
   text-align: center;
 }
+.hrule {
+  @include hrule;
+}
 .portfolio-categories {
-  @include xy-cell;
+  @include xy-cell(8);
+  @include xy-cell-offset(2);
 }
 .categories-list {
   @include flex-wrap-center;
   gap: 1rem;
 }
 .interest-card {
-  width: calc(100% / 3 - 2rem);
+  @include theme-outline;
+  width: calc(100% / 2 - 2rem);
   background-color: rgba($color: black, $alpha: 0.4);
   border-radius: 1rem;
+  padding: 1rem;
   h4 {
     text-align: center;
   }
@@ -29,5 +35,6 @@
   @include flex-wrap-center;
   > a {
     width: calc(100% / 6);
+    text-align: center;
   }
 }
