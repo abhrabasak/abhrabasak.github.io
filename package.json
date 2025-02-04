@@ -1,5 +1,5 @@
 {
-  "name": "abhrabasak-github-com",
+  "name": "abhrabasak-github-io",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,10 +9,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.1.7"
-  },
-  "devDependencies": {
+    "astro": "^5.1.7",
+    "typescript": "^5.7.3",
     "foundation-sites": "^6.9.0",
     "sass": "^1.83.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4"
   }
 }
