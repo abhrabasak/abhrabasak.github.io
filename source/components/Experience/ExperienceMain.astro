@@ -1,6 +1,8 @@
 ---
 import ProjectCard from "./ProjectCard.astro";
+import ExperienceCard from "./ExperienceCard.astro";
 import projects from "./projects.json";
+import workexp from "./work-experience.json";
 import "./projects.scss";
 ---
 
@@ -15,6 +17,19 @@ import "./projects.scss";
     </p>
   </section>
   <section class="hrule"></section>
+  <section class="work-exp">
+    <h4>Work Experience</h4>
+    <p>
+      A brief overview of my professional experience. I've worked with a variety
+      of companies and clients, and have had the opportunity to contribute to a
+      wide range of projects.
+    </p>
+    <div class="work-exp-timeline">
+      {workexp.map((exp) => <ExperienceCard exp={exp} />)}
+    </div>
+  </section>
+  <section class="hrule"></section>
+  <section class="personal-projects"></section>
   <section class="project-articles">
     <div class="project-grid">
       {

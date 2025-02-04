@@ -125,7 +125,7 @@
     "name": "Internship @ Microsoft",
     "icon": "bubbles/50/search",
     "year": "2013",
-    "url": "#",
+    "url": "https://bing.com",
     "synopsis": "AutoSuggest Deep-links Navigation for Microsoft product support queries on Bing.com",
     "text": "Backend data processing for AutoSuggest Deep-links Navigation for Microsoft product support queries on Bing.com. Natural Language Processing to facilitate faceted search for Tech Help intent. Extraction and mining of official knowledge-base articles in support.microsoft.com. Links to officially accepted solved questions are extracted and retrieved from the AutoSuggest store when a similar or related query is detected.",
     "tech": "Ruby / Python / SQL Server"

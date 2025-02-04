@@ -7,7 +7,7 @@ const project = Astro.props as Project;
 
 <article class="project-card">
   <Icons8 iconName={project.icon} link={project.url} site={project.name} />
-  <span class="project-url">{project.name}</span>
+  <span class="project-url"><a href={project.url}>{project.name}</a></span>
   <span class="synopsis">{project.synopsis}</span>
   <span class="tech">{project.tech}</span>
   <span class="year">{project.year}</span>

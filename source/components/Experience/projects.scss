@@ -9,6 +9,47 @@
 }
 .hrule {
   @include hrule;
+  margin: 2rem;
+}
+.work-exp {
+  @include xy-cell;
+  text-align: center;
+}
+.work-exp-timeline {
+  @include flex-wrap-center;
+  gap: 1rem;
+}
+.work-exp-card {
+  @include card-z;
+  width: calc(100% / 2 - 2rem);
+  padding: 1rem;
+  display: grid;
+  grid:
+    "icon comp date" 1fr
+    "icon proj posn" 1fr
+    "icon desc desc" 1fr
+    / 1fr 6fr 5fr;
+  .company-icons {
+    grid-area: icon;
+    display: flex;
+    flex-direction: column;
+  }
+  .company {
+    grid-area: comp;
+    font-weight: bold;
+  }
+  .position {
+    grid-area: posn;
+  }
+  .date {
+    grid-area: date;
+  }
+  .project {
+    grid-area: proj;
+  }
+  .description {
+    grid-area: desc;
+  }
 }
 .project-articles {
   @include xy-cell;

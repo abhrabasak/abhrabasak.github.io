@@ -4,6 +4,7 @@
     "position": "Senior Software Development Engineer",
     "project": "Viva Insights",
     "date": "2020-Present",
+    "icon": ["color/50/microsoft", "fluency/50/microsoft-office-2019"],
     "description": "Description"
   },
   {
@@ -11,6 +12,7 @@
     "position": "Software Development Engineer 2",
     "project": "Azure Storage Files",
     "date": "2019-2020",
+    "icon": ["color/50/microsoft", "fluency/50/azure-1"],
     "description": "Description"
   },
   {
@@ -18,6 +20,7 @@
     "position": "Software Development Engineer 2",
     "project": "Azure Industry Core",
     "date": "2017-2019",
+    "icon": ["color/50/microsoft", "fluency/50/azure-1"],
     "description": "Description"
   },
   {
@@ -25,13 +28,15 @@
     "position": "Software Development Engineer 2",
     "project": "Bing Entity Platform & Experiences",
     "date": "2014-2017",
+    "icon": ["color/50/microsoft", "fluency/50//bing--v1"],
     "description": "Description"
   },
   {
     "company": "Indian Institute of Technology (IIT) Mandi",
     "position": "Coordinator & Principal Developer",
-    "project": "Website Information and Networks Group (WING)",
+    "project": "Website Information and Networks Group",
     "date": "2010-2014",
+    "icon": ["office/50/university", "doodle/48/internet--v1"],
     "description": "Description"
   }
 ]
