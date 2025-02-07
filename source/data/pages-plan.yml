@@ -1,8 +1,15 @@
 pages:
-  - Portfolio - Engineering, Digital Art, Music & Dance, Writing (Prose), Gaming, Cartography
-  - Career Experience - Microsoft, Freelancing
-  - Technical Expertise - Skills, Certifications, Technologies
-  - Opprtunities/Services:
+  - About >> Portfolio - Engineering, Digital Art, Music & Dance, Writing (Prose), Gaming, Cartography
+  - Projects >> Experience:
+    Work Projects: Work, Internships, Freelancing
+    Personal Projects: Volunteering, Open Source, Research
+    Competitions: Hackathons, Code Jams, Contests
+  - Technical Expertise:
+    Skills:
+    Certifications: Coursera, Udemy, EdX, Pluralsight
+    Technologies: Languages, Framework, Platforms, Databases, Tools, Libraries, APIs, AI, Cloud, Big Data
+    Testimonials:
+  - Opprtunities/Services (Connect):
     Web App Development:
       Frontend
     Mobile App Development:
@@ -11,10 +18,10 @@ pages:
     Coaching:
     Consultancy:
     Open Source Collaboration:
-  - Geography - Maps, Locations, Travel
+  - Geography - Maps, Locations, Travel, Spoken Languages
   - Timeline - Life, Career, Projects, Events
-  - Links & Resume
-  - Testimonials
+  - Resume - Links & Resume
 # https://www.linkedin.com/pulse/how-build-portfolio-software-engineer-fanny-nyayic-i03bf/
 # https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/
 # GSAP Animations
+# https://slashpages.net/

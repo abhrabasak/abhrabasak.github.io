@@ -1,0 +1,57 @@
+---
+# https://stackshare.io/stacks
+JavaScript:
+  - React
+  - Redux
+  - TypeScript
+  - GraphQL
+  - Astro
+  - Vue*
+  - Svelte*
+  - Gulp
+Web:
+  - HTML5
+  - CSS3
+  - Sass
+  - Bootstrap
+  - Tailwind CSS*
+  - Materialize CSS*
+  - Bulma*
+  - Foundation
+Python:
+  - Numpy
+  - Scipy
+  - Pandas
+  - Matplotlib
+  - Scikit-learn
+  - Keras
+Ruby:
+  - Rails
+  - RSpec
+C#:
+  - ASP.NET
+  - Entity Framework
+  - Autofac
+  - Moq
+Azure:
+  - Azure Functions
+  - Azure Logic Apps
+  - Azure DevOps
+  - Azure Storage
+  - Azure Cosmos DB
+  - Azure Key Vault
+  - Azure API Management
+  - Azure App Service
+  - Azure Cognitive Services
+  - Azure Monitor
+  - Azure Application Insights
+  - Azure Resource Manager
+  - Azure Portal
+  - Azure Data Lake Storage
+  - Azure Data Lake Analytics
+  - Azure Databricks
+  - Azure Stream Analytics
+  - Azure Event Hubs
+  - Azure IoT Hub
+  - Azure Machine Learning
+  - Azure Bot Service
