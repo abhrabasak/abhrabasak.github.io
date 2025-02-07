@@ -1,6 +1,7 @@
 ---
 import ProjectCard from "./ProjectCard.astro";
 import ExperienceCard from "./ExperienceCard.astro";
+import HorizontalRule from "../Html/HorizontalRule.astro";
 import projects from "./projects.json";
 import workexp from "./work-experience.json";
 import "./experience.scss";
@@ -16,7 +17,7 @@ import "./experience.scss";
       creatively and technically.
     </p>
   </section>
-  <section class="hrule"></section>
+  <HorizontalRule />
   <section class="work-exp">
     <h4>Work Experience</h4>
     <p>
@@ -28,7 +29,7 @@ import "./experience.scss";
       {workexp.map((exp) => <ExperienceCard exp={exp} />)}
     </div>
   </section>
-  <section class="hrule"></section>
+  <HorizontalRule />
   <section class="personal-projects"></section>
   <section class="project-articles">
     <div class="project-grid">

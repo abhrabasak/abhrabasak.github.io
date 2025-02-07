@@ -1,4 +1,5 @@
 ---
+import HorizontalRule from "../Html/HorizontalRule.astro";
 import Interest from "./Interest.astro";
 import "./about.scss";
 import interests from "./interests.json";
@@ -13,7 +14,7 @@ import interests from "./interests.json";
       My approach is rooted in systems thinking, drawing connections across multiple disciplines.
     </p>
   </section>
-  <section class="hrule"></section>
+  <HorizontalRule />
   <section class="portfolio-categories">
     <div class="categories-list">
       {interests.map((int) => int.enabled && <Interest {...int} />)}

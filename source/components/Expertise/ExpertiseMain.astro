@@ -1,6 +1,7 @@
 ---
 import SkillDomain from "./SkillDomain.astro";
 import Icons8 from "../../icons/icons8/Icons8.astro";
+import HorizontalRule from "../Html/HorizontalRule.astro";
 
 import "./expertise.scss";
 import code from "./code.json";
@@ -22,7 +23,7 @@ import domains from "./dev-skills.json";
       }
     </div>
   </section>
-  <section class="hrule"></section>
+  <HorizontalRule />
   <section class="skills-categories">
     <div class="categories-list">
       {domains.map((dm) => <SkillDomain {...dm} />)}

@@ -8,8 +8,7 @@
   text-align: center;
 }
 .hrule {
-  @include hrule;
-  margin: 2rem;
+  margin: 2rem 0;
 }
 .work-exp {
   @include xy-cell;

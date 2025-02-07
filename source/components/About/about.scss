@@ -7,9 +7,6 @@
   @include xy-cell-offset(2);
   text-align: center;
 }
-.hrule {
-  @include hrule;
-}
 .portfolio-categories {
   @include xy-cell(8);
   @include xy-cell-offset(2);

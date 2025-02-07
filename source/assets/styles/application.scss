@@ -1,4 +1,4 @@
-﻿// --- Dependencies ---
+// --- Dependencies ---
 @import "includes/zf-dependencies";
 // --- Application Settings ---
 @import "full-settings";
@@ -39,6 +39,10 @@ nav.site-header-nav {
   @include xy-grid;
   min-height: 86vh;
   padding: rem-calc(15) 0;
+}
+hr,
+.hrule {
+  @include hrule;
 }
 .pane {
   text-align: center;
