@@ -11,10 +11,12 @@
 .categories-list {
   @include flex-wrap-center;
   gap: 1rem;
+  > * {
+    width: calc(100% / 2 - 2rem);
+  }
 }
 .interest-card {
   @include card-z;
-  width: calc(100% / 2 - 2rem);
   padding: 1rem;
   h4 {
     text-align: center;

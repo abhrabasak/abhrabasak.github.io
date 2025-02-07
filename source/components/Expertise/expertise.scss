@@ -13,10 +13,12 @@
 .categories-list {
   @include flex-wrap-center;
   gap: 1rem;
+  > * {
+    width: calc(100% / 3 - 2rem);
+  }
 }
 .domain-card {
   @include card-z;
-  width: calc(100% / 3 - 2rem);
   padding: 0.5rem;
   h4 {
     text-align: center;
@@ -24,10 +26,11 @@
 }
 .domain-icons {
   @include flex-wrap-center;
+  > * {
+    width: calc(100% / 3);
+  }
 }
-$max-badges: 3;
 .skill-badge {
-  width: calc(100% / $max-badges);
   display: grid;
   grid: 1fr / 1fr 2fr;
   > .icons8-icon {

@@ -2,7 +2,7 @@
 @import "$styles/base";
 
 .projects-intro {
-  @include c(6,3);
+  @include c(6, 3);
   text-align: center;
 }
 .hrule {
@@ -18,6 +18,9 @@
 .work-exp-timeline {
   @include flex-wrap-center;
   gap: 1rem;
+  > * {
+    width: calc(100% / 2 - 2rem);
+  }
 }
 .work-exp-card {
   @include card-z;
@@ -58,10 +61,12 @@
 .project-grid {
   @include flex-wrap-center;
   gap: 1.5rem;
+  > * {
+    width: calc(100% / 2 - 3rem);
+  }
 }
 .project-card {
   @include card-z;
-  width: calc(100% / 2 - 3rem);
   display: grid;
   grid:
     "icon url url url" 1fr
