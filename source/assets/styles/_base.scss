@@ -1,4 +1,5 @@
 ﻿// MIXINS
+@import "foundation-sites/scss/xy-grid/xy-grid";
 
 @mixin outline {
   outline: 0.5px solid black;
@@ -35,4 +36,9 @@ $outline-color: #4d575f;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@mixin c($size: 12, $offset: 0) {
+  @include xy-cell($size);
+  @include xy-cell-offset($offset);
 }

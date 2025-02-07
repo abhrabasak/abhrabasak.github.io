@@ -1,17 +1,15 @@
 @import "foundation-sites/scss/global";
-@import "foundation-sites/scss/xy-grid/xy-grid";
 @import "$styles/base";
 
 .projects-intro {
-  @include xy-cell(6);
-  @include xy-cell-offset(3);
+  @include c(6,3);
   text-align: center;
 }
 .hrule {
   margin: 2rem 0;
 }
 .work-exp {
-  @include xy-cell;
+  @include c;
   h4,
   p {
     text-align: center;
@@ -54,7 +52,7 @@
   }
 }
 .project-articles {
-  @include xy-cell;
+  @include c;
   margin-top: 10px;
 }
 .project-grid {

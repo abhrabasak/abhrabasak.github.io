@@ -1,9 +1,8 @@
 @import "foundation-sites/scss/global";
-@import "foundation-sites/scss/xy-grid/xy-grid";
+@import "$styles/base";
 
 .connect-services {
-  @include xy-cell(6);
-  @include xy-cell-offset(3);
+  @include c(6, 3);
   > h4 {
     text-align: center;
   }
@@ -21,8 +20,7 @@
   }
 }
 .social-icons {
-  @include xy-cell(6);
-  @include xy-cell-offset(3);
+  @include c(6, 3);
   text-align: center;
 }
 .email {

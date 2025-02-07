@@ -1,15 +1,12 @@
 @import "foundation-sites/scss/global";
-@import "foundation-sites/scss/xy-grid/xy-grid";
 @import "$styles/base";
 
 .about-intro {
-  @include xy-cell(8);
-  @include xy-cell-offset(2);
+  @include c(8, 2);
   text-align: center;
 }
 .portfolio-categories {
-  @include xy-cell(8);
-  @include xy-cell-offset(2);
+  @include c(8, 2);
 }
 .categories-list {
   @include flex-wrap-center;

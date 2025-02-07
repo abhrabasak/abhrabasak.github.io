@@ -1,15 +1,14 @@
 @import "$styles/full-settings";
 @import "$styles/settings";
 @import "foundation-sites/scss/global";
-@import "foundation-sites/scss/xy-grid/xy-grid";
 @import "$styles/base";
 
 .skills-intro {
-  @include xy-cell;
+  @include c;
   text-align: center;
 }
 .skills-categories {
-  @include xy-cell;
+  @include c;
 }
 .categories-list {
   @include flex-wrap-center;

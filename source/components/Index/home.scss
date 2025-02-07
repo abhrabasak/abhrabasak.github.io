@@ -1,10 +1,8 @@
 @import "foundation-sites/scss/global";
-@import "foundation-sites/scss/xy-grid/xy-grid";
 @import "$styles/base";
 
 .intro-statement {
-  @include xy-cell(6);
-  @include xy-cell-offset(3);
+  @include c(6, 3);
   margin-top: 2rem;
 }
 .intro-lines {
@@ -39,6 +37,6 @@
   grid-area: locn;
 }
 .home-social {
-  @include xy-cell;
+  @include c;
   text-align: center;
 }
