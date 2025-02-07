@@ -13,7 +13,10 @@
 }
 .work-exp {
   @include xy-cell;
-  text-align: center;
+  h4,
+  p {
+    text-align: center;
+  }
 }
 .work-exp-timeline {
   @include flex-wrap-center;
