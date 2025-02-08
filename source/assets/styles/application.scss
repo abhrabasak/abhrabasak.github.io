@@ -21,7 +21,7 @@ body {
 header,
 main,
 footer {
-  @include outline;
+  @include theme-outline;
 }
 nav.site-header-nav {
   display: grid;

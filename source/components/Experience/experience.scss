@@ -8,11 +8,10 @@ $card-basis: 530px; // TODO @media
 .projects-intro {
   max-width: 1100px;
   text-align: center;
-}
-.hrule {
-  margin: 2rem 0;
+  padding: 1rem;
 }
 .work-exp {
+  padding: 1rem;
   h4,
   p {
     text-align: center;

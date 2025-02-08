@@ -1,5 +1,6 @@
 @import "$styles/base";
 
+$services-basis: 270px;
 .connect {
   @include flex-column-evenly;
 }
@@ -9,10 +10,9 @@
 .services {
   @include flex-wrap-center;
   gap: 1rem;
-  max-width: 810px; // TODO: @media
   > span {
     @include theme-outline;
-    width: calc(100% / 3 - 2rem);
+    flex-basis: $services-basis;
     border-radius: 1rem;
     text-align: center;
   }

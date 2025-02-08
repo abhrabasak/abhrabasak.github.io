@@ -8,6 +8,7 @@ $category-basis: 520px;
 .about-intro {
   max-width: 1100px;
   text-align: center;
+  padding: 1rem;
 }
 .portfolio-categories {
   @include flex-wrap-center;

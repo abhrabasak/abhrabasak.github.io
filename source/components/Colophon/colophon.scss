@@ -6,15 +6,17 @@
 .tech-stack {
   @include flex-column-center;
   align-items: center;
+  padding: 1rem;
 }
 .icons {
-  display: grid;
-  grid: 1fr / repeat(12, 1fr);
+  @include flex-wrap-center;
   gap: 1.5rem;
-  img {
+  > * {
+    flex-basis: 50px;
     width: 50px;
   }
 }
 .previous {
   text-align: center;
+  padding: 1rem;
 }

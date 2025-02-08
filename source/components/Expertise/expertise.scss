@@ -6,6 +6,7 @@ $category-basis: 420px;
 }
 .skills-intro {
   text-align: center;
+  padding: 1rem;
 }
 .skills-categories {
   @include flex-wrap-center;
