@@ -32,6 +32,16 @@ nav.site-header-nav {
     padding: rem-calc(15) 0;
     background: $body-background;
   }
+  .name {
+    @media (max-width: 500px) {
+      display: none;
+    }
+  }
+  .icon {
+    @media (min-width: 500px) {
+      display: none;
+    }
+  }
 }
 .view {
   min-height: 86vh;

@@ -1,9 +1,19 @@
 ---
+import LineAwesome from "../../icons/lineawesome/LineAwesome.astro";
 import pages from "./pages.json";
 ---
 
 <header>
   <nav class="site-header-nav">
-    {Object.entries(pages).map(([name, p]) => <a href={p.url}>{name}</a>)}
+    {
+      Object.entries(pages).map(([name, p]) => (
+        <a href={p.url}>
+          <span class="name">{name}</span>
+          <span class="icon">
+            <LineAwesome icon={p.icon} />
+          </span>
+        </a>
+      ))
+    }
   </nav>
 </header>
