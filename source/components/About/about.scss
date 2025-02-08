@@ -1,4 +1,4 @@
-@import "$styles/base";
+@use "$styles/base" as *;
 
 .about {
   @include flex-column-evenly;
