@@ -1,20 +1,17 @@
-@import "$styles/full-settings";
-@import "$styles/settings";
-@import "foundation-sites/scss/global";
 @import "$styles/base";
 
+$category-basis: 420px;
+.code {
+  @include flex-column-evenly;
+}
 .skills-intro {
-  @include c;
   text-align: center;
 }
 .skills-categories {
-  @include c;
-}
-.categories-list {
   @include flex-wrap-center;
   gap: 1rem;
   > * {
-    width: calc(100% / 3 - 2rem);
+    flex-basis: $category-basis;
   }
 }
 .domain-card {
@@ -27,7 +24,7 @@
 .domain-icons {
   @include flex-wrap-center;
   > * {
-    width: calc(100% / 3);
+    width: calc(100% / 3); // TODO @media
   }
 }
 .skill-badge {

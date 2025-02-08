@@ -13,39 +13,32 @@
 // http://igalia.github.io/css-grid-layout/index.html
 
 body {
-  @include xy-grid-container(100%);
+  @include flex-column-center;
+  align-items: stretch;
   padding: 0 !important;
   background: url("/assets/images/cover/starry.webp") center center/cover;
-  > section {
-    @include xy-grid;
-  }
 }
 header,
 main,
 footer {
-  @include xy-cell($gutter-type: none);
+  @include outline;
 }
 nav.site-header-nav {
   display: grid;
   grid: 1fr / repeat(6, 1fr);
-}
-.site-page {
-  color: white;
-  text-align: center;
-  padding: rem-calc(15) 0;
-  background: $body-background;
+  > a {
+    color: white;
+    text-align: center;
+    padding: rem-calc(15) 0;
+    background: $body-background;
+  }
 }
 .view {
-  @include xy-grid;
   min-height: 86vh;
   padding: rem-calc(15) 0;
 }
-hr,
 .hrule {
   @include hrule;
-}
-.pane {
-  text-align: center;
 }
 footer {
   background: $body-background;

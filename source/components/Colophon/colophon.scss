@@ -1,19 +1,20 @@
-@import "foundation-sites/scss/global";
 @import "$styles/base";
 
+.credits {
+  @include flex-column-evenly;
+}
 .tech-stack {
-  @include c(8, 2);
-  text-align: center;
-  > .icons {
-    display: grid;
-    grid: 1fr / repeat(12, 1fr);
-    gap: 1.5rem;
+  @include flex-column-center;
+  align-items: center;
+}
+.icons {
+  display: grid;
+  grid: 1fr / repeat(12, 1fr);
+  gap: 1.5rem;
+  img {
+    width: 50px;
   }
 }
-.imprint {
-  @include c;
-}
 .previous {
-  @include c;
   text-align: center;
 }

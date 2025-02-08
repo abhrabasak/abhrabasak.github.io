@@ -1,14 +1,20 @@
-@import "foundation-sites/scss/global";
 @import "$styles/base";
 
+.home {
+  @include flex-column-evenly;
+}
 .intro-statement {
-  @include c(6, 3);
+  display: flex;
+  justify-content: center;
   margin-top: 2rem;
+  > div {
+    flex-basis: 800px; // TODO: @media
+  }
 }
 .intro-lines {
   display: grid;
-  grid-template:
-    ". pic ." 0.5fr
+  grid:
+    ". dpic ." 0.5fr
     "name name name" 0.5fr
     "desg intr locn" 0.25fr
     / 1fr 1fr 1fr;
@@ -17,7 +23,7 @@
   }
 }
 .display-pic {
-  grid-area: pic;
+  grid-area: dpic;
   padding: 0 15%;
   img {
     @include circle-image;
@@ -37,6 +43,5 @@
   grid-area: locn;
 }
 .home-social {
-  @include c;
   text-align: center;
 }

@@ -17,8 +17,6 @@ import interests from "./interests.json";
   </section>
   <HorizontalRule />
   <section class="portfolio-categories">
-    <div class="categories-list">
-      {interests.map((int) => int.enabled && <Interest {...int} />)}
-    </div>
+    {interests.map((int) => int.enabled && <Interest {...int} />)}
   </section>
 </main>

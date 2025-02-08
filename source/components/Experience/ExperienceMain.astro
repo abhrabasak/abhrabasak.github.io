@@ -32,13 +32,11 @@ import "./experience.scss";
   <HorizontalRule />
   <section class="personal-projects"></section>
   <section class="project-articles">
-    <div class="project-grid">
-      {
-        Object.entries(projects).map(
-          ([_, p]) => p.enabled && <ProjectCard {...p} />
-        )
-      }
-    </div>
+    {
+      Object.entries(projects).map(
+        ([_, p]) => p.enabled && <ProjectCard {...p} />
+      )
+    }
   </section>
   <section class="competitions"></section>
 </main>

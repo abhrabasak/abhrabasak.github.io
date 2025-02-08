@@ -1,30 +1,29 @@
-@import "foundation-sites/scss/global";
 @import "$styles/base";
 
+.connect {
+  @include flex-column-evenly;
+}
 .connect-services {
-  @include c(6, 3);
-  > h4 {
-    text-align: center;
-  }
+  @include flex-column-align-center;
 }
 .services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  @include flex-wrap-center;
   gap: 1rem;
+  max-width: 810px; // TODO: @media
   > span {
+    @include theme-outline;
     width: calc(100% / 3 - 2rem);
-    border: 0.25px solid purple;
     border-radius: 1rem;
     text-align: center;
   }
 }
 .social-icons {
-  @include c(6, 3);
   text-align: center;
 }
 .email {
-  @include xy-cell(1, $gutter-type: none);
-  @include xy-cell-offset(5.5);
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  > a {
+    max-width: 140px; // TODO: @media
+  }
 }

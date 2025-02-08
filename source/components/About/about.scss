@@ -1,18 +1,20 @@
-@import "foundation-sites/scss/global";
 @import "$styles/base";
 
+.about {
+  @include flex-column-evenly;
+  align-items: center;
+}
+$category-basis: 520px;
 .about-intro {
-  @include c(8, 2);
+  max-width: 1100px;
   text-align: center;
 }
 .portfolio-categories {
-  @include c(8, 2);
-}
-.categories-list {
   @include flex-wrap-center;
   gap: 1rem;
+  max-width: 1100px;
   > * {
-    width: calc(100% / 2 - 2rem);
+    flex-basis: $category-basis;
   }
 }
 .interest-card {

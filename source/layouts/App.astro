@@ -7,20 +7,11 @@ import "../assets/styles/application.scss";
 ---
 
 <!doctype html>
-<!-- https://docs.astro.build -->
 <html lang="en">
   <Head {...Astro.props} />
   <body>
-    <section>
-      <TopNav />
-      <slot />
-      <Footer />
-    </section>
+    <TopNav />
+    <slot />
+    <Footer />
   </body>
 </html>
-
-<script type="text/javascript">
-  $(document).ready(function () {
-    $(document).foundation();
-  });
-</script>

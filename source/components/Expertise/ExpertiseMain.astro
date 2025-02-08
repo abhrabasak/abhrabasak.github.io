@@ -12,8 +12,8 @@ import domains from "./dev-skills.json";
   <section class="skills-intro">
     <h4>Skills and Experience</h4>
     <p>
-      An overview of my software development skills. My development
-      portfolio has code samples.
+      An overview of my software development skills. My development portfolio
+      has code samples.
     </p>
     <div class="dev-profiles">
       {
@@ -25,9 +25,7 @@ import domains from "./dev-skills.json";
   </section>
   <HorizontalRule />
   <section class="skills-categories">
-    <div class="categories-list">
-      {domains.map((dm) => <SkillDomain {...dm} />)}
-    </div>
+    {domains.map((dm) => <SkillDomain {...dm} />)}
   </section>
-  <section class="certifications"></section>
+  <!-- <section class="certifications"></section> -->
 </main>
