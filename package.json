@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.2.1",
     "@rollup/plugin-yaml": "^4.1.2",
     "astro": "^5.2.5",
     "foundation-sites": "^6.9.0",

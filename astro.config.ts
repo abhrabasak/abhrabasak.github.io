@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import yaml from '@rollup/plugin-yaml';
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
@@ -24,5 +25,15 @@ export default defineConfig({
   build: {
     format: "file",
     inlineStylesheets: "never",
-  }
+  },
+  integrations: [sitemap({
+    lastmod: new Date(),
+    priority: 0.8,
+    serialize(item) {
+      if (/\/$/.test(item.url)) {
+        item.priority = 1.0;
+      }
+      return item;
+    },
+  })]
 });
