@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@rollup/plugin-yaml": "^4.1.2",
     "astro": "^5.2.5",
     "foundation-sites": "^6.9.0",
     "sass": "^1.83.4",
