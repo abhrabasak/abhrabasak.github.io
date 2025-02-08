@@ -43,8 +43,11 @@ nav.site-header-nav {
   }
 }
 .view {
-  min-height: 86vh;
+  min-height: 87.5vh;
   padding: rem-calc(15) 0;
+  @media (max-width: 768px) {
+    min-height: 84vh;
+  }
 }
 .hrule {
   @include hrule;
