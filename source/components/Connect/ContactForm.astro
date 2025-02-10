@@ -1,0 +1,29 @@
+---
+const formSubmitUrl = "/api/hello";
+---
+
+<section class="contact-form">
+  <form action={formSubmitUrl} method="post">
+    <h4>Contact Me</h4>
+    <label for="name">
+      Name
+      <input type="text" name="name" required />
+    </label>
+    <label for="email">
+      Email
+      <input type="email" name="email" required />
+    </label>
+    <label for="subject">
+      Subject
+      <input type="text" name="subject" required />
+    </label>
+    <label for="message">
+      Message
+      <textarea name="message" rows="5" required></textarea>
+    </label>
+    <input type="checkbox" name="botcheck" style="display: none;" />
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<script src="./contact-form.ts"></script>

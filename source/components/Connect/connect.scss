@@ -1,4 +1,6 @@
 @use "$styles/base" as *;
+@import "$styles/full-settings";
+@import "$styles/settings";
 
 $services-basis: 270px;
 .connect {
@@ -20,10 +22,36 @@ $services-basis: 270px;
 .social-icons {
   text-align: center;
 }
-.email {
+.contact-form {
   display: flex;
   justify-content: center;
-  > a {
-    max-width: 140px; // TODO: @media
+  > form {
+    @include flex-column-center;
+    align-items: stretch;
+    width: 40%; // TODO: @media
+  }
+  h4 {
+    text-align: center;
+  }
+  label {
+    display: grid;
+    grid: 1fr / 1fr 4fr;
+    margin-bottom: 0.2rem;
+  }
+  input,
+  textarea,
+  button {
+    @include theme-outline;
+    background: $body-background;
+    color: white;
+    border: 0;
+  }
+  textarea {
+    resize: none;
+  }
+  button {
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.5rem;
   }
 }
