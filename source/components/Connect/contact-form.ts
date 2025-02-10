@@ -15,9 +15,10 @@ document.querySelector("form")?.addEventListener("submit", async (event) => {
 
   const response = await fetch("/api/hello", postJsonForm(data));
   if (response.ok) {
-    alert(JSON.stringify(response.json()));
+    const result = await response.json();
+    alert(result.message);
     // form.reset();
   } else {
-    alert("Failed to send message.");
+    alert("Failed to send message");
   }
 });

@@ -1,12 +1,10 @@
-import { KVNamespace, PagesFunction, Response } from "@cloudflare/workers-types";
-
 const EMAIL_TRIGGER = "https://api.web3forms.com/submit";
 
 interface Env {
-  KV: KVNamespace;
+  WEB3FORMS_ACCESS_KEY: string;
 }
 
-interface EmailBody {
+interface HelloBody {
   name: string;
   email: string;
   subject: string;
@@ -17,7 +15,7 @@ interface EmailKey {
   access_key: string;
 }
 
-const postJsonForm = (data: EmailBody & EmailKey) => ({
+const postJsonForm = (data: HelloBody & EmailKey): RequestInit => ({
   method: "POST",
   headers: {
     "Content-Type": "application/json",
@@ -27,18 +25,15 @@ const postJsonForm = (data: EmailBody & EmailKey) => ({
 });
 
 export const onRequestPost: PagesFunction<Env> = async (context) => {
-  const body = await context.request.json() as EmailBody;
-
+  const body = await context.request.json() as HelloBody;
   const response = await fetch(
     EMAIL_TRIGGER,
-    postJsonForm({ ...body, access_key: process.env.WEB3FORMS_ACCESS_KEY! }),
+    postJsonForm({ ...body, access_key: context.env.WEB3FORMS_ACCESS_KEY }),
   );
 
-  const result = await response.json();
-  if (result.success) {
-    return new Response(JSON.stringify(result), {
-      headers: { "Content-Type": "application/json" },
-    });
+  if (response.ok) {
+    const result = await response.json();
+    return Response.json(result);
   } else {
     return new Response(null, { status: 500 });
   }

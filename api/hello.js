@@ -11,19 +11,15 @@ const postJsonForm = (data) => ({
 
 export async function POST(req) {
   const body = await req.json();
-  console.log(body);
-
   const response = await fetch(
     EMAIL_TRIGGER,
     postJsonForm({ ...body, access_key: process.env.WEB3FORMS_ACCESS_KEY }),
   );
 
-  const result = await response.json();
-  if (result.success) {
-    return new Response(JSON.stringify(result), {
-      headers: { "Content-Type": "application/json" },
-    });
+  if (response.ok) {
+    const result = await response.json();
+    return Response.json(result);
   } else {
-    return new Response(null, { status: 500 });
+    return Response.error();
   }
 }

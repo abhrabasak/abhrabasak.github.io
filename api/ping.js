@@ -1,3 +1,3 @@
 export function GET(request) {
-  return new Response('Vercel:PONG');
+  return new Response("Vercel:PONG");
 }
