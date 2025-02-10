@@ -1,13 +1,15 @@
 ---
 import LineAwesome from "../../icons/lineawesome/LineAwesome.astro";
 import pages from "./pages.json";
+
+const { pathname } = Astro.url;
 ---
 
 <header>
   <nav class="site-header-nav">
     {
       Object.entries(pages).map(([name, p]) => (
-        <a href={p.url}>
+        <a href={p.url} data-active={pathname === p.url}>
           <span class="name">{name}</span>
           <span class="icon">
             <LineAwesome icon={p.icon} />

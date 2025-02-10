@@ -1,4 +1,5 @@
-﻿// --- Dependencies ---
+﻿@use "sass:color";
+// --- Dependencies ---
 @import "includes/zf-dependencies";
 // --- Application Settings ---
 @import "full-settings";
@@ -30,6 +31,9 @@ nav.site-header-nav {
     text-align: center;
     padding: rem-calc(15) 0;
     background: $body-background;
+  }
+  > a[data-active="true"] {
+    background: color.mix($body-background, white, 95%);
   }
   .name {
     @media (max-width: 500px) {
