@@ -14,6 +14,14 @@ export default defineConfig({
     build: {
       assetsInlineLimit: 4,
     },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern-compiler',
+          silenceDeprecations: ['import', 'global-builtin']
+        }
+      }
+    },
     resolve: {
       alias: {
         $styles: "../../assets/styles",
