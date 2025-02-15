@@ -1,25 +1,21 @@
-const EMAIL_TRIGGER = "https://api.web3forms.com/submit";
+import { Resend } from "resend";
 
-const postJsonForm = (data) => ({
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-    Accept: "application/json",
-  },
-  body: JSON.stringify(data),
+const email = (body) => ({
+  from: "Resend @ ABHRA.IN <resend@abhra.in>",
+  to: "abhra@outlook.in",
+  subject: body.subject,
+  html: `<p><b>Sender:</b> ${body.email}</p>
+    <p>${body.message}</p>`,
 });
 
 export async function POST(req) {
   const body = await req.json();
-  const response = await fetch(
-    EMAIL_TRIGGER,
-    postJsonForm({ ...body, access_key: process.env.WEB3FORMS_ACCESS_KEY }),
-  );
+  const resend = new Resend(process.env.RESEND_API_KEY);
+  const { data, error } = await resend.emails.send(email(body));
 
-  if (response.ok) {
-    const result = await response.json();
-    return Response.json(result);
+  if (error == null) {
+    return Response.json({ ...data, message: "Email Sent" });
   } else {
-    return Response.error();
+    return Response.json({ ...error }, { status: 500 });
   }
 }

@@ -1,7 +1,7 @@
-const EMAIL_TRIGGER = "https://api.web3forms.com/submit";
+import { Resend } from "resend";
 
 interface Env {
-  WEB3FORMS_ACCESS_KEY: string;
+  RESEND_API_KEY: string;
 }
 
 interface HelloBody {
@@ -11,30 +11,22 @@ interface HelloBody {
   message: string;
 }
 
-interface EmailKey {
-  access_key: string;
-}
-
-const postJsonForm = (data: HelloBody & EmailKey): RequestInit => ({
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-    Accept: "application/json",
-  },
-  body: JSON.stringify(data),
+const email = (body: HelloBody) => ({
+  from: "Resend @ ABHRA.IN <resend@abhra.in>",
+  to: "abhra@outlook.in",
+  subject: body.subject,
+  html: `<p><b>Sender:</b> ${body.email}</p>
+    <p>${body.message}</p>`,
 });
 
 export const onRequestPost: PagesFunction<Env> = async (context) => {
   const body = await context.request.json() as HelloBody;
-  const response = await fetch(
-    EMAIL_TRIGGER,
-    postJsonForm({ ...body, access_key: context.env.WEB3FORMS_ACCESS_KEY }),
-  );
+  const resend = new Resend(context.env.RESEND_API_KEY);
+  const { data, error } = await resend.emails.send(email(body));
 
-  if (response.ok) {
-    const result = await response.json();
-    return Response.json(result);
+  if (error == null) {
+    return Response.json({ ...data, message: "Email Sent" });
   } else {
-    return new Response(null, { status: 500 });
+    return Response.json({ ...error }, { status: 500 });
   }
 };
