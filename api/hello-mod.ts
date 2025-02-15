@@ -19,7 +19,9 @@ const email = (body: HelloBody) => ({
 export async function POST(req: Request) {
   const body = await req.json() as HelloBody;
   const resend = new Resend(process.env.RESEND_API_KEY);
-  const { data, error } = await resend.emails.send(email(body));
+  // const { data, error } = await resend.emails.send(email(body));
+  console.log(body);
+  const { data, error } = { data: {}, error: {} };
 
   if (error == null) {
     return Response.json({ ...data, message: "Email Sent" });
