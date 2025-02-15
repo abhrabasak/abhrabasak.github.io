@@ -17,6 +17,7 @@ const email = (body: HelloBody) => ({
   subject: body.subject,
   html: `<p><b>Sender:</b> ${body.email}</p>
     <p>${body.message}</p>`,
+  text: `Sender: ${body.email}\n${body.message}`,
 });
 
 export const onRequestPost: PagesFunction<Env> = async (context) => {

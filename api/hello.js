@@ -6,6 +6,7 @@ const email = (body) => ({
   subject: body.subject,
   html: `<p><b>Sender:</b> ${body.email}</p>
     <p>${body.message}</p>`,
+  text: `Sender: ${body.email}\n${body.message}`,
 });
 
 export async function POST(req) {
