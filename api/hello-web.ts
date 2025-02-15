@@ -33,7 +33,6 @@ const postJsonForm = (data: Email): RequestInit => ({
 
 export async function POST(req: Request) {
   const body = await req.json() as HelloBody;
-  console.log(body);
   const response = await fetch(EMAIL_TRIGGER, postJsonForm(email(body)));
 
   if (response.ok) {
