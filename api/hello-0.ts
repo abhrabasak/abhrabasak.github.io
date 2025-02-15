@@ -1,9 +1,5 @@
 import { Resend } from "resend";
 
-interface Env {
-  RESEND_API_KEY: string;
-}
-
 interface HelloBody {
   name: string;
   email: string;
@@ -20,9 +16,9 @@ const email = (body: HelloBody) => ({
   text: `Sender: ${body.email}\n${body.message}`,
 });
 
-export const onRequestPost: PagesFunction<Env> = async (context) => {
-  const body = await context.request.json() as HelloBody;
-  const resend = new Resend(context.env.RESEND_API_KEY);
+export async function POST(req: Request) {
+  const body = await req.json() as HelloBody;
+  const resend = new Resend(process.env.RESEND_API_KEY);
   const { data, error } = await resend.emails.send(email(body));
 
   if (error == null) {
@@ -30,4 +26,4 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   } else {
     return Response.json({ ...error }, { status: 500 });
   }
-};
+}

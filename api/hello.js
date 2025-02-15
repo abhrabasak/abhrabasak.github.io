@@ -2,7 +2,7 @@ import { Resend } from "resend";
 
 const email = (body) => ({
   from: "Resend @ ABHRA.IN <resend@abhra.in>",
-  to: "abhra@outlook.in",
+  to: "delivered@resend.dev",
   subject: body.subject,
   html: `<p><b>Sender:</b> ${body.email}</p>
     <p>${body.message}</p>`,
