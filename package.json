@@ -20,6 +20,7 @@
     "vercel": "^41.1.4"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.4"
+    "@astrojs/check": "^0.9.4",
+    "wrangler": "^3.109.1"
   }
 }

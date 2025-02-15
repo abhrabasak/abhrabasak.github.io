@@ -1,20 +1,22 @@
 # dependencies
-node_modules/
+node_modules
 
 # environment variables
 .env
 .env*.local
 .env.production
+.dev.vars*
 
 # generated types
-.astro/
+.astro
 
 # build output
-webapp/
+webapp
 
 # hosting
 .vercel
 .netlify
+.wrangler
 
 # logs
 npm-debug.log*
