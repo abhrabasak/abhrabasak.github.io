@@ -1,7 +1,7 @@
 ---
 import Devicon from "../../icons/devicons/Devicon.astro";
-
-import techStack from "./tech-stack.json";
+import type { TechStack } from "./TechStack";
+import techStack from "./tech-stack.yml";
 import "./colophon.scss";
 ---
 
@@ -20,8 +20,8 @@ import "./colophon.scss";
     </p>
     <div class="icons">
       {
-        techStack.map((tech) => (
-          <Devicon iconName={tech.icon} link={tech.url} />
+        techStack.map((t: TechStack) => (
+          <Devicon iconName={t.icon} link={t.url} />
         ))
       }
     </div>
