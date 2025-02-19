@@ -1,8 +1,9 @@
 ---
 import HorizontalRule from "../Html/HorizontalRule.astro";
-import Interest from "./Interest.astro";
+import InterestCard from "./InterestCard.astro";
+import type { Interest } from "./Interest";
+import interests from "./interests.yml";
 import "./about.scss";
-import interests from "./interests.json";
 ---
 
 <main class="about view">
@@ -17,6 +18,6 @@ import interests from "./interests.json";
   </section>
   <HorizontalRule />
   <section class="portfolio-categories">
-    {interests.map((int) => int.enabled && <Interest {...int} />)}
+    {interests.map((i: Interest) => i.enabled && <InterestCard {...i} />)}
   </section>
 </main>

@@ -1,11 +1,8 @@
 ---
 import Icons8 from "../../icons/icons8/Icons8.astro";
+import type { Interest } from "./Interest";
 
-interface Props {
-  title: string;
-  excerpt: string;
-  icons: Record<string, { profile: string; icon: string }>;
-}
+interface Props extends Interest {}
 const { title, excerpt, icons } = Astro.props;
 ---
 
