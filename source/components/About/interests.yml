@@ -22,7 +22,7 @@
   id: code
   enabled: true
   excerpt: >
-    I have 14+ years of experience developing applications and services - in .NET, JavaScript, Python, and Ruby. 
+    I have 14+ years of experience developing applications and services - in .NET, JavaScript, Python, and Ruby.
     My professional interests include Data Visualization, Interaction Design, Enterprise Integration and Mixed Reality.
   icons:
     GitHub:
@@ -48,7 +48,7 @@
   id: art
   enabled: true
   excerpt: >
-    I enjoy creating ethereal compositions, experimenting with abstract patterns to produce uniquely appealing pieces. 
+    I enjoy creating ethereal compositions, experimenting with abstract patterns to produce uniquely appealing pieces.
     They reflect my influence from space, cartography, visualization and geometry.
   icons:
     Behance:
@@ -64,7 +64,7 @@
 - title: Prose
   id: prose
   excerpt: >
-    I love to travel and explore new places. I have been to 10 states in India and 2 countries. 
+    I love to travel and explore new places. I have been to 10 states in India and 2 countries.
     I have a collection of travel photos on my Instagram profile.
   icons:
     Instagram:
@@ -84,7 +84,7 @@
   id: gaming
   enabled: true
   excerpt: >
-    I'm drawn to complex systems emerging from simple rulesets in Grand Strategy and City-building games, optimizing virtual communities and logistics networks. 
+    I'm drawn to complex systems emerging from simple rulesets in Grand Strategy and City-building games, optimizing virtual communities and logistics networks.
     My approach combines careful resource management with creative urban design.
   icons:
     Steam:
