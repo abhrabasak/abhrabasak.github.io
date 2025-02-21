@@ -1,0 +1,138 @@
+Frontend Frameworks:
+  - name: HTML5
+    link: http://html5.org
+    icon: plasticine/100/html-5
+  - name: NodeJS
+    link: http://nodejs.org
+    icon: color/100/nodejs
+  - name: TypeScript
+    link: http://www.typescriptlang.org
+    icon: fluency/100/typescript--v1
+  - name: React
+    link: http://react.dev
+    icon: plasticine/100/react
+  - name: Redux
+    link: http://redux.js.org
+    icon: color/100/redux
+  - name: JQuery
+    link: http://jquery.com
+    icon: external-tal-revivo-shadow-tal-revivo/100/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo
+
+UI Frameworks:
+  - name: CSS3
+    link: http://www.w3.org/Style/CSS/Overview.en.html
+    icon: plasticine/100/css3
+  - name: Sass
+    link: http://sass-lang.com
+    icon: color/100/sass
+  - name: Bootstrap
+    link: http://getbootstrap.com
+    icon: color-glass/100/bootstrap
+  - name: Tailwind
+    link: http://tailwindcss.com
+    icon: color/100/tailwindcss
+
+Backend Frameworks:
+  - name: ASP.NET
+    link: http://microsoft.com/net
+    icon: color/100/net-framework
+  - name: Rails
+    link: http://rubyonrails.org
+    icon: office/100/ruby-programming-language
+  - name: Codeigniter
+    link: http://codeigniter.com/
+    icon: external-tal-revivo-shadow-tal-revivo/100/external-codeigniter-is-an-open-source-software-rapid-development-web-framework-logo-shadow-tal-revivo
+  - name: SQL
+    link: http://www.iso.org/iso/home/standards/iso-standard.htm
+    icon: external-flaticons-lineal-color-flat-icons/100/external-sql-mobile-app-development-flaticons-lineal-color-flat-icons
+
+Artificial Intelligence:
+  - name: TensorFlow
+    link: http://tensorflow.org
+    icon: color/100/tensorflow
+  - name: Keras
+    link: http://keras.io
+    icon: material/100/keras
+  - name: PyTorch
+    link: http://pytorch.org
+    icon: arcade/100/pytorch
+  - name: Numpy
+    link: http://numpy.org
+    icon: color/100/numpy
+  - name: Pandas
+    link: http://pandas.pydata.org
+    icon: color/100/pandas
+  - name: OpenCV
+    link: http://opencv.org
+    icon: fluency/100/opencv
+
+Programming Languages:
+  - name: C#.NET
+    link: http://microsoft.com/net
+    icon: plasticine/100/c-sharp-logo
+  - name: JavaScript
+    link: http://www.ecma-international.org/ecma-262/6.0/
+    icon: fluency/100/javascript
+  - name: Ruby
+    link: http://ruby-lang.org
+    icon: plasticine/100/ruby-programming-language
+  - name: Go
+    link: http://golang.org
+    icon: color/100/golang
+  - name: Python
+    link: http://python.org
+    icon: plasticine/100/python
+  - name: PHP
+    link: http://php.net
+    icon: officel/100/php-logo
+  - name: C++
+    link: http://isocpp.org
+    icon: color/100/c-plus-plus-logo
+
+Business Intelligence:
+  - name: PowerBI
+    link: https://powerbi.microsoft.com/
+    icon: color/100/power-bi
+  - name: MSFabric
+    link: https://docs.microsoft.com/en-us/dax/
+    icon: officel/100/microsoft-power-apps
+  - name: SQL
+    link: http://www.iso.org/iso/home/standards/iso-standard.htm
+    icon: color/100/microsoft-sql-server
+  - name: Spark
+    link: http://spark.apache.org
+    icon: color/100/apache-spark
+
+Cloud Infrastructure:
+  - name: Azure
+    link: http://azure.microsoft.com
+    icon: fluency/100/azure-1
+  - name: Docker
+    link: http://docker.com
+    icon: color/100/docker
+  - name: Kubernetes
+    link: http://kubernetes.io
+    icon: color/100/kubernetes
+  - name: AzureDevOps
+    link: https://azure.microsoft.com/en-us/products/devops
+    icon: external-tal-revivo-shadow-tal-revivo/100/external-development-experience-through-the-native-integrations-of-azure-with-visual-studio-logo-shadow-tal-revivo
+
+Development Tools:
+  - name: VisualStudio
+    link: https://visualstudio.microsoft.com/
+    icon: fluency/100/visual-studio
+  - name: VSCode
+    link: https://code.visualstudio.com/
+    icon: color/100/visual-studio-code-2019
+  - name: PowerShell
+    link: http://microsoft.com/powershell
+    icon: fluency/100/powershell
+  - name: Postman
+    link: https://www.postman.com/
+    icon: external-tal-revivo-color-tal-revivo/100/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo
+  - name: Git
+    link: https://git-scm.com/
+    icon: color/100/git
+  - name: Figma
+    link: https://www.figma.com/
+    icon: officel/100/figma
