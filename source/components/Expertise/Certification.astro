@@ -5,19 +5,20 @@ import { dataMap } from "../../library/collections.ts";
 const certifications = await dataMap<Provider>("certifications");
 ---
 
-<section>
+<section class="certifications">
   <h4>Certifications</h4>
   <article>
     {
-      Array.from(certifications).map(([id, ct]) => (
-        <div>
-          <h5>{id}</h5>
-          {ct.courses &&
-            ct.courses
-              .filter((cr) => !!cr.issue || !!cr.date)
-              .map((cr) => <p>{cr.name}</p>)}
-        </div>
-      ))
+      Array.from(certifications).map(([id, ct]) =>
+        ct.courses
+          ?.filter((cr) => !!cr.issue || !!cr.date)
+          ?.map((cr) => (
+            <div class="cert-issue">
+              <a href={`${ct.prefix}${cr.issue}`}>{cr.short ?? cr.name}</a>
+              <span>{id}</span>
+            </div>
+          ))
+      )
     }
   </article>
 </section>

@@ -2,6 +2,7 @@
 import SkillDomain from "./SkillDomain.astro";
 import Icons8 from "../../icons/icons8/Icons8.astro";
 import HorizontalRule from "../Html/HorizontalRule.astro";
+import Certification from "./Certification.astro";
 import type { HyperIcon, ProfileIcon } from "./HyperIcon";
 
 import "./expertise.scss";
@@ -34,5 +35,6 @@ const domains = domainsYaml as Record<string, HyperIcon[]>;
       ))
     }
   </section>
-  <!-- <section class="certifications"></section> -->
+  <HorizontalRule />
+  <Certification />
 </main>

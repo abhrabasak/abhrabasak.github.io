@@ -3,6 +3,7 @@ import { z } from "astro:content";
 export interface CertifiedCourse {
   name: string;
   slug: string;
+  short?: string;
   issue?: string;
   date?: Date;
 }
@@ -19,6 +20,7 @@ export const zs = z.object({
   courses: z.object({
     slug: z.string(),
     name: z.string(),
+    short: z.string().optional(),
     issue: z.string().optional(),
     date: z.date().min(new Date("2010-08-01")).optional(),
   }).array().optional(),

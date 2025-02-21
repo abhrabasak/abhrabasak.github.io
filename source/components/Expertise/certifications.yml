@@ -4,14 +4,17 @@ Udemy:
   courses:
     - slug: master-electron
       name: "Master Electron: Desktop Apps with HTML, JavaScript & CSS"
+      short: "Master Electron: Desktop Apps"
       issue: UC-88f86f34-2749-473c-ba60-f82aae7ed678
       date: 2021-01-19
     - slug: react-the-complete-guide-incl-redux
       name: "React - The Complete Guide 2025 (incl. Next.js, Redux)"
+      short: "React - The Complete Guide"
       issue: UC-213417cc-c685-40fd-90ca-b45a17a81d91
       date: 2020-12-01
     - slug: advanced-css-and-sass
       name: "Advanced CSS and Sass: Flexbox, Grid, Animations and More!"
+      short: "Advanced CSS and Sass"
       issue: UC-90f30d68-b036-41c1-ae28-08283126402d
       date: 2020-12-06
     - slug: complete-web-designer-mobile-designer-zero-to-mastery
@@ -90,6 +93,7 @@ Coursera:
   courses:
     - slug: learn/bigdata-analytics
       name: "Introduction to Big Data Analytics (2015)"
+      short: "Big Data Analytics"
       issue: "M6H69QZMJDYP"
       date: 2021-01-26
     - slug: learn/hadoop
@@ -153,12 +157,14 @@ Pluralsight:
       date: 2019-02-01
     - slug: https://app.pluralsight.com/paths/certificate/microsoft-azure-developer-core-solutions-az-200
       name: "Microsoft Azure Developer Core Solutions (AZ-200)"
+      short: "Microsoft Azure Developer Core Solutions"
       date: 2019-04-01
     - slug: https://app.pluralsight.com/paths/skills/microsoft-azure-compute-for-developers
       name: "Microsoft Azure Compute for Developers"
       date: 2019-04-01
     - slug: https://app.pluralsight.com/paths/certificate/microsoft-azure-developer-advanced-solutions-az-201
       name: "Microsoft Azure Developer Advanced Solutions (AZ-201)"
+      short: "Microsoft Azure Developer Advanced Solutions"
       date: 2019-05-01
     - slug: https://app.pluralsight.com/paths/skills/entity-framework-core
       name: "Entity Framework Core"
@@ -168,6 +174,7 @@ Pluralsight:
       date: 2019-05-01
     - slug: https://app.pluralsight.com/paths/skills/monitoring-and-troubleshooting-code-on-microsoft-azure
       name: "Monitoring and Troubleshooting Code on Microsoft Azure"
+      short: "Monitoring on Microsoft Azure"
       date: 2019-06-01
     - slug: https://app.pluralsight.com/paths/skills/design-patterns-in-c
       name: "Design Patterns in C#"
@@ -201,15 +208,18 @@ Pluralsight:
       date: 2020-11-01
     - slug: https://app.pluralsight.com/paths/skills/securing-applications-and-apis-with-the-microsoft-identity-platform
       name: "Securing Applications and APIs with the Microsoft Identity Platform"
+      short: "Microsoft Identity Platform"
       date: 2020-11-01
     - slug: https://www.pluralsight.com/paths/building-web-applications-with-react
       name: "Building Web Applications with React"
       date: 2020-11-01
     - slug: https://app.pluralsight.com/paths/certificate/microsoft-power-platform-fundamentals-pl-900
       name: "Microsoft Power Platform Fundamentals (PL-900)"
+      short: "Microsoft Power Platform Fundamentals"
       date: 2021-01-01
     - slug: https://app.pluralsight.com/paths/certificate/ms-900-microsoft-365-fundamentals
       name: "Microsoft 365 Fundamentals (MS-900)"
+      short: "Microsoft 365 Fundamentals"
       date: 2021-01-01
 Microsoft:
   courses:
@@ -235,6 +245,7 @@ IBM:
   courses:
     - slug: db2 # TODO: Find link
       name: "Academic Associate: DB2 Database and Application Fundamentals"
+      short: "DB2 Database and Application Fundamentals"
       issue: "#" # TODO: File Upload
       date: 2012-11-01
 EdX:

@@ -10,6 +10,7 @@ $category-basis: 420px;
 }
 .skills-categories {
   @include flex-wrap-center;
+  padding: 1rem;
   gap: 1rem;
   > * {
     flex-basis: $category-basis;
@@ -18,7 +19,7 @@ $category-basis: 420px;
 .domain-card {
   @include card-z;
   padding: 0.5rem;
-  h4 {
+  h5 {
     text-align: center;
   }
 }
@@ -39,6 +40,29 @@ $category-basis: 420px;
     margin-right: 5px;
   }
   .skill-name {
-    color: white;
+    color: #999;
+  }
+}
+.certifications {
+  padding: 1rem;
+  h4 {
+    text-align: center;
+  }
+  article {
+    @include flex-wrap-center;
+    gap: 0.5rem;
+    > * {
+      width: calc(100% / 4); // TODO @media
+    }
+  }
+  .cert-issue {
+    @include card-z;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    span {
+      font-size: 0.7rem;
+      color: #999;
+    }
   }
 }
