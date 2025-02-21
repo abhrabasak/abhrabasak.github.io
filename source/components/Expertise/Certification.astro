@@ -1,0 +1,23 @@
+---
+import type { Provider } from "./Certification.ts";
+import { dataMap } from "../../library/collections.ts";
+
+const certifications = await dataMap<Provider>("certifications");
+---
+
+<section>
+  <h4>Certifications</h4>
+  <article>
+    {
+      Array.from(certifications).map(([id, ct]) => (
+        <div>
+          <h5>{id}</h5>
+          {ct.courses &&
+            ct.courses
+              .filter((cr) => !!cr.issue || !!cr.date)
+              .map((cr) => <p>{cr.name}</p>)}
+        </div>
+      ))
+    }
+  </article>
+</section>
