@@ -3,10 +3,12 @@ import ProjectCard from "./ProjectCard.astro";
 import ExperienceCard from "./ExperienceCard.astro";
 import HorizontalRule from "../Html/HorizontalRule.astro";
 import type { Project } from "./Project";
+import type { Experience } from "./Experience";
 import projectsYaml from "./projects.yml";
-import workexp from "./work-experience.json";
+import workexpYaml from "./work-experience.yml";
 import "./experience.scss";
 const projects = projectsYaml as { [key: string]: Project };
+const workexp = workexpYaml as Experience[];
 ---
 
 <main class="projects view">
