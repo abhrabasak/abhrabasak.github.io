@@ -33,10 +33,16 @@ $services-basis: 270px;
   h4 {
     text-align: center;
   }
-  label {
+  .contact-address {
     display: grid;
-    grid: 1fr / 1fr 4fr;
-    margin-bottom: 0.2rem;
+    grid: 1fr 1fr / 1fr 1fr;
+    gap: 0 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .contact-message {
+    display: grid;
+    grid: 1fr 5fr / 1fr 4fr;
+    gap: 0.25rem 0;
   }
   input,
   textarea,
@@ -51,7 +57,7 @@ $services-basis: 270px;
   }
   button {
     cursor: pointer;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     padding: 0.5rem;
   }
 }
