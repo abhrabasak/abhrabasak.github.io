@@ -1,6 +1,11 @@
 @use "$styles/base" as *;
 
 $card-basis: 530px; // TODO @media
+@mixin supress {
+  font-size: 0.7rem;
+  color: #999;
+}
+
 .projects {
   @include flex-column-evenly;
   align-items: center;
@@ -29,14 +34,16 @@ $card-basis: 530px; // TODO @media
   padding: 1rem;
   display: grid;
   grid:
-    "icon comp date" 1fr
-    "icon proj posn" 1fr
-    "icon desc desc" 1fr
+    "icon comp comp date" 1fr
+    "icon posn proj proj" 1fr
+    "icon desc desc desc" 1fr
     / 1fr 6fr 5fr;
   .company-icons {
     grid-area: icon;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 0.5rem;
   }
   .company {
     grid-area: comp;
@@ -50,6 +57,12 @@ $card-basis: 530px; // TODO @media
   }
   .project {
     grid-area: proj;
+    text-align: right;
+  }
+  .position,
+  .date,
+  .project {
+    @include supress;
   }
   .description {
     grid-area: desc;
@@ -68,7 +81,7 @@ $card-basis: 530px; // TODO @media
   display: grid;
   grid:
     "icon url url url" 1fr
-    "icon syn syn syn" 1fr
+    "icon syn syn syn" 0.5fr
     "year tech tech ." 1fr
     / 1.5fr 8fr 2fr;
   margin-bottom: 10px;
@@ -91,5 +104,10 @@ $card-basis: 530px; // TODO @media
   .year {
     grid-area: year;
     text-align: center;
+  }
+  .synopsis,
+  .tech,
+  .year {
+    @include supress;
   }
 }

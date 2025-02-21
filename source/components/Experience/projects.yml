@@ -27,7 +27,7 @@ iit-hci-usability:
 
 iit-btp-hazelward:
   enabled: true
-  name: Hazelward - High Performance Computational Intelligence Framework
+  name: Hazelward - High Performance Computational Intelligence
   icon: fluency/50/video-card
   occupation: IIT Mandi
   year: 2013-14
