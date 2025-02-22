@@ -41,13 +41,7 @@ const csArea = Array.from(certifications)
           <h5>{cAreas[area].name}</h5>
           <article class="cert-list">
             {certs.map((cr) => (
-              <Icons8 
-                iconName={cr.icon}
-                link={cr.verify}
-                site={cr.name}/>
-              // <a href={cr.verify}>
-              //   {cr.provider.substring(0, 1).toUpperCase()}
-              // </a>
+              <Icons8 iconName={cr.icon} link={cr.verify} site={cr.name} />
             ))}
           </article>
         </div>
