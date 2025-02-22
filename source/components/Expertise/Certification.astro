@@ -1,24 +1,56 @@
 ---
-import type { Provider } from "./Certification.ts";
+import type {
+  Provider,
+  CertifiedCourse,
+  WithProvider,
+} from "./Certification.ts";
 import { dataMap } from "../../library/collections.ts";
+import certTags from "./cert-tags.yml";
 
 const certifications = await dataMap<Provider>("certifications");
+
+type CCWP = CertifiedCourse & WithProvider;
+const certsByTag = Array.from(certifications)
+  .flatMap(([id, ct]) =>
+    ct.courses
+      ?.filter((cr) => certTags[cr.tag].display && (!!cr.issue || !!cr.date))
+      ?.map(
+        (cr) =>
+          ({
+            ...cr,
+            provider: id.toLowerCase(),
+            link: `${ct.prefix ?? ""}${cr.slug}`,
+            verify: !!cr.issue
+              ? `${ct.verify ?? ""}${cr.issue}`
+              : `${ct.prefix ?? ""}${cr.slug}`,
+          }) as CCWP
+      )
+  )
+  .reduce(
+    (a, cr) => {
+      (a[cr.tag] ??= []).push(cr);
+      return a;
+    },
+    {} as Record<string, CCWP[]>
+  );
 ---
 
 <section class="certifications">
   <h4>Certifications</h4>
-  <article>
+  <article class="cert-area-list">
     {
-      Array.from(certifications).map(([id, ct]) =>
-        ct.courses
-          ?.filter((cr) => !!cr.issue || !!cr.date)
-          ?.map((cr) => (
-            <div class="cert-issue">
-              <a href={`${ct.prefix}${cr.issue}`}>{cr.short ?? cr.name}</a>
-              <span>{id}</span>
-            </div>
-          ))
-      )
+      Object.entries(certsByTag).map(([tag, certs]) => (
+        <div class="cert-area">
+          <h5>{certTags[tag].name}</h5>
+          <article class="cert-list">
+            {certs.map((cr) => (
+              <a href={cr.verify}>
+                {cr.provider.substring(0, 1).toUpperCase()}
+              </a>
+            ))}
+          </article>
+        </div>
+      ))
     }
   </article>
 </section>

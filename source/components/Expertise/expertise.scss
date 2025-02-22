@@ -44,25 +44,30 @@ $category-basis: 420px;
   }
 }
 .certifications {
-  padding: 1rem;
+  padding-top: 1rem;
   h4 {
     text-align: center;
   }
-  article {
+  .cert-area-list {
     @include flex-wrap-center;
-    gap: 0.5rem;
+    gap: 1rem;
     > * {
       width: calc(100% / 4); // TODO @media
     }
   }
-  .cert-issue {
-    @include card-z;
-    display: flex;
-    flex-direction: column;
-    padding: 0.5rem;
-    span {
-      font-size: 0.7rem;
-      color: #999;
-    }
+}
+.cert-area {
+  @include card-z;
+  padding: 0.5rem;
+  h5 {
+    text-align: center;
+  }
+}
+.cert-list{
+  @include flex-wrap-center;
+  > * {
+    width: calc(100% / 14); // TODO @media
+    text-align: center;
+    font-size: 0.7rem;
   }
 }

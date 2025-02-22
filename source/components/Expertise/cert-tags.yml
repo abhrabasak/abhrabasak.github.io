@@ -1,0 +1,34 @@
+webapp:
+  display: true
+  name: Web App Development
+azure:
+  display: true
+  name: Microsoft Azure
+uxdesign:
+  display: true
+  name: UX Design
+datascience:
+  display: true
+  name: Data Science
+architecture:
+  display: true
+  name: Architecture
+genai:
+  display: true
+  name: Generative AI
+language:
+  display: true
+  name: Programming Languages
+msstack:
+  display: true
+  name: Microsoft Stack
+mobile:
+  display: false
+gamedev:
+  display: false
+cse:
+  display: false
+career:
+  display: false
+database:
+  display: false
