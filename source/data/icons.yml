@@ -1,63 +1,66 @@
 ---
 home:
-- Facebook
-- Instagram
-- LinkedIn
-- Quora
-- Twitter
-- Reddit
+  - Facebook
+  - Instagram
+  - LinkedIn
+  - Quora
+  - Twitter
+  - Reddit
 
 social:
-- Twitter
-- Facebook
-- Reddit
-- Instagram
-- LinkedIn
-- Discord
+  - Twitter
+  - Facebook
+  - Reddit
+  - Instagram
+  - LinkedIn
+  - Discord
 
 comms:
-- Skype
-- Zoom
-- Google Meet
-- Meetup
-- Eventbrite
+  - Skype
+  - Zoom
+  - Google Meet
+  - Meetup
+  - Eventbrite
 
 coding:
-- GitHub
-- CodePen
-- Dev.to / https://dev.to/abhrabasak
-- Stack Overflow
-- GitLab
-- Bitbucket
-- Kaggle
-- HackerRank
-- LeetCode
+  - GitHub
+  - CodePen
+  - Dev.to / https://dev.to/abhrabasak
+  - Stack Overflow
+  - GitLab
+  - Bitbucket
+  - Kaggle
+  - HackerRank
+  - LeetCode
 
 pay:
-- Patreon
-- Ko-fi
-- PayPal
-- Venmo
-- Cash App
+  - Patreon
+  - Ko-fi
+  - PayPal
+  - Venmo
+  - Cash App
 
 content:
-- Quora
-- Behance
-- Twitch
-- YouTube
-- SoundCloud
-- Spotify
+  - Quora
+  - Behance
+  - Twitch
+  - YouTube
+  - SoundCloud
+  - Spotify
 
 blog:
-- Medium
-- Substack
+  - Medium
+  - Substack
 
 Sources:
-https://phosphoricons.com
-https://devicon.dev/
-https://www.freepik.com
-https://boxicons.com
-https://zurb.com/playground/foundation-icon-fonts-3
-https://fontawesome.com
-https://simpleicons.org/
-https://www.flaticon.com
+  - https://phosphoricons.com
+  - https://devicon.dev/
+  - https://www.freepik.com
+  - https://boxicons.com
+  - https://zurb.com/playground/foundation-icon-fonts-3
+  - https://fontawesome.com
+  - https://simpleicons.org/
+  - https://www.flaticon.com
+  - https://shields.io/badges/static-badge
+
+  - https://github.com/scriptex/atanas.info/tree/master/src/svg

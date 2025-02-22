@@ -3,13 +3,15 @@ import SkillDomain from "./SkillDomain.astro";
 import Icons8 from "../../icons/icons8/Icons8.astro";
 import HorizontalRule from "../Html/HorizontalRule.astro";
 import Certification from "./Certification.astro";
-import type { HyperIcon, ProfileIcon } from "./HyperIcon";
+import type { HyperIcon as H } from "../../library/hyper-icon.ts";
 
 import "./expertise.scss";
-import profilesYaml from "./dev-profiles.yml";
-const profiles = profilesYaml as ProfileIcon[];
-import domainsYaml from "./dev-skills.yml";
-const domains = domainsYaml as Record<string, HyperIcon[]>;
+import icy from "../../icons/hyper.yml";
+const icons = icy as Record<string, H>;
+import dpy from "./dev-profiles.yml";
+const profiles = dpy as string[];
+import dsy from "./dev-skills.yml";
+const domains = dsy as Record<string, string[]>;
 ---
 
 <main class="code view">
@@ -21,8 +23,12 @@ const domains = domainsYaml as Record<string, HyperIcon[]>;
     </p>
     <div class="dev-profiles">
       {
-        profiles.map((icon) => (
-          <Icons8 iconName={icon.icon} link={icon.profile} site={icon.name} />
+        profiles.map((p) => (
+          <Icons8
+            iconName={icons[p].icon.split("::")[1]}
+            link={icons[p].url}
+            site={icons[p].name}
+          />
         ))
       }
     </div>
@@ -30,9 +36,12 @@ const domains = domainsYaml as Record<string, HyperIcon[]>;
   <HorizontalRule />
   <section class="skills-categories">
     {
-      Object.entries(domains).map(([title, skills]) => (
-        <SkillDomain title={title} skills={skills} />
-      ))
+      Object.entries(domains).map(
+        ([title, skills]) =>
+          !title.startsWith("_") && (
+            <SkillDomain title={title} skills={skills} />
+          )
+      )
     }
   </section>
   <HorizontalRule />

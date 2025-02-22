@@ -1,0 +1,268 @@
+# dev-skills
+html5:
+  name: HTML5
+  icon: icons8::plasticine/100/html-5
+  url: html5.org
+  url2: www.w3.org/TR/html5/
+nodejs:
+  name: NodeJS
+  icon: icons8::color/100/nodejs
+  url: nodejs.org
+ts:
+  name: TypeScript
+  icon: icons8::fluency/100/typescript--v1
+  url: www.typescriptlang.org
+react:
+  name: React
+  icon: icons8::plasticine/100/react
+  url: react.dev
+redux:
+  name: Redux
+  icon: icons8::color/100/redux
+  url: redux.js.org
+jquery:
+  name: jQuery
+  icon: icons8::external-tal-revivo-shadow-tal-revivo/100/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo
+  url: jquery.com
+css3:
+  name: CSS3
+  icon: icons8::plasticine/100/css3
+  url: www.w3.org/Style/CSS
+sass:
+  name: Sass
+  icon: icons8::color/100/sass
+  url: sass-lang.com
+twbs:
+  name: Bootstrap
+  icon: icons8::color-glass/100/bootstrap
+  url: getbootstrap.com
+twcss:
+  name: Tailwind
+  icon: icons8::color/100/tailwindcss
+  url: tailwindcss.com
+zf:
+  name: Foundation
+  icon: icons8::color/100/foundation
+  url: get.foundation
+aspnet:
+  name: ASP.NET
+  icon: icons8::color/100/net-framework
+  url: dotnet.microsoft.com/apps/aspnet
+rails:
+  name: Rails
+  icon: icons8::office/100/ruby-programming-language
+  url: rubyonrails.org
+codeigniter:
+  name: CodeIgniter
+  icon: icons8::external-tal-revivo-shadow-tal-revivo/100/external-codeigniter-is-an-open-source-software-rapid-development-web-framework-logo-shadow-tal-revivo
+  url: codeigniter.com
+sql:
+  name: SQL
+  icon: icons8::external-flaticons-lineal-color-flat-icons/100/external-sql-mobile-app-development-flaticons-lineal-color-flat-icons
+  url: en.wikipedia.org/wiki/SQL
+tf:
+  name: TensorFlow
+  icon: icons8::color/100/tensorflow
+  url: tensorflow.org
+keras:
+  name: Keras
+  icon: icons8::material/100/keras
+  url: keras.io
+pytorch:
+  name: PyTorch
+  icon: icons8::color/100/pytorch
+  url: pytorch.org
+numpy:
+  name: NumPy
+  icon: icons8::color/100/numpy
+  url: numpy.org
+scipy:
+  name: SciPy
+  icon:
+  url: scipy.org
+pandas:
+  name: Pandas
+  icon: icons8::color/100/pandas
+  url: pandas.pydata.org
+sklearn:
+  name: scikit-learn
+  icon:
+  url: scikit-learn.org
+skimage:
+  name: scikit-image
+  icon:
+  url: scikit-image.org
+opencv:
+  name: OpenCV
+  icon: icons8::fluency/100/opencv
+  url: opencv.org
+csharp:
+  name: C#
+  icon: icons8::plasticine/100/c-sharp-logo
+  url: dotnet.microsoft.com/csharp
+js:
+  name: JavaScript
+  icon: icons8::fluency/100/javascript
+  url: javascript.info
+ruby:
+  name: Ruby
+  icon: icons8::plasticine/100/ruby-programming-language
+  url: ruby-lang.org
+golang:
+  name: Go
+  icon: icons8::color/100/golang
+  url: golang.org
+python:
+  name: Python
+  icon: icons8::plasticine/100/python
+  url: python.org
+php:
+  name: PHP
+  icon: icons8::officel/100/php-logo
+  url: php.net
+cpp:
+  name: C++
+  icon: icons8::color/100/c-plus-plus-logo
+  url: isocpp.org
+powerbi:
+  name: PowerBI
+  icon: icons8::color/100/power-bi
+  url: microsoft.com/powerbi
+msfabric:
+  name: Fabric
+  icon: icons8::officel/100/microsoft-power-apps
+  url: microsoft.com/fabric
+mssql:
+  name: SQLServer
+  icon: icons8::color/100/microsoft-sql-server
+  url: microsoft.com/sql-server
+spark:
+  name: Spark
+  icon: icons8::color/100/apache-spark
+  url: spark.apache.org
+azure:
+  name: Azure
+  icon: icons8::fluency/100/azure-1
+  url: azure.microsoft.com
+docker:
+  name: Docker
+  icon: icons8::color/100/docker
+  url: docker.com
+k8s:
+  name: Kubernetes
+  icon: icons8::color/100/kubernetes
+  url: kubernetes.io
+vercel:
+  name: Vercel
+  icon: icons8::color/100/vercel
+  url: vercel.com
+ado:
+  name: AzureDevOps
+  icon: icons8::external-tal-revivo-shadow-tal-revivo/100/external-development-experience-through-the-native-integrations-of-azure-with-visual-studio-logo-shadow-tal-revivo
+  url: azure.microsoft.com/products/devops
+vs:
+  name: VisualStudio
+  icon: icons8::fluency/100/visual-studio
+  url: visualstudio.microsoft.com
+vscode:
+  name: VSCode
+  icon: icons8::color/100/visual-studio-code-2019
+  url: code.visualstudio.com
+ps:
+  name: PowerShell
+  icon: icons8::fluency/100/powershell
+  url: microsoft.com/powershell
+postman:
+  name: Postman
+  icon: icons8::external-tal-revivo-color-tal-revivo/100/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo
+  url: postman.com
+git:
+  name: Git
+  icon: icons8::color/100/git
+  url: git-scm.com
+figma:
+  name: Figma
+  icon: icons8::officel/100/figma
+  url: figma.com
+mongodb:
+  name: MongoDB
+  icon: icons8::color/100/mongodb
+  url: mongodb.com
+redis:
+  name: Redis
+  icon: icons8::color/100/redis
+  url: redis.io
+pgsql:
+  name: PostgreSQL
+  icon: icons8::color/100/postgresql
+  url: postgresql.org
+mysql:
+  name: MySQL
+  icon: icons8::color/100/mysql
+  url: mysql.com
+wp:
+  name: WordPress
+  icon: icons8::color/100/wordpress
+  url: wordpress.org
+drupal:
+  name: Drupal
+  icon: icons8::color/100/drupal
+  url: drupal.org
+joomla:
+  name: Joomla
+  icon: icons8::color/100/joomla
+  url: joomla.org
+# dev-profiles
+github:
+  name: GitHub
+  icon: icons8::plasticine/50/github
+  url: github.com/abhrabasak
+bitbucket:
+  name: BitBucket
+  icon: icons8::color/50/bitbucket
+  url: bitbucket.org/abhrabasak
+codepen:
+  name: CodePen
+  icon: icons8::fluency/50/codepen
+  url: codepen.io/abhrabasak
+gitlab:
+  name: Gitlab
+  icon: icons8::doodle/50/gitlab
+  url: gitlab.com/abhrabasak
+kaggle:
+  name: Kaggle
+  icon: icons8::bubbles/50/kaggle
+  url: kaggle.com/abhrabasak
+stackoverflow:
+  name: StackOverflow
+  icon: icons8::color/50/stackoverflow
+  url: stackoverflow.com/users/1090241/abhra-basak
+# certifications
+udemy:
+  name: Udemy
+  icon: icons8::color/50/udemy
+  url: udemy.com
+lilearn:
+  name: LinkedIn Learning
+  icon: icons8::color/50/linkedin
+  url: linkedin.com/learning
+coursera:
+  name: Coursera
+  icon: icons8::ultraviolet/50/coursera
+  url: coursera.org
+pluralsight:
+  name: Pluralsight
+  icon: external-tal-revivo-color-tal-revivo/50/external-pluralsight-an-american-publicly-held-online-education-company-offers-a-variety-of-video-training-courses-for-software-developers-logo-color-tal-revivo
+  url: pluralsight.com
+edx:
+  name: edX
+  icon:
+  url: edx.org
+duolingo:
+  name: Duolingo
+  icon:
+  url: duolingo.com
+udacity:
+  name: Udacity
+  icon:
+  url: udacity.com
