@@ -63,11 +63,10 @@ $category-basis: 420px;
     text-align: center;
   }
 }
-.cert-list{
+.cert-list {
   @include flex-wrap-center;
+  gap: 0.2rem;
   > * {
-    width: calc(100% / 14); // TODO @media
-    text-align: center;
-    font-size: 0.7rem;
+    width: calc(100% / 20); // TODO @media
   }
 }

@@ -1,37 +1,34 @@
 ---
-import type {
-  Provider,
-  CertifiedCourse,
-  WithProvider,
-} from "./Certification.ts";
+import type { Provider, LinkedCourse } from "./Certification.ts";
 import { dataMap } from "../../library/collections.ts";
-import certTags from "./cert-tags.yml";
+import cAreas from "./cert-areas.yml";
+import Icons8 from "../../icons/icons8/Icons8.astro";
 
 const certifications = await dataMap<Provider>("certifications");
 
-type CCWP = CertifiedCourse & WithProvider;
-const certsByTag = Array.from(certifications)
+const csArea = Array.from(certifications)
   .flatMap(([id, ct]) =>
     ct.courses
-      ?.filter((cr) => certTags[cr.tag].display && (!!cr.issue || !!cr.date))
+      ?.filter((cr) => cAreas[cr.area].display && (!!cr.issue || !!cr.date))
       ?.map(
         (cr) =>
           ({
             ...cr,
             provider: id.toLowerCase(),
+            icon: ct.icon,
             link: `${ct.prefix ?? ""}${cr.slug}`,
             verify: !!cr.issue
               ? `${ct.verify ?? ""}${cr.issue}`
               : `${ct.prefix ?? ""}${cr.slug}`,
-          }) as CCWP
+          }) as LinkedCourse
       )
   )
   .reduce(
     (a, cr) => {
-      (a[cr.tag] ??= []).push(cr);
+      (a[cr.area] ??= []).push(cr);
       return a;
     },
-    {} as Record<string, CCWP[]>
+    {} as Record<string, LinkedCourse[]>
   );
 ---
 
@@ -39,14 +36,18 @@ const certsByTag = Array.from(certifications)
   <h4>Certifications</h4>
   <article class="cert-area-list">
     {
-      Object.entries(certsByTag).map(([tag, certs]) => (
+      Object.entries(csArea).map(([area, certs]) => (
         <div class="cert-area">
-          <h5>{certTags[tag].name}</h5>
+          <h5>{cAreas[area].name}</h5>
           <article class="cert-list">
             {certs.map((cr) => (
-              <a href={cr.verify}>
-                {cr.provider.substring(0, 1).toUpperCase()}
-              </a>
+              <Icons8 
+                iconName={cr.icon}
+                link={cr.verify}
+                site={cr.name}/>
+              // <a href={cr.verify}>
+              //   {cr.provider.substring(0, 1).toUpperCase()}
+              // </a>
             ))}
           </article>
         </div>

@@ -3,319 +3,325 @@
 Udemy:
   prefix: "https://www.udemy.com/course/"
   verify: "https://www.udemy.com/certificate/"
+  icon: color/50/udemy
   courses:
     - slug: master-electron
-      tag: mobile
+      area: mobile
       name: "Master Electron: Desktop Apps with HTML, JavaScript & CSS"
       short: "Master Electron: Desktop Apps"
       issue: UC-88f86f34-2749-473c-ba60-f82aae7ed678
       date: 2021-01-19
     - slug: react-the-complete-guide-incl-redux
-      tag: webapp
+      area: webapp
       name: "React - The Complete Guide 2025 (incl. Next.js, Redux)"
       short: "React - The Complete Guide"
       issue: UC-213417cc-c685-40fd-90ca-b45a17a81d91
       date: 2020-12-01
     - slug: advanced-css-and-sass
-      tag: webapp
+      area: webapp
       name: "Advanced CSS and Sass: Flexbox, Grid, Animations and More!"
       short: "Advanced CSS and Sass"
       issue: UC-90f30d68-b036-41c1-ae28-08283126402d
       date: 2020-12-06
     - slug: complete-web-designer-mobile-designer-zero-to-mastery
-      tag: webapp
+      area: webapp
       name: "Complete Web & Mobile Designer: UI/UX, Figma, +more"
     - slug: typescript-the-complete-developers-guide
-      tag: language
+      area: language
       name: "TypeScript: The Complete Developer's Guide"
     - slug: ios-13-app-development-bootcamp
-      tag: mobile
+      area: mobile
       name: "iOS & Swift - The Complete iOS App Development Bootcamp"
     - slug: the-complete-junior-to-senior-web-developer-roadmap
-      tag: career
+      area: career
       name: "Junior to Senior Developer"
     - slug: nodejs-the-complete-guide
-      tag: language
+      area: language
       name: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)"
     - slug: react-redux
-      tag: webapp
+      area: webapp
       name: "Modern React with Redux [2024 Update]"
     - slug: angular-courses-you-need-to-know
-      tag: webapp
+      area: webapp
       name: "Angular 15 Masterclass with TypeScript, Firebase, & Material"
     - slug: the-complete-guide-to-angular-2
-      tag: webapp
+      area: webapp
       name: "Angular - The Complete Guide (2025 Edition)"
     - slug: advanced-javascript-concepts
-      tag: language
+      area: language
       name: "Advanced JavaScript"
     - slug: complete-react-developer-zero-to-mastery
-      tag: webapp
+      area: webapp
       name: "Complete React Developer (w/ Redux, Hooks, GraphQL)"
     - slug: react-native-the-practical-guide
-      tag: mobile
+      area: mobile
       name: "React Native - The Practical Guide [2025]"
     - slug: progressive-web-app-pwa-the-complete-guide
-      tag: architecture
+      area: architecture
       name: "Progressive Web Apps (PWA) - The Complete Guide"
     - slug: android-oreo-kotlin-app-masterclass
-      tag: mobile
+      area: mobile
       name: "Android App Development Masterclass using Kotlin"
     - slug: vuejs-2-the-complete-guide
-      tag: webapp
+      area: webapp
       name: "Vue - The Complete Guide (incl. Router & Composition API)"
 LinkedIn Learning:
   prefix: "https://www.linkedin.com/learning/certificates/" # TODO: Course Prefix
   verify: "https://www.linkedin.com/learning/certificates/"
+  icon: color/50/linkedin
   courses:
     - slug: User Experience Research
-      tag: uxdesign
+      area: uxdesign
       name: "User Experience Research"
       issue: 2dbe337722cc5251974ba278a6d0773e378561af0b12e0ca6e2af2c0979de228?trk=backfilled_certificate
       date: 2018-10-01
     - slug: User Experience Design
-      tag: uxdesign
+      area: uxdesign
       name: "User Experience Design"
       issue: 62f2cd2bb3aeecd713eaa91595ef701f5eea3bd508a02f662dd90d02bd1015a5?trk=backfilled_certificate
       date: 2018-10-01
     - slug: Problem Solving
-      tag: architecture
+      area: architecture
       name: "Problem Solving"
       issue: 230e79f66d57179ab60ced3838cfabbcfb3a48539b7896dbe1c37c3c41440d51?trk=backfilled_certificate
       date: 2018-10-01
     - slug: Interaction Design
-      tag: uxdesign
+      area: uxdesign
       name: "Interaction Design"
       issue: beba5abf96314db4f8d3ba5acddbc67ef177199dd8441085c09e80c7fd00cedb?trk=backfilled_certificate
       date: 2018-10-01
     - slug: Applied Interaction Design
-      tag: uxdesign
+      area: uxdesign
       name: "Applied Interaction Design"
       issue: 22c1c8722bfed4330164e08f53fc6244a2cbe7ea9770e889df6657dd1db50020?trk=backfilled_certificate
       date: 2018-11-01
     - slug: Stay Ahead in Azure Development
-      tag: azure
+      area: azure
       name: "Stay Ahead in Azure Development"
       issue: cbf4b22cbf3af998cfc4325c6a326a3e5aca00f5a9011907aca6237a9b8d325d?trk=backfilled_certificate
       date: 2019-06-01
     - slug: Become an Azure Developer
-      tag: azure
+      area: azure
       name: "Become an Azure Developer"
       issue: c9db818bccf1a30561c009a1aa7eca5516d8feda933d37123c3da0df4caf0478?trk=backfilled_certificate
       date: 2019-06-01
 Interaction Design Foundation:
   prefix: "https://www.interaction-design.org/courses/"
   verify: "https://www.interaction-design.org/members/abhra-basak/certificate/course/"
+  icon: pulsar-color/50/tree
   courses:
     - slug: design-thinking-the-beginner-s-guide
-      tag: uxdesign
+      area: uxdesign
       name: "Design Thinking: The Beginner’s Guide"
       issue: 956f3990-26fd-47ba-adf8-0599b6e021d2
       date: 2024-12-28
     - slug: user-research-methods-and-best-practices
-      tag: uxdesign
+      area: uxdesign
       name: "Interaction Design for Usability"
 Coursera:
   prefix: "https://www.coursera.org/"
   verify: "https://www.coursera.org/account/accomplishments/verify/"
+  icon: ultraviolet/50/coursera
   courses:
     - slug: learn/bigdata-analytics
-      tag: datascience
+      area: datascience
       name: "Introduction to Big Data Analytics (2015)"
       short: "Big Data Analytics"
       issue: "M6H69QZMJDYP"
       date: 2021-01-26
     - slug: learn/hadoop
-      tag: datascience
+      area: datascience
       name: "Hadoop Platform and Application Framework"
       issue: "UA6BGBGK6CBU"
       date: 2021-01-26
     - slug: specializations/applied-crypto
-      tag: cse
+      area: cse
       name: "Applied Cryptography"
       issue: "JVHVDD5GAUWS"
       date: 2021-02-26
     - slug: specializations/microsoft-copilot-for-data-science
-      tag: genai
+      area: genai
       name: "Microsoft Copilot for Data Science"
       issue: "HOX9C1LU6Q0T"
       date: 2025-01-13
     - slug: specializations/introduction-to-generative-ai
-      tag: genai
+      area: genai
       name: "Introduction to Generative AI Learning Path"
       issue: "G1T5CXZRMW9G"
       date: 2025-01-14
     - slug: specializations/microsoft-copilot-for-software-development
-      tag: genai
+      area: genai
       name: "Microsoft Copilot for Software Development"
       issue: "QZ8PIJERCBVV"
       date: 2025-02-02
     - slug: specializations/data-visualization-dv
-      tag: datascience
+      area: datascience
       name: "Data Visualization"
       issue: "UTYYP9FFHYUX"
       date: 2025-02-02
     - slug: specializations/html-css-javascript-for-web-developers
-      tag: webapp
+      area: webapp
       name: "HTML, CSS, and JavaScript for Web Developers"
     - slug: specializations/web-design
-      tag: webapp
+      area: webapp
       name: "Web Design for Everybody: Basics of Web Development & Coding Specialization"
     - slug: specializations/big-data
-      tag: datascience
+      area: datascience
       name: "Big Data Specialization"
     - slug: specializations/data-science-python
-      tag: datascience
+      area: datascience
       name: "Applied Data Science with Python Specialization"
     - slug: specializations/google-golang
-      tag: language
+      area: language
       name: "Programming with Google Go Specialization"
 Pluralsight:
   prefix: "https://app.pluralsight.com/"
   verify: "https://app.pluralsight.com/profile/verify/"
+  icon: external-tal-revivo-color-tal-revivo/50/external-pluralsight-an-american-publicly-held-online-education-company-offers-a-variety-of-video-training-courses-for-software-developers-logo-color-tal-revivo
   courses:
     - slug: unity-game-development-core-skills
-      tag: gamedev
+      area: gamedev
       name: "Unity Game Development Fundamentals"
       date: 2018-09-01
     - slug: microsoft-azure-deployment
-      tag: azure
+      area: azure
       name: "Microsoft Azure Deployment"
       date: 2018-10-01
     - slug: paths/skills/understanding-devops
-      tag: architecture
+      area: architecture
       name: "Understanding DevOps"
       date: 2018-12-01
     - slug: paths/skills/microsoft-azure-for-developers
-      tag: azure
+      area: azure
       name: "Microsoft Azure for Developers"
       date: 2018-12-01
     - slug: paths/skills/designing-microsoft-azure-applications
-      tag: azure
+      area: azure
       name: "Designing Microsoft Azure Applications"
       date: 2019-01-01
     - slug: paths/skills/net-developer-on-microsoft-azure
-      tag: azure
+      area: azure
       name: ".NET Developer on Microsoft Azure"
       date: 2019-01-01
     - slug: paths/skills/microsoft-azure-storage-for-developers
-      tag: azure
+      area: azure
       name: "Microsoft Azure Storage for Developers"
       date: 2019-02-01
     - slug: paths/certificate/microsoft-azure-developer-core-solutions-az-200
-      tag: azure
+      area: azure
       name: "Microsoft Azure Developer Core Solutions (AZ-200)"
       short: "Microsoft Azure Developer Core Solutions"
       date: 2019-04-01
     - slug: paths/skills/microsoft-azure-compute-for-developers
-      tag: azure
+      area: azure
       name: "Microsoft Azure Compute for Developers"
       date: 2019-04-01
     - slug: paths/certificate/microsoft-azure-developer-advanced-solutions-az-201
-      tag: azure
+      area: azure
       name: "Microsoft Azure Developer Advanced Solutions (AZ-201)"
       short: "Microsoft Azure Developer Advanced Solutions"
       date: 2019-05-01
     - slug: paths/skills/entity-framework-core
-      tag: msstack
+      area: msstack
       name: "Entity Framework Core"
       date: 2019-05-01
     - slug: paths/skills/application-development-on-microsoft-azure
-      tag: azure
+      area: azure
       name: "Application Development on Microsoft Azure"
       date: 2019-05-01
     - slug: paths/skills/monitoring-and-troubleshooting-code-on-microsoft-azure
-      tag: azure
+      area: azure
       name: "Monitoring and Troubleshooting Code on Microsoft Azure"
       short: "Monitoring on Microsoft Azure"
       date: 2019-06-01
     - slug: paths/skills/design-patterns-in-c
-      tag: language
+      area: language
       name: "Design Patterns in C#"
       date: 2019-08-01
     - slug: paths/skill/windows-powershell-essentials
-      tag: msstack
+      area: msstack
       name: "Windows PowerShell: Essentials"
       date: 2019-10-01
     - slug: paths/skills/using-kubernetes-as-a-developer
-      tag: architecture
+      area: architecture
       name: "Using Kubernetes as a Developer"
       date: 2020-03-01
     - slug: paths/typescript-core-language
-      tag: language
+      area: language
       name: "TypeScript Core Language"
       date: 2020-03-01
     - slug: paths/microservices-architecture
-      tag: architecture
+      area: architecture
       name: "Microservices Architecture"
       date: 2020-03-01
     - slug: paths/linux-fundamentals
-      tag: cse
+      area: cse
       name: "Linux Fundamentals"
       date: 2020-03-01
     - slug: paths/integration-on-microsoft-azure
-      tag: azure
+      area: azure
       name: "Integration on Microsoft Azure"
       date: 2020-03-01
     - slug: paths/go-core-language
-      tag: language
+      area: language
       name: "Go Core Language"
       date: 2020-03-01
     - slug: paths/skills/ux-research
-      tag: uxdesign
+      area: uxdesign
       name: "UX Research"
       date: 2020-04-01
     - slug: paths/ux-design
-      tag: uxdesign
+      area: uxdesign
       name: "UX Design"
       date: 2020-11-01
     - slug: paths/skills/securing-applications-and-apis-with-the-microsoft-identity-platform
-      tag: msstack
+      area: msstack
       name: "Securing Applications and APIs with the Microsoft Identity Platform"
       short: "Microsoft Identity Platform"
       date: 2020-11-01
     - slug: paths/building-web-applications-with-react
-      tag: webapp
+      area: webapp
       name: "Building Web Applications with React"
       date: 2020-11-01
     - slug: paths/certificate/microsoft-power-platform-fundamentals-pl-900
-      tag: msstack
+      area: msstack
       name: "Microsoft Power Platform Fundamentals (PL-900)"
       short: "Microsoft Power Platform Fundamentals"
       date: 2021-01-01
     - slug: paths/certificate/ms-900-microsoft-365-fundamentals
-      tag: msstack
+      area: msstack
       name: "Microsoft 365 Fundamentals (MS-900)"
       short: "Microsoft 365 Fundamentals"
       date: 2021-01-01
 Microsoft:
+  icon: color/50/microsoft
   courses:
     - slug: Introduction to Artifical Intelligence
-      tag: datascience
+      area: datascience
       name: "Introduction to Artifical Intelligence"
       issue: https://courses.microsoft.com/certificates/add81edc9e7a46659e3070c3252ac43a
       date: 2018-02-01
     - slug: Accessibility in Action
-      tag: uxdesign
+      area: uxdesign
       name: "Accessibility in Action"
       issue: https://www.youracclaim.com/badges/abda35a3-5d27-4680-ac8a-8f2f6414e0aa?source=linked_in_profile
       date: 2020-11-01
     - slug: Exploring Leadership Fall 2024
-      tag: career
+      area: career
       name: "Exploring Leadership Fall 2024"
       issue: https://www.credly.com/badges/137ca01f-6cd1-44da-9a78-9fe4f7e232ea/linked_in_profile
       date: 2025-02-01
 Duolingo:
   courses:
     - slug: german
-      tag: language
+      area: language-spoken
       name: "German Language Fluency: Intermediate"
       issue: https://www.duolingo.com/profile/Abhra1992
       date: 2015-07-01
 IBM:
   courses:
     - slug: db2 # TODO: Find link
-      tag: database
+      area: database
       name: "Academic Associate: DB2 Database and Application Fundamentals"
       short: "DB2 Database and Application Fundamentals"
       issue: "#" # TODO: File Upload

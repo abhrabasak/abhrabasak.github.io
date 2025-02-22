@@ -32,3 +32,5 @@ career:
   display: false
 database:
   display: false
+language-spoken:
+  display: false
