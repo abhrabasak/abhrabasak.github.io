@@ -1,16 +1,24 @@
+# https://www.linkedin.com/in/abhrabasak/details/experience/
+
 - company: Microsoft Corporation
+  logo: /images/experience/microsoft.png
+  link: microsoft.com
   position: Senior Software Development Engineer
   project: Microsoft Viva Insights
+  start: Mar 2020
+  end: Present
   date: 2020-Present
   icon:
     - color/50/microsoft
     - fluency/50/microsoft-office-2019
   description: Description
   location: Redmond, WA, USA
-  stack: []
+  stack: [https://stackshare.io/abhra/viva-insights]
   media: []
+  links: []
 
 - company: Microsoft Corporation
+  link: microsoft.com
   position: Software Development Engineer 2
   project: Azure Files Storage
   date: 2019-2020
@@ -21,6 +29,7 @@
   location: Redmond, WA, USA
 
 - company: Microsoft India R&D Pvt Ltd
+  link: microsoft.com
   position: Software Development Engineer 2
   project: Microsoft Cloud for Industry
   date: 2017-2019
@@ -29,8 +38,10 @@
     - fluency/50/azure-1
   description: Description
   location: Hyderabad, TS, India
+  stack: [https://stackshare.io/abhra/azure-industry]
 
 - company: Microsoft India R&D Pvt Ltd
+  link: microsoft.com
   position: Software Development Engineer 2
   project: Bing Entity Platform & Experiences
   date: 2014-2017
@@ -39,8 +50,10 @@
     - fluency/50//bing--v1
   description: Description
   location: Hyderabad, TS, India
+  stack: [https://stackshare.io/abhra/bing-entity-experiences]
 
 - company: Indian Institute of Technology (IIT) Mandi
+  link: iitmandi.ac.in
   position: Coordinator & Principal Developer
   project: Website Information and Networks Group
   date: 2010-2014

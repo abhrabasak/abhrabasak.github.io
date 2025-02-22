@@ -7,7 +7,8 @@
 // 1. Global
 // ---------
 $body-background: rgb(15, 23, 42);
-$body-font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, 'Liberation Sans', 'DejaVu Sans', Freesans, sans-serif;
+$body-font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Liberation Sans",
+  "DejaVu Sans", Freesans, sans-serif;
 $body-font-color: $white;
 // 4. Base Typography
 // ------------------
@@ -21,7 +22,5 @@ $topbar-background: rgb(15, 23, 42);
 // $rem-base: 16px;
 
 $include-open-sans: false;
-
 $include-html-classes: false;
-
 $paragraph-font-size: rem-calc(14);

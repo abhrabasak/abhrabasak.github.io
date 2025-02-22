@@ -11,6 +11,7 @@
 
 // https://cssgrid-generator.netlify.app/
 // http://igalia.github.io/css-grid-layout/index.html
+// #87ab63 - Emerald Color
 
 body {
   @include flex-column-center;
@@ -24,16 +25,23 @@ footer {
   @include theme-outline;
 }
 nav.site-header-nav {
-  display: grid;
-  grid: 1fr / repeat(6, 1fr);
+  display: flex;
+  // grid: 1fr / repeat(6, 1fr);
+  justify-content: space-evenly;
   > a {
     color: white;
     text-align: center;
-    padding: rem-calc(15) 0;
-    background: $body-background;
+    padding: 1rem 0;
+    // background: $body-background;
+    font-size: rem-calc(12);
+    height: 3rem;
+    text-transform: uppercase;
   }
   > a[data-active="true"] {
-    background: color.mix($body-background, white, 95%);
+    color: $theme-primary;
+  }
+  > a:hover {
+    color: $theme-primary;
   }
   .name {
     @media (max-width: 500px) {
