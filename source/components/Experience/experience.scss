@@ -1,11 +1,6 @@
 @use "$styles/base" as *;
 
 $card-basis: 530px; // TODO @media
-@mixin supress {
-  font-size: 0.7rem;
-  color: #999;
-}
-
 .projects {
   @include flex-column-evenly;
   align-items: center;

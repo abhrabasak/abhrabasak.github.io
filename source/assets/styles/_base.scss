@@ -69,8 +69,13 @@ $theme-primary: teal;
   -webkit-text-fill-color: transparent;
 }
 
-@mixin card-hover{
+@mixin card-hover {
   transition: all 300ms;
   transform: translateY(0px);
-  box-shadow: 5px 5px 12px rgba(0,0,0,0.05);
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.05);
+}
+
+@mixin supress {
+  font-size: 0.7rem;
+  color: #999;
 }
