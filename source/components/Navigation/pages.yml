@@ -1,0 +1,18 @@
+Home:
+  url: "/index.html"
+  icon: "las la-home"
+About:
+  url: "/about.html"
+  icon: "las la-cubes"
+Experience:
+  url: "/experience.html"
+  icon: "las la-project-diagram"
+Expertise:
+  url: "/expertise.html"
+  icon: "las la-medal"
+Connect:
+  url: "/connect.html"
+  icon: "las la-address-card"
+Colophon:
+  url: "/colophon.html"
+  icon: "las la-sitemap"
