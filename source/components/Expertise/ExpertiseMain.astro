@@ -1,17 +1,17 @@
 ---
 import SkillDomain from "./SkillDomain.astro";
-import Icons8 from "../../icons/icons8/Icons8.astro";
 import HorizontalRule from "../Html/HorizontalRule.astro";
 import Certification from "./Certification.astro";
-import type { HyperIcon as H } from "../../library/hyper-icon.ts";
+import IconResolver from "../Html/IconResolver.astro";
 
 import "./expertise.scss";
-import icy from "../../icons/hyper.yml";
-const icons = icy as Record<string, H>;
+import icons from "../../icons/hyper.yml";
 import dpy from "./dev-profiles.yml";
 const profiles = dpy as string[];
 import dsy from "./dev-skills.yml";
-const domains = dsy as Record<string, string[]>;
+const skillTypes = Object.entries(dsy as Record<string, string[]>).filter(
+  ([t, _]) => !t.startsWith("_")
+);
 ---
 
 <main class="code view">
@@ -22,27 +22,12 @@ const domains = dsy as Record<string, string[]>;
       has code samples.
     </p>
     <div class="dev-profiles">
-      {
-        profiles.map((p) => (
-          <Icons8
-            iconName={icons[p].icon.split("::")[1]}
-            link={icons[p].url}
-            site={icons[p].name}
-          />
-        ))
-      }
+      {profiles.map((p) => <IconResolver {...icons[p]} />)}
     </div>
   </section>
   <HorizontalRule />
   <section class="skills-categories">
-    {
-      Object.entries(domains).map(
-        ([title, skills]) =>
-          !title.startsWith("_") && (
-            <SkillDomain title={title} skills={skills} />
-          )
-      )
-    }
+    {skillTypes.map(([t, s]) => <SkillDomain title={t} skills={s} />)}
   </section>
   <HorizontalRule />
   <Certification />

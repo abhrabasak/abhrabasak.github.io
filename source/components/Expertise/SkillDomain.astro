@@ -1,31 +1,31 @@
 ---
-import Icons8 from "../../icons/icons8/Icons8.astro";
-import type { HyperIcon as H } from "../../library/hyper-icon.ts";
+import IconResolver from "../Html/IconResolver.astro";
+import type { HyperIconRecord } from "../../library/hyper-icon.ts";
 import icy from "../../icons/hyper.yml";
-const icons = icy as Record<string, H>;
+const icons = icy as HyperIconRecord;
 
 interface Props {
   title: string;
   skills: string[];
 }
 const { title, skills } = Astro.props;
+const displaySkills = skills
+  .filter((s) => !s.startsWith("_"))
+  .map((s) => icons[s]);
 ---
 
 <div class="domain-card">
   <h5>{title}</h5>
   <div class="domain-icons">
     {
-      skills
-        .filter((s) => !s.startsWith("_"))
-        .map((s) => icons[s])
-        .map(({ name, url, icon }) => (
-          <div class="skill-badge">
-            <Icons8 iconName={icon.split("::")[1]} link={url} site={name} />
-            <a href={url} class="skill-name">
-              {name}
-            </a>
-          </div>
-        ))
+      displaySkills.map(({ name, url, icon }) => (
+        <div class="skill-badge">
+          <IconResolver {...{ name, url, icon }} />
+          <a href={url} class="skill-name">
+            {name}
+          </a>
+        </div>
+      ))
     }
   </div>
 </div>

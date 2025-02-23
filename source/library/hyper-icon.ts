@@ -3,3 +3,5 @@ export interface HyperIcon {
   url: string;
   icon: string;
 }
+
+export type HyperIconRecord = Record<string, HyperIcon>;

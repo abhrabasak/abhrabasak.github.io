@@ -1,0 +1,20 @@
+---
+import type { HyperIcon } from "../../library/hyper-icon.ts";
+import { match } from "ts-pattern";
+import Icons8 from "../../icons/icons8/Icons8.astro";
+import Devicon from "../../icons/devicons/Devicon.astro";
+
+type IconSource = "devicon" | "icons8";
+interface Props extends HyperIcon {}
+const { name, url, icon } = Astro.props;
+const [source, iconName] = icon.split("::");
+---
+
+{
+  match(source)
+    .with("devicon", () => (
+      <Devicon iconName={iconName} link={url} site={name} />
+    ))
+    .with("icons8", () => <Icons8 iconName={iconName} link={url} site={name} />)
+    .otherwise(() => <span>Unknown icon source</span>)
+}
