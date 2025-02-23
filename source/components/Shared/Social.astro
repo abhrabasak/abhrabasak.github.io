@@ -1,14 +1,20 @@
 ---
-import contacts from "../../data/contacts.json";
+import cy from "../../data/contacts.yml";
+const contacts = cy as string[];
 import Icons8 from "../../icons/icons8/Icons8.astro";
+import type { HyperIcon as H } from "../../library/hyper-icon.ts";
+import icy from "../../icons/hyper.yml";
+const icons = icy as Record<string, H>;
 
 const { classnames } = Astro.props;
 ---
 
 <div class={classnames}>
   {
-    contacts.map(({ name, profile, icon }) => (
-      <Icons8 iconName={icon} link={profile} site={name} />
-    ))
+    contacts
+      .map((c) => icons[c])
+      .map(({ name, url, icon }) => (
+        <Icons8 iconName={icon.split("::")[1]} link={url} site={name} />
+      ))
   }
 </div>

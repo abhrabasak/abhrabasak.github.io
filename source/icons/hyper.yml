@@ -266,3 +266,28 @@ udacity:
   name: Udacity
   icon:
   url: udacity.com
+# social-contacts
+fb:
+  name: Facebook
+  icon: icons8::glyph-neue/50/FFFFFF/facebook
+  url: https://facebook.com/abhra.auriolis
+ig:
+  name: Instagram
+  icon: icons8::glyph-neue/50/FFFFFF/instagram-new--v1
+  url: https://instagram.com/abhrabasak
+reddit:
+  name: Reddit
+  icon: icons8::glyph-neue/50/FFFFFF/reddit--v1
+  url: https://www.reddit.com/user/abhrabasak/
+quora:
+  name: Quora
+  icon: icons8::external-tanah-basah-basic-outline-tanah-basah/50/FFFFFF/external-quora-social-media-tanah-basah-basic-outline-tanah-basah
+  url: https://quora.com/Abhra-Basak
+twx:
+  name: Twitter
+  icon: icons8::glyph-neue/50/FFFFFF/twitter
+  url: https://twitter.com/abhra_basak
+linkedin:
+  name: LinkedIn
+  icon: icons8::glyph-neue/50/FFFFFF/linkedin
+  url: http://in.linkedin.com/in/abhrabasak
