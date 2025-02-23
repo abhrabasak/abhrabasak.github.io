@@ -3,269 +3,273 @@ html5:
   name: HTML5
   icon: icons8::plasticine/100/html-5
   url: html5.org
-  url2: www.w3.org/TR/html5/
+  url2: https://www.w3.org/TR/html5
 nodejs:
   name: NodeJS
   icon: icons8::color/100/nodejs
-  url: nodejs.org
+  url: https://nodejs.org
 ts:
   name: TypeScript
   icon: icons8::fluency/100/typescript--v1
-  url: www.typescriptlang.org
+  url: https://www.typescriptlang.org
 react:
   name: React
   icon: icons8::plasticine/100/react
-  url: react.dev
+  url: https://https://https://https://https://https://react.dev
 redux:
   name: Redux
   icon: icons8::color/100/redux
-  url: redux.js.org
+  url: https://https://https://https://https://https://redux.js.org
 jquery:
   name: jQuery
   icon: icons8::external-tal-revivo-shadow-tal-revivo/100/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo
-  url: jquery.com
+  url: https://https://https://https://https://https://jquery.com
 css3:
   name: CSS3
   icon: icons8::plasticine/100/css3
-  url: www.w3.org/Style/CSS
+  url: https://https://https://https://https://https://www.w3.org/Style/CSS
 sass:
   name: Sass
   icon: icons8::color/100/sass
-  url: sass-lang.com
+  url: https://https://https://https://https://https://sass-lang.com
 twbs:
   name: Bootstrap
   icon: icons8::color-glass/100/bootstrap
-  url: getbootstrap.com
+  url: https://https://https://https://https://https://getbootstrap.com
 twcss:
   name: Tailwind
   icon: icons8::color/100/tailwindcss
-  url: tailwindcss.com
+  url: https://https://https://https://https://https://tailwindcss.com
 zf:
   name: Foundation
   icon: icons8::color/100/foundation
-  url: get.foundation
+  url: https://https://https://https://https://https://get.foundation
 aspnet:
   name: ASP.NET
   icon: icons8::color/100/net-framework
-  url: dotnet.microsoft.com/apps/aspnet
+  url: https://https://https://https://https://https://dotnet.microsoft.com/apps/aspnet
 rails:
   name: Rails
   icon: icons8::office/100/ruby-programming-language
-  url: rubyonrails.org
+  url: https://https://https://https://https://https://rubyonrails.org
 codeigniter:
   name: CodeIgniter
   icon: icons8::external-tal-revivo-shadow-tal-revivo/100/external-codeigniter-is-an-open-source-software-rapid-development-web-framework-logo-shadow-tal-revivo
-  url: codeigniter.com
+  url: https://https://https://https://https://https://codeigniter.com
 sql:
   name: SQL
   icon: icons8::external-flaticons-lineal-color-flat-icons/100/external-sql-mobile-app-development-flaticons-lineal-color-flat-icons
-  url: en.wikipedia.org/wiki/SQL
+  url: https://https://https://https://https://https://en.wikipedia.org/wiki/SQL
 tf:
   name: TensorFlow
   icon: icons8::color/100/tensorflow
-  url: tensorflow.org
+  url: https://https://https://https://https://https://tensorflow.org
 keras:
   name: Keras
   icon: icons8::material/100/keras
-  url: keras.io
+  url: https://https://https://https://https://https://keras.io
 pytorch:
   name: PyTorch
   icon: icons8::color/100/pytorch
-  url: pytorch.org
+  url: https://https://https://https://https://pytorch.org
 numpy:
   name: NumPy
   icon: icons8::color/100/numpy
-  url: numpy.org
+  url: https://https://https://https://https://numpy.org
 scipy:
   name: SciPy
   icon:
-  url: scipy.org
+  url: https://https://https://https://https://scipy.org
 pandas:
   name: Pandas
   icon: icons8::color/100/pandas
-  url: pandas.pydata.org
+  url: https://https://https://https://https://pandas.pydata.org
 sklearn:
   name: scikit-learn
   icon:
-  url: scikit-learn.org
+  url: https://https://https://https://https://scikit-learn.org
 skimage:
   name: scikit-image
   icon:
-  url: scikit-image.org
+  url: https://https://https://https://https://scikit-image.org
 opencv:
   name: OpenCV
   icon: icons8::fluency/100/opencv
-  url: opencv.org
+  url: https://https://https://https://https://opencv.org
 csharp:
   name: C#
   icon: icons8::plasticine/100/c-sharp-logo
-  url: dotnet.microsoft.com/csharp
+  url: https://https://https://https://https://dotnet.microsoft.com/csharp
 js:
   name: JavaScript
   icon: icons8::fluency/100/javascript
-  url: javascript.info
+  url: https://https://https://https://https://javascript.info
 ruby:
   name: Ruby
   icon: icons8::plasticine/100/ruby-programming-language
-  url: ruby-lang.org
+  url: https://https://https://https://https://ruby-lang.org
 golang:
   name: Go
   icon: icons8::color/100/golang
-  url: golang.org
+  url: https://https://https://https://https://golang.org
 python:
   name: Python
   icon: icons8::plasticine/100/python
-  url: python.org
+  url: https://https://https://https://https://python.org
 php:
   name: PHP
   icon: icons8::officel/100/php-logo
-  url: php.net
+  url: https://https://https://https://php.net
 cpp:
   name: C++
   icon: icons8::color/100/c-plus-plus-logo
-  url: isocpp.org
+  url: https://https://https://https://isocpp.org
 powerbi:
   name: PowerBI
   icon: icons8::color/100/power-bi
-  url: microsoft.com/powerbi
+  url: https://https://https://https://microsoft.com/powerbi
 msfabric:
   name: Fabric
   icon: icons8::officel/100/microsoft-power-apps
-  url: microsoft.com/fabric
+  url: https://https://https://https://microsoft.com/fabric
 mssql:
   name: SQLServer
   icon: icons8::color/100/microsoft-sql-server
-  url: microsoft.com/sql-server
+  url: https://https://https://https://microsoft.com/sql-server
 spark:
   name: Spark
   icon: icons8::color/100/apache-spark
-  url: spark.apache.org
+  url: https://https://https://https://spark.apache.org
 azure:
   name: Azure
   icon: icons8::fluency/100/azure-1
-  url: azure.microsoft.com
+  url: https://https://https://https://azure.microsoft.com
 docker:
   name: Docker
   icon: icons8::color/100/docker
-  url: docker.com
+  url: https://https://https://https://docker.com
 k8s:
   name: Kubernetes
   icon: icons8::color/100/kubernetes
-  url: kubernetes.io
+  url: https://https://https://https://kubernetes.io
 vercel:
   name: Vercel
   icon: icons8::color/100/vercel
-  url: vercel.com
+  url: https://https://https://https://vercel.com
 ado:
   name: AzureDevOps
   icon: icons8::external-tal-revivo-shadow-tal-revivo/100/external-development-experience-through-the-native-integrations-of-azure-with-visual-studio-logo-shadow-tal-revivo
-  url: azure.microsoft.com/products/devops
+  url: https://https://https://azure.microsoft.com/products/devops
 vs:
   name: VisualStudio
   icon: icons8::fluency/100/visual-studio
-  url: visualstudio.microsoft.com
+  url: https://https://https://visualstudio.microsoft.com
 vscode:
   name: VSCode
   icon: icons8::color/100/visual-studio-code-2019
-  url: code.visualstudio.com
+  url: https://https://https://code.visualstudio.com
 ps:
   name: PowerShell
   icon: icons8::fluency/100/powershell
-  url: microsoft.com/powershell
+  url: https://https://https://microsoft.com/powershell
 postman:
   name: Postman
   icon: icons8::external-tal-revivo-color-tal-revivo/100/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo
-  url: postman.com
+  url: https://https://https://postman.com
 git:
   name: Git
   icon: icons8::color/100/git
-  url: git-scm.com
+  url: https://https://https://git-scm.com
 figma:
   name: Figma
   icon: icons8::officel/100/figma
-  url: figma.com
+  url: https://https://https://figma.com
 mongodb:
   name: MongoDB
   icon: icons8::color/100/mongodb
-  url: mongodb.com
+  url: https://https://https://mongodb.com
 redis:
   name: Redis
   icon: icons8::color/100/redis
-  url: redis.io
+  url: https://https://https://redis.io
 pgsql:
   name: PostgreSQL
   icon: icons8::color/100/postgresql
-  url: postgresql.org
+  url: https://https://https://postgresql.org
 mysql:
   name: MySQL
   icon: icons8::color/100/mysql
-  url: mysql.com
+  url: https://https://https://mysql.com
 wp:
   name: WordPress
   icon: icons8::color/100/wordpress
-  url: wordpress.org
+  url: https://https://https://wordpress.org
 drupal:
   name: Drupal
   icon: icons8::color/100/drupal
-  url: drupal.org
+  url: https://https://https://drupal.org
 joomla:
   name: Joomla
   icon: icons8::color/100/joomla
-  url: joomla.org
+  url: https://https://https://joomla.org
 # dev-profiles
 github:
   name: GitHub
   icon: icons8::plasticine/50/github
-  url: github.com/abhrabasak
+  url: https://https://github.com/abhrabasak
 bitbucket:
   name: BitBucket
   icon: icons8::color/50/bitbucket
-  url: bitbucket.org/abhrabasak
+  url: https://https://bitbucket.org/abhrabasak
 codepen:
   name: CodePen
   icon: icons8::fluency/50/codepen
-  url: codepen.io/abhrabasak
+  url: https://https://codepen.io/abhrabasak
 gitlab:
   name: Gitlab
   icon: icons8::doodle/50/gitlab
-  url: gitlab.com/abhrabasak
+  url: https://https://gitlab.com/abhrabasak
 kaggle:
   name: Kaggle
   icon: icons8::bubbles/50/kaggle
-  url: kaggle.com/abhrabasak
+  url: https://https://kaggle.com/abhrabasak
 stackoverflow:
   name: StackOverflow
   icon: icons8::color/50/stackoverflow
-  url: stackoverflow.com/users/1090241/abhra-basak
+  url: https://https://stackoverflow.com/users/1090241/abhra-basak
+dev.to:
+  name: Dev.to
+  icon: icons8::color/50/dev-dot-to
+  url: https://dev.to/abhrabasak
 # certifications
 udemy:
   name: Udemy
   icon: icons8::color/50/udemy
-  url: udemy.com
+  url: https://udemy.com
 lilearn:
   name: LinkedIn Learning
   icon: icons8::color/50/linkedin
-  url: linkedin.com/learning
+  url: https://linkedin.com/learning
 coursera:
   name: Coursera
   icon: icons8::ultraviolet/50/coursera
-  url: coursera.org
+  url: https://coursera.org
 pluralsight:
   name: Pluralsight
   icon: external-tal-revivo-color-tal-revivo/50/external-pluralsight-an-american-publicly-held-online-education-company-offers-a-variety-of-video-training-courses-for-software-developers-logo-color-tal-revivo
-  url: pluralsight.com
+  url: https://pluralsight.com
 edx:
   name: edX
   icon:
-  url: edx.org
+  url: https://edx.org
 duolingo:
   name: Duolingo
   icon:
-  url: duolingo.com
+  url: https://duolingo.com
 udacity:
   name: Udacity
   icon:
-  url: udacity.com
+  url: https://udacity.com
 # social-contacts
 fb:
   name: Facebook
@@ -291,3 +295,68 @@ linkedin:
   name: LinkedIn
   icon: icons8::glyph-neue/50/FFFFFF/linkedin
   url: http://in.linkedin.com/in/abhrabasak
+discord:
+  name: Discord
+  icon: icons8::glyph-neue/50/FFFFFF/discord
+  url: https://discord.com/abhrabasak
+# interests
+spotify:
+  name: Spotify
+  icon: icons8::doodle/50/spotify
+  url: https://open.spotify.com/user/12151918372
+soundcloud:
+  name: Soundcloud
+  icon: icons8::bubbles/50/soundcloud
+  url: https://soundcloud.com/abhra-basak
+mixcloud:
+  name: Mixcloud
+  icon: icons8::plasticine/50/mixcloud
+  url: https://www.mixcloud.com/AbhraBasak
+lastfm:
+  name: Lastfm
+  icon: icons8::doodle/48/fm
+  url: https://www.last.fm/user/Abhra1992
+behance:
+  name: Behance
+  icon: icons8::color/50/behance
+  url: https://www.behance.net/abhra
+unsplash:
+  name: Unsplash
+  icon: icons8::external-tal-revivo-fresh-tal-revivo/50/external-unsplash-allows-user-contribute-photographers-and-generates-income-logo-fresh-tal-revivo
+  url: https://unsplash.com/@abhrabasak
+devart:
+  name: DeviantArt
+  icon: icons8::bubbles/50/devianart
+  url: https://www.deviantart.com/abhrabasak
+substack:
+  name: Substack
+  icon: icons8::doodle/50/substack
+  url: https://substack.com/@abhrabasak
+medium:
+  name: Medium
+  icon: icons8::bubbles/50/medium-new
+  url: https://unsplash.com/@abhrabasak
+gitbook:
+  name: Gitbook
+  icon: icons8::doodle/50/book
+  url: https://www.deviantart.com/abhrabasak
+steam:
+  name: Steam
+  icon: icons8::plasticine/50/steam
+  url: https://steamcommunity.com/profiles/76561199065280856/
+ubisoft:
+  name: Ubisoft
+  icon: icons8::doodle/50/ubisoft-connect
+  url: https://club.ubisoft.com/en-US/profile/abhrabasak
+xbox:
+  name: Xbox
+  icon: icons8::doodle/50/xbox
+  url: https://www.xbox.com/en-US/play/user/Abhra1992
+epic:
+  name: Epic
+  icon: icons8::doodle/50/epic-games
+  url: https://store.epicgames.com/en-US/u/a82af95dbf604a0e9ac69236d884f7b5
+letterboxd:
+  name: Letterboxd
+  icon: icons8::color/50/letterboxd
+  url: https://letterboxd.com/abhrabasak

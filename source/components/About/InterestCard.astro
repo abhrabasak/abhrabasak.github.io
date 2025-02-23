@@ -1,6 +1,8 @@
 ---
-import Icons8 from "../../icons/icons8/Icons8.astro";
+import IconResolver from "../Html/IconResolver.astro";
 import type { Interest } from "./Interest";
+
+import iconsY from "../../icons/hyper.yml";
 
 interface Props extends Interest {}
 const { title, excerpt, icons } = Astro.props;
@@ -10,10 +12,6 @@ const { title, excerpt, icons } = Astro.props;
   <h4>{title}</h4>
   <p>{excerpt}</p>
   <div class="interest-icons">
-    {
-      Object.entries(icons).map(([key, icon]) => (
-        <Icons8 iconName={icon.icon} link={icon.profile} site={key} />
-      ))
-    }
+    {icons.map((ic) => <IconResolver {...iconsY[ic]} />)}
   </div>
 </article>

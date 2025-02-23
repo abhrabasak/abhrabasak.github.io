@@ -2,7 +2,8 @@
 import HorizontalRule from "../Html/HorizontalRule.astro";
 import InterestCard from "./InterestCard.astro";
 import type { Interest } from "./Interest";
-import interests from "./interests.yml";
+import iny from "./interests.yml";
+const interests = iny as Record<string, Interest>;
 import "./about.scss";
 ---
 
@@ -18,6 +19,6 @@ import "./about.scss";
   </section>
   <HorizontalRule />
   <section class="portfolio-categories">
-    {interests.map((i: Interest) => i.enabled && <InterestCard {...i} />)}
+    {Object.values(interests).map((i) => i.enabled && <InterestCard {...i} />)}
   </section>
 </main>
