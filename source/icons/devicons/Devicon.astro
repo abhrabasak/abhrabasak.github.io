@@ -1,6 +1,8 @@
 ---
-const { iconName, link } = Astro.props;
-const svg = `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${iconName}.svg`;
+const { iconName, link, site } = Astro.props;
+const iconSrc = `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${iconName}.svg`;
 ---
 
-<a href={link}><img src={svg} /></a>
+<a class="devicons-icon" href={link}>
+  <img src={iconSrc} alt={site} />
+</a>

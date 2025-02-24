@@ -1,47 +1,18 @@
-- name: TypeScipt
-  url: http://www.typescriptlang.org
-  icon: typescript/typescript-original
-
-- name: Astro
-  url: https://astro.build
-  icon: astro/astro-original
-
-- name: Foundation
-  url: http://foundation.zurb.com
-  icon: foundation/foundation-original
-
-- name: SASS
-  url: http://sass-lang.com
-  icon: sass/sass-original
-
-- name: HTML5
-  url: http://html5.org
-  icon: html5/html5-original-wordmark
-
-- name: JSON
-  url: http://json.org
-  icon: json/json-original
-
-- name: NodeJS
-  url: http://nodejs.org
-  icon: nodejs/nodejs-original
-
-- name: VSCode
-  url: http://code.visualstudio.com
-  icon: vscode/vscode-original
-
-- name: Devicon
-  url: http://zurb.com/playground/social-webicons
-  icon: devicon/devicon-original
-
-- name: GitHub Actions
-  url: http://github.com
-  icon: githubactions/githubactions-original
-
-- name: GitHub
-  url: http://github.com
-  icon: github/github-original-wordmark
-
-- name: Cloudflare
-  url: https://www.cloudflare.com
-  icon: cloudflare/cloudflare-original
+- tsd
+- astro
+- zfd
+- sassd
+- html5d
+- jsond
+- noded
+- vscoded
+- devicon
+- ghactions
+- githubd
+- cloudflare
+- _jqueryd
+- _zficons
+- _coffeescript
+- _bower
+- _rubyd
+- _compass

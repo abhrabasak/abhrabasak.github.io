@@ -360,3 +360,76 @@ letterboxd:
   name: Letterboxd
   icon: icons8::color/50/letterboxd
   url: https://letterboxd.com/abhrabasak
+# tech-stack
+tsd:
+  name: TypeScipt
+  icon: devicon::typescript/typescript-original
+  url: http://www.typescriptlang.org
+astro:
+  name: Astro
+  icon: devicon::astro/astro-original
+  url: https://astro.build
+zfd:
+  name: Foundation
+  icon: devicon::foundation/foundation-original
+  url: http://foundation.zurb.com
+sassd:
+  name: SASS
+  icon: devicon::sass/sass-original
+  url: http://sass-lang.com
+html5d:
+  name: HTML5
+  icon: devicon::html5/html5-original-wordmark
+  url: http://html5.org
+jsond:
+  name: JSON
+  icon: devicon::json/json-original
+  url: http://json.org
+noded:
+  name: NodeJS
+  icon: devicon::nodejs/nodejs-original
+  url: http://nodejs.org
+vscoded:
+  name: VSCode
+  icon: devicon::vscode/vscode-original
+  url: http://code.visualstudio.com
+devicon:
+  name: Devicon
+  icon: devicon::devicon/devicon-original
+  url: http://zurb.com/playground/social-webicons
+ghactions:
+  name: GitHub Actions
+  icon: devicon::githubactions/githubactions-original
+  url: http://github.com
+githubd:
+  name: GitHub
+  icon: devicon::github/github-original-wordmark
+  url: http://github.com
+cloudflare:
+  name: Cloudflare
+  icon: devicon::cloudflare/cloudflare-original
+  url: https://www.cloudflare.com
+jqueryd:
+  name: jQuery
+  icon: devicon::jquery/jquery-plain-wordmark
+  url: http://jquery.com
+zficons:
+  name: Foundation Icon Fonts
+  icon: devicon::foundation/foundation-original
+  url: http://zurb.com/playground/foundation-icon-fonts-3
+coffeescript:
+  name: CoffeeScript
+  icon: devicon::coffeescript/coffeescript-original
+  url: http://coffeescript.org
+bower:
+  name: Bower
+  icon: devicon::bower/bower-original
+  url: http://bower.io
+rubyd:
+  name: Ruby
+  icon: devicon::ruby/ruby-original
+  url: http://ruby-lang.org
+compass:
+  name: Compass
+  icon: devicon::sass/sass-original
+  url: http://compass-style.org

@@ -1,7 +1,9 @@
 ---
-import Devicon from "../../icons/devicons/Devicon.astro";
-import type { TechStack } from "./TechStack";
-import techStack from "./tech-stack.yml";
+import IconResolver from "../Html/IconResolver.astro";
+import iconsY from "../../icons/hyper.yml";
+import tsy from "./tech-stack.yml";
+const techStack = (tsy as string[]).filter((t) => !t.startsWith("_"));
+
 import "./colophon.scss";
 ---
 
@@ -19,11 +21,7 @@ import "./colophon.scss";
       routed using <a href="https://dash.cloudflare.com">Cloudflare</a>.
     </p>
     <div class="icons">
-      {
-        techStack.map((t: TechStack) => (
-          <Devicon iconName={t.icon} link={t.url} />
-        ))
-      }
+      {techStack.map((t) => <IconResolver {...iconsY[t]} />)}
     </div>
   </section>
   <!-- <section class="imprint">
