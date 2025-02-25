@@ -1,20 +1,4 @@
 ---
-home:
-  - Facebook
-  - Instagram
-  - LinkedIn
-  - Quora
-  - Twitter
-  - Reddit
-
-social:
-  - Twitter
-  - Facebook
-  - Reddit
-  - Instagram
-  - LinkedIn
-  - Discord
-
 comms:
   - Skype
   - Zoom
@@ -23,13 +7,7 @@ comms:
   - Eventbrite
 
 coding:
-  - GitHub
-  - CodePen
-  - Dev.to / https://dev.to/abhrabasak
-  - Stack Overflow
-  - GitLab
   - Bitbucket
-  - Kaggle
   - HackerRank
   - LeetCode
 
@@ -47,8 +25,6 @@ content:
   - YouTube
   - SoundCloud
   - Spotify
-
-blog:
   - Medium
   - Substack
 
@@ -62,5 +38,4 @@ Sources:
   - https://simpleicons.org/
   - https://www.flaticon.com
   - https://shields.io/badges/static-badge
-
   - https://github.com/scriptex/atanas.info/tree/master/src/svg

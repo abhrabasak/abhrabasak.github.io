@@ -9,7 +9,7 @@ const certifications = await dataMap<Provider>("certifications");
 const csArea = Array.from(certifications)
   .flatMap(([id, ct]) =>
     ct.courses
-      ?.filter((cr) => cAreas[cr.area].display && (!!cr.issue || !!cr.date))
+      ?.filter((cr) => cr.area in cAreas && (!!cr.issue || !!cr.date))
       ?.map(
         (cr) =>
           ({
