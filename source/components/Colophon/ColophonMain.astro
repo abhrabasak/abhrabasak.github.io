@@ -1,6 +1,6 @@
 ---
 import IconResolver from "../Html/IconResolver.astro";
-import iconsY from "../../icons/hyper.yml";
+import icons from "@icons/hyper.yml";
 import tsy from "./tech-stack.yml";
 const techStack = (tsy as string[]).filter((t) => !t.startsWith("_"));
 
@@ -21,7 +21,7 @@ import "./colophon.scss";
       routed using <a href="https://dash.cloudflare.com">Cloudflare</a>.
     </p>
     <div class="icons">
-      {techStack.map((t) => <IconResolver {...iconsY[t]} />)}
+      {techStack.map((t) => <IconResolver {...icons[t]} />)}
     </div>
   </section>
   <!-- <section class="imprint">

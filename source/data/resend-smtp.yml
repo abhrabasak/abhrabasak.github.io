@@ -1,0 +1,4 @@
+host: smtp.resend.com
+port: 465 # tls: 2465, 587, 2587
+user: resend
+password: ${RESEND_API_KEY}

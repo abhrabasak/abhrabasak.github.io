@@ -1,5 +1,15 @@
 {
-  "extends": "astro/tsconfigs/strict",
+  "extends": "./node_modules/astro/tsconfigs/strict",
   "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["webapp", "node_modules", "functions/**/*", "api/**/*"]
+  "exclude": ["webapp", "node_modules", "functions/**/*", "api/**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@data/*": ["source/data/*"],
+      "@components/*": ["source/components/*"],
+      "@layouts/*": ["source/layouts/*"],
+      "@icons/*": ["source/icons/*"],
+      "@library/*": ["source/library/*"],
+    }
+  }
 }

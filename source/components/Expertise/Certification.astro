@@ -1,8 +1,8 @@
 ---
 import type { Provider, LinkedCourse } from "./Certification.ts";
-import { dataMap } from "../../library/collections.ts";
+import { dataMap } from "@library/collections.ts";
 import cAreas from "./cert-areas.yml";
-import Icons8 from "../../icons/icons8/Icons8.astro";
+import Icons8 from "@icons/icons8/Icons8.astro";
 
 const certifications = await dataMap<Provider>("certifications");
 

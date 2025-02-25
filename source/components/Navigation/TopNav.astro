@@ -1,8 +1,7 @@
 ---
-import LineAwesome from "../../icons/lineawesome/LineAwesome.astro";
-import pagesYaml from "./pages.yml";
-
-const pages = pagesYaml as Record<string, { url: string; icon: string }>;
+import LineAwesome from "@icons/lineawesome/LineAwesome.astro";
+import pagesY from "./pages.yml";
+const pages = pagesY as Record<string, { url: string; icon: string }>;
 const { pathname } = Astro.url;
 ---
 
