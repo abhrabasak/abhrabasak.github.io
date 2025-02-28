@@ -32,10 +32,10 @@
 .full-name {
   grid-area: name;
   font-size: 6rem;
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 4rem;
   }
-  @media(max-width: 512px) {
+  @media (max-width: 512px) {
     font-size: 3rem;
   }
 }
