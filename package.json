@@ -14,7 +14,6 @@
     "@rollup/plugin-yaml": "^4.1.2",
     "@tailwindcss/vite": "^4.0.9",
     "astro": "^5.2.5",
-    "foundation-sites": "^6.9.0",
     "lodash": "^4.17.21",
     "resend": "^4.1.2",
     "sass": "^1.83.4",
