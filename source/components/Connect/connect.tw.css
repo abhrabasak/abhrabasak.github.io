@@ -1,0 +1,46 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+@import "../../assets/styles/theme.tw.css";
+@import "../../assets/styles/utilities.tw.css";
+
+.connect {
+  @apply flex flex-col justify-evenly;
+}
+.connect-services {
+  @apply flex flex-col items-center;
+}
+.services {
+  @apply flex flex-wrap justify-center gap-4;
+  > span {
+    @apply theme-outline basis-[270px] rounded-2xl text-center;
+  }
+}
+.services .social-icons {
+  @apply text-center;
+}
+.contact-form {
+  @apply flex justify-center;
+  > form {
+    @apply flex flex-col justify-center items-stretch w-2/5; /* TODO: @media */
+  }
+  h4 {
+    @apply text-center;
+  }
+  .contact-address {
+    @apply grid grid-rows-2 grid-cols-2 gap-x-4 mb-2;
+  }
+  .contact-message {
+    @apply grid grid-rows-[1fr_5fr] grid-cols-[1fr_4fr] gap-y-1;
+  }
+  input,
+  textarea,
+  button {
+    @apply theme-outline bg-body-bg text-white border-0 rounded-lg;
+  }
+  textarea {
+    @apply resize-none;
+  }
+  button {
+    @apply cursor-pointer mt-2 p-2;
+  }
+}

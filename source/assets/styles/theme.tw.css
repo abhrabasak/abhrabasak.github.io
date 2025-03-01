@@ -1,6 +1,7 @@
 @theme {
   /* Tailwind Variables */
   --color-primary: teal;
+  --color-body-bg: rgb(15, 23, 42);
   --color-footer-background: rgb(15, 23, 42);
   --color-theme-outline: #4d575f;
   --color-body-reset: #fefefe;
