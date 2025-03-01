@@ -1,0 +1,20 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+@import "../../assets/styles/theme.tw.css";
+@import "../../assets/styles/utilities.tw.css";
+
+.credits {
+  @apply flex flex-col justify-evenly;
+}
+.tech-stack {
+  @apply flex flex-col justify-center items-center p-4;
+}
+.icons {
+  @apply flex flex-wrap justify-center gap-6;
+  > * {
+    @apply basis-12.5 w-12.5;
+  }
+}
+.previous {
+  @apply text-center p-4;
+}
