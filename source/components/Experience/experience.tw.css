@@ -1,0 +1,95 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+@import "../../assets/styles/theme.tw.css";
+@import "../../assets/styles/utilities.tw.css";
+
+.projects {
+  @apply flex flex-col justify-evenly items-center;
+}
+.projects-intro {
+  @apply max-w-[1100px] text-center p-4;
+}
+.work-exp {
+  @apply p-4;
+  h4,
+  p {
+    @apply text-center;
+  }
+}
+.work-exp-timeline {
+  @apply flex flex-wrap justify-center gap-4;
+  > * {
+    @apply basis-[530px];
+  }
+}
+.work-exp-card {
+  @apply card-z p-4 grid;
+  grid:
+    "icon comp comp date" 1fr
+    "icon posn proj proj" 1fr
+    "icon desc desc desc" 1fr
+    / 1fr 6fr 5fr;
+  .company-icons {
+    @apply flex flex-col justify-evenly pr-2;
+    grid-area: icon;
+  }
+  .company {
+    @apply font-bold;
+    grid-area: comp;
+  }
+  .position {
+    grid-area: posn;
+  }
+  .date {
+    grid-area: date;
+  }
+  .project {
+    @apply text-right;
+    grid-area: proj;
+  }
+  .position,
+  .date,
+  .project {
+    @apply supress;
+  }
+  .description {
+    grid-area: desc;
+  }
+}
+.project-articles {
+  @apply flex flex-wrap justify-center gap-6 mt-2.5;
+  > * {
+    @apply basis-[530px];
+  }
+}
+.project-card {
+  @apply card-z grid mb-2.5;
+  grid:
+    "icon url url url" 1fr
+    "icon syn syn syn" 0.5fr
+    "year tech tech ." 1fr
+    / 1.5fr 8fr 2fr;
+  .icons8-icon {
+    @apply p-4 text-center;
+    grid-area: icon;
+  }
+  .project-url {
+    @apply font-bold pt-4;
+    grid-area: url;
+  }
+  .synopsis {
+    grid-area: syn;
+  }
+  .tech {
+    grid-area: tech;
+  }
+  .year {
+    @apply text-center;
+    grid-area: year;
+  }
+  .synopsis,
+  .tech,
+  .year {
+    @apply supress;
+  }
+}

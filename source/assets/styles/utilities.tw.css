@@ -36,5 +36,5 @@
 }
 
 @utility supress {
-  @apply text-[0.7rem] text-gray-600;
+  @apply text-[0.7rem] text-gray-400;
 }

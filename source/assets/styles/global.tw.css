@@ -36,7 +36,4 @@ nav.site-header-nav {
 }
 footer {
   @apply bg-footer-background p-2.5 text-center text-sm/4.25;
-  > a {
-    @apply text-sky-400;
-  }
 }
