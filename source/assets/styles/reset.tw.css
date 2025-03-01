@@ -1,0 +1,15 @@
+@import "./theme.tw.css";
+@import "./utilities.tw.css";
+
+/* Foundation Style Reset for Compatibility */
+@layer base {
+  img {
+    @apply inline-block;
+  }
+  h4 {
+    @apply text-[1.5625rem]/[1.4] font-medium mb-2;
+  }
+  p {
+    @apply text-base/[1.6] font-normal mb-4;
+  }
+}

@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "./theme.tw.css";
 @import "./utilities.tw.css";
+@import "./reset.tw.css";
 
 body {
   @apply flex flex-col justify-center items-stretch;

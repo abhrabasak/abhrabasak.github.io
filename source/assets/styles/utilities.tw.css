@@ -8,7 +8,7 @@
 
 @utility card-z {
   @apply theme-outline rounded-2xl;
-  background-color: rgba(black, 0.4);
+  background-color: #0006;
 }
 
 @utility hrule {
