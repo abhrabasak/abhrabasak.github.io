@@ -9,21 +9,21 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.2.1",
-    "@cloudflare/workers-types": "^4.20250204.0",
-    "@rollup/plugin-yaml": "^4.1.2",
     "astro": "^5.2.5",
-    "foundation-sites": "^6.9.0",
     "lodash": "^4.17.21",
     "resend": "^4.1.2",
-    "sass": "^1.83.4",
     "ts-pattern": "^5.6.2",
-    "typescript": "^5.7.3",
-    "vercel": "^41.1.4"
+    "typescript": "^5.7.3"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/sitemap": "^3.2.1",
+    "@rollup/plugin-yaml": "^4.1.2",
+    "sass": "^1.83.4",
+    "foundation-sites": "^6.9.0",
     "@types/lodash": "^4.17.15",
+    "vercel": "^41.1.4",
+    "@cloudflare/workers-types": "^4.20250204.0",
     "wrangler": "^3.109.1"
   }
 }
