@@ -1,0 +1,40 @@
+@utility outline {
+  outline: 0.5px solid white;
+}
+
+@utility theme-outline {
+  outline: 0.5px solid var(--color-theme-outline);
+}
+
+@utility card-z {
+  @apply theme-outline rounded-2xl;
+  background-color: rgba(black, 0.4);
+}
+
+@utility hrule {
+  @apply theme-outline h-[0.5px] w-full;
+}
+
+@utility circle-image {
+  border-radius: 50%;
+}
+
+@utility circle-image-size-* {
+  @apply circle-image;
+  width: --value([length]);
+  height: --value([length]);
+  border-radius: 50%;
+}
+
+@utility name-gradient {
+  @apply bg-linear-(--name-bg-grad) bg-clip-text;
+  -webkit-text-fill-color: transparent;
+}
+
+@utility card-hover {
+  @apply transition-all duration-300 translate-y-0 shadow-card-hover;
+}
+
+@utility supress {
+  @apply text-[0.7rem] text-gray-600;
+}

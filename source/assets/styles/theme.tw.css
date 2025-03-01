@@ -1,0 +1,16 @@
+@theme {
+  /* Tailwind Variables */
+  --color-primary: teal;
+  --color-footer-background: rgb(15, 23, 42);
+  --color-theme-outline: #4d575f;
+  --color-body-reset: #fefefe;
+
+  --shadow-card-hover: 5px 5px 12px rgba(0, 0, 0, 0.05);
+
+  --body-font-family: "Segoe UI", "Helvetica Neue", Helvetica,
+    "Liberation Sans", "DejaVu Sans", Freesans, sans-serif;
+
+  /* Custom Variables */
+  --bg-image: url("/assets/images/cover/starry.webp");
+  --name-bg-grad: 90deg, #59cad1, #59cad1 33%, #d48868 59%, #d462f0;
+}

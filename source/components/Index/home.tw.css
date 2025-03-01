@@ -1,0 +1,51 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+@import "../../assets/styles/theme.tw.css";
+@import "../../assets/styles/utilities.tw.css";
+
+.home {
+  @apply flex flex-col justify-evenly;
+}
+.intro-statement {
+  @apply flex justify-center mt-8;
+  > div {
+    @apply basis-[800px]; /* TODO: @media */
+  }
+}
+.intro-lines {
+  display: grid;
+  grid:
+    ". dpic ." 0.5fr
+    "name name name" 0.5fr
+    "desg intr locn" 0.25fr
+    / 1fr 1fr 1fr;
+  & > * {
+    @apply text-center;
+  }
+}
+.display-pic {
+  grid-area: dpic;
+  @apply py-0 px-[15%];
+  img {
+    @apply circle-image;
+  }
+}
+.full-name {
+  grid-area: name;
+  @apply sm:text-[3rem] md:text-[4rem] lg:text-[6rem];
+}
+.designation {
+  grid-area: desg;
+}
+.interests {
+  grid-area: intr;
+}
+.location {
+  grid-area: locn;
+}
+.home-social {
+  @apply flex justify-center;
+  > div {
+    @apply flex gap-1;
+  }
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "./theme.tw.css";
+@import "./utilities.tw.css";
+
+body {
+  @apply flex flex-col justify-center items-stretch;
+  @apply text-body-reset font-(family-name:--body-font-family) p-0!;
+  @apply bg-(image:--bg-image) bg-center bg-cover;
+}
+header,
+main,
+footer {
+  @apply theme-outline;
+}
+nav.site-header-nav {
+  @apply flex justify-evenly;
+  > a {
+    @apply text-white text-center text-xs uppercase;
+    @apply hover:text-primary data-[active=true]:text-primary;
+    @apply py-4 px-0 h-12;
+  }
+  .name {
+    @apply sm:hidden md:inline lg:inline;
+  }
+  .icon {
+    @apply sm:inline md:hidden lg:hidden;
+  }
+}
+.view {
+  @apply py-[0.9375rem] px-0;
+  @apply lg:min-h-[87.5vh] md:min-h-[84vh] sm:min-h-[84vh];
+}
+.hrule {
+  @apply hrule;
+}
+footer {
+  @apply bg-footer-background p-2.5 text-center text-sm/4.25;
+  > a {
+    @apply text-sky-400;
+  }
+}
