@@ -1,0 +1,65 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+@import "../../assets/styles/theme.tw.css";
+@import "../../assets/styles/utilities.tw.css";
+
+.code {
+  @apply flex flex-col justify-evenly;
+}
+.skills-intro {
+  @apply text-center p-4;
+}
+.skills-categories {
+  @apply flex flex-wrap justify-center p-4 gap-4;
+  > * {
+    @apply basis-[420px];
+  }
+}
+.domain-card {
+  @apply card-z p-2;
+  h5 {
+    @apply text-center;
+  }
+}
+.domain-icons {
+  @apply flex flex-wrap justify-center;
+  > * {
+    @apply w-1/3; /* TODO @media */
+  }
+}
+.skill-badge {
+  @apply grid grid-cols-[1fr_2fr];
+  > .icons8-icon {
+    @apply text-right;
+  }
+  img {
+    @apply h-4 mr-1.25;
+  }
+  .skill-name {
+    @apply text-gray-400;
+  }
+}
+.certifications {
+  @apply pt-4;
+  h4 {
+    @apply text-center;
+  }
+  .cert-area-list {
+    @apply flex flex-wrap justify-center gap-4;
+    > * {
+      @apply w-1/4; /* TODO @media */
+    }
+  }
+}
+.cert-area {
+  @apply card-z p-2;
+  h5 {
+    @apply text-center;
+  }
+}
+.cert-list {
+  @apply flex flex-wrap justify-center gap-2;
+  > * {
+    @apply w-1/25; /* TODO @media */
+  }
+}
