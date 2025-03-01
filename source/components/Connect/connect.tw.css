@@ -15,8 +15,8 @@
     @apply theme-outline basis-[270px] rounded-2xl text-center;
   }
 }
-.services .social-icons {
-  @apply text-center;
+.social-icons {
+  @apply flex justify-center gap-1 text-center;
 }
 .contact-form {
   @apply flex justify-center;
