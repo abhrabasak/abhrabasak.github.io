@@ -21,13 +21,14 @@
 .contact-form {
   @apply flex justify-center;
   > form {
-    @apply flex flex-col justify-center items-stretch w-2/5; /* TODO: @media */
+    @apply flex flex-col justify-center items-stretch w-4/5 lg:w-7/10 xl:w-3/5;
   }
   h4 {
     @apply text-center;
   }
   .contact-address {
-    @apply grid grid-rows-2 grid-cols-2 gap-x-4 mb-2;
+    @apply grid grid-rows-2 grid-cols-[1fr_5fr] md:grid-cols-2 gap-x-4 mb-2;
+    @apply grid-flow-col md:max-3xl:grid-flow-row;
   }
   .contact-message {
     @apply grid grid-rows-[1fr_5fr] grid-cols-[1fr_4fr] gap-y-1;
@@ -41,6 +42,6 @@
     @apply resize-none;
   }
   button {
-    @apply cursor-pointer mt-2 p-2;
+    @apply cursor-pointer mt-2 p-2 xs:mb-4;
   }
 }
