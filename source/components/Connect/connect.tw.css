@@ -23,7 +23,7 @@
   > form {
     @apply flex flex-col justify-center items-stretch w-2/5; /* TODO: @media */
   }
-  h4 {
+  h1 {
     @apply text-center;
   }
   .contact-address {

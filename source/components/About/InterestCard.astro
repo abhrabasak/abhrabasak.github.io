@@ -9,7 +9,7 @@ const { title, excerpt, icons } = Astro.props;
 ---
 
 <article class="interest-card">
-  <h4>{title}</h4>
+  <h1>{title}</h1>
   <p>{excerpt}</p>
   <div class="interest-icons">
     {icons.map((ic) => <IconResolver {...iconsY[ic]} />)}

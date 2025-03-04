@@ -33,18 +33,18 @@ const csArea = Array.from(certifications)
 ---
 
 <section class="certifications">
-  <h4>Certifications</h4>
+  <h1>Certifications</h1>
   <article class="cert-area-list">
     {
       Object.entries(csArea).map(([area, certs]) => (
-        <div class="cert-area">
-          <h5>{cAreas[area].name}</h5>
-          <article class="cert-list">
+        <article class="cert-area">
+          <h2>{cAreas[area].name}</h2>
+          <span class="cert-list">
             {certs.map((cr) => (
               <Icons8 iconName={cr.icon} link={cr.verify} site={cr.name} />
             ))}
-          </article>
-        </div>
+          </span>
+        </article>
       ))
     }
   </article>
