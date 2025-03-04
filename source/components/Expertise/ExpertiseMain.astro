@@ -13,7 +13,7 @@ import "./expertise.tw.css";
 ---
 
 <main class="code view">
-  <section class="skills-intro">
+  <section class="exp-intro">
     <h1>Skills and Experience</h1>
     <p>
       An overview of my software development skills. My development portfolio
@@ -24,8 +24,11 @@ import "./expertise.tw.css";
     </div>
   </section>
   <HorizontalRule />
-  <section class="skills-categories">
-    {dev.skills.map(([t, s]) => <SkillDomain title={t} skills={s} />)}
+  <section class="technologies">
+    <h2>Technologies</h2>
+    <article>
+      {dev.skills.map(([t, s]) => <SkillDomain title={t} skills={s} />)}
+    </article>
   </section>
   <HorizontalRule />
   <Certification />

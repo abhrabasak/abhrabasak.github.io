@@ -2,21 +2,20 @@
 import Icons8 from "@icons/icons8/Icons8.astro";
 import type { Experience } from "./Experience";
 
-interface Props {
-  exp: Experience;
-}
-const { exp } = Astro.props;
+interface Props extends Experience {}
+const { icon, link, company, position, project, date, location, description } =
+  Astro.props;
 ---
 
 <article class="work-exp-card">
   <span class="company-icons">
-    <Icons8 iconName={exp.icon[0]} link={exp.link} site={exp.company} />
-    <Icons8 iconName={exp.icon[1]} link={exp.link} site={exp.company} />
+    <Icons8 iconName={icon[0]} link={link} site={company} />
+    <Icons8 iconName={icon[1]} link={link} site={company} />
   </span>
-  <span class="company"><a href={exp.link}>{exp.company}</a></span>
-  <span class="position">{exp.position}</span>
-  <span class="project">{exp.project}</span>
-  <span class="date">{exp.date}</span>
-  <span class="location">{exp.location}</span>
-  <span class="description">{exp.description}</span>
+  <span class="company"><a href={link}>{company}</a></span>
+  <span class="position">{position}</span>
+  <span class="project">{project}</span>
+  <span class="date">{date}</span>
+  <span class="location">{location}</span>
+  <span class="description">{description}</span>
 </article>

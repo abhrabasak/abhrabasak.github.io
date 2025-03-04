@@ -2,13 +2,15 @@
 import ProjectCard from "./ProjectCard.astro";
 import ExperienceCard from "./ExperienceCard.astro";
 import HorizontalRule from "../Html/HorizontalRule.astro";
-import type { Project } from "./Project";
+
+import { L, type ProjectRecord } from "./Project";
 import type { Experience } from "./Experience";
-import projectsYaml from "./projects.yml";
-import workexpYaml from "./work-experience.yml";
+import projectsY from "./projects.yml";
+import workexpY from "./work-experience.yml";
+const projects = L(projectsY as ProjectRecord);
+const workexp = workexpY as Experience[];
+
 import "./experience.tw.css";
-const projects = projectsYaml as { [key: string]: Project };
-const workexp = workexpYaml as Experience[];
 ---
 
 <main class="projects view">
@@ -30,7 +32,7 @@ const workexp = workexpYaml as Experience[];
       wide range of projects.
     </p>
     <div class="work-exp-timeline">
-      {workexp.map((exp) => <ExperienceCard exp={exp} />)}
+      {workexp.map((exp) => <ExperienceCard {...exp} />)}
     </div>
   </section>
   <HorizontalRule />
@@ -43,11 +45,7 @@ const workexp = workexpYaml as Experience[];
       significantly to my learning and growth.
     </p>
     <div class="acad-proj-list">
-      {
-        Object.entries(projects).map(
-          ([_, p]) => p.enabled && <ProjectCard {...p} />
-        )
-      }
+      {projects.map(([_, p]) => <ProjectCard {...p} />)}
     </div>
   </section>
   <section class="competitions"></section>

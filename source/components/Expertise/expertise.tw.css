@@ -6,25 +6,33 @@
 .code {
   @apply flex flex-col justify-evenly;
 }
-.skills-intro {
+.exp-intro {
   @apply text-center p-4;
 }
-.skills-categories {
-  @apply flex flex-wrap justify-center p-4 gap-4;
-  > * {
-    @apply basis-[420px];
+.technologies,
+.certifications {
+  @apply pt-4;
+  > h2 {
+    @apply text-center;
+  }
+  > article {
+    @apply flex flex-wrap justify-center p-4 gap-4;
+    > * {
+      @apply basis-[420px];
+    }
   }
 }
-.domain-card {
+.domain-card,
+.cert-area {
   @apply card-z p-2;
-  h2 {
+  h3 {
     @apply text-center;
   }
 }
 .domain-icons {
   @apply flex flex-wrap justify-center;
   > * {
-    @apply w-1/3; /* TODO @media */
+    @apply w-1/2 md:w-1/3; /* TODO @media */
   }
 }
 .skill-badge {
@@ -39,27 +47,9 @@
     @apply text-gray-400;
   }
 }
-.certifications {
-  @apply pt-4;
-  h1 {
-    @apply text-center;
-  }
-  .cert-area-list {
-    @apply flex flex-wrap justify-center gap-4;
-    > * {
-      @apply w-1/4; /* TODO @media */
-    }
-  }
-}
-.cert-area {
-  @apply card-z p-2;
-  h2 {
-    @apply text-center;
-  }
-}
 .cert-list {
   @apply flex flex-wrap justify-center gap-2;
   > * {
-    @apply w-1/25; /* TODO @media */
+    @apply w-1/15 md:w-1/20; /* TODO @media */
   }
 }

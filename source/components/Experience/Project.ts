@@ -13,6 +13,8 @@ export interface Project {
   collab: { name: string; profile: string }[];
 }
 
+export type ProjectRecord = Record<string, Project>;
+
 export const zs = z.object({
   enabled: z.boolean(),
   name: z.string(),
@@ -30,3 +32,7 @@ export const zs = z.object({
 });
 
 export type zt = z.infer<typeof zs>;
+
+export const L = (pr: ProjectRecord) => Object.entries(pr).filter(
+  ([k, _]) => !k.startsWith("_")
+);

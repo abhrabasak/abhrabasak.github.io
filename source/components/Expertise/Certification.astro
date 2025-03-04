@@ -1,47 +1,23 @@
 ---
-import type { Provider, LinkedCourse } from "./Certification.ts";
+import { type Provider, csByArea } from "./Certification.ts";
 import { dataMap } from "@library/collections.ts";
 import cAreas from "./cert-areas.yml";
 import Icons8 from "@icons/icons8/Icons8.astro";
 
-const certifications = await dataMap<Provider>("certifications");
-
-const csArea = Array.from(certifications)
-  .flatMap(([id, ct]) =>
-    ct.courses
-      ?.filter((cr) => cr.area in cAreas && (!!cr.issue || !!cr.date))
-      ?.map(
-        (cr) =>
-          ({
-            ...cr,
-            provider: id.toLowerCase(),
-            icon: ct.icon,
-            link: `${ct.prefix ?? ""}${cr.slug}`,
-            verify: !!cr.issue
-              ? `${ct.verify ?? ""}${cr.issue}`
-              : `${ct.prefix ?? ""}${cr.slug}`,
-          }) as LinkedCourse
-      )
-  )
-  .reduce(
-    (a, cr) => {
-      (a[cr.area] ??= []).push(cr);
-      return a;
-    },
-    {} as Record<string, LinkedCourse[]>
-  );
+const cs = await dataMap<Provider>("certifications");
+const csArea = csByArea(cs, cAreas);
 ---
 
 <section class="certifications">
-  <h1>Certifications</h1>
+  <h2>Certifications</h2>
   <article class="cert-area-list">
     {
       Object.entries(csArea).map(([area, certs]) => (
         <article class="cert-area">
-          <h2>{cAreas[area].name}</h2>
+          <h3>{cAreas[area].name}</h3>
           <span class="cert-list">
-            {certs.map((cr) => (
-              <Icons8 iconName={cr.icon} link={cr.verify} site={cr.name} />
+            {certs.map(({ icon, verify, name }) => (
+              <Icons8 iconName={icon} link={verify} site={name} />
             ))}
           </span>
         </article>

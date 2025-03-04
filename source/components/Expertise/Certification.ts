@@ -40,3 +40,24 @@ export const zs = z.object({
 }).optional();
 
 export type zt = z.infer<typeof zs>;
+
+type CertificationArea = { name: string };
+export const csByArea = (certifications: Map<string, Provider>, cAreas: Record<string, CertificationArea>) =>
+  Array.from(certifications).flatMap(([id, ct]) =>
+    ct.courses?.filter((cr) => cr.area in cAreas && (!!cr.issue || !!cr.date))
+      ?.map((cr) => ({
+        ...cr,
+        provider: id.toLowerCase(),
+        icon: ct.icon,
+        link: `${ct.prefix ?? ""}${cr.slug}`,
+        verify: !!cr.issue
+          ? `${ct.verify ?? ""}${cr.issue}`
+          : `${ct.prefix ?? ""}${cr.slug}`,
+      }) as LinkedCourse)
+  ).reduce(
+    (a, cr) => {
+      (a[cr.area] ??= []).push(cr);
+      return a;
+    },
+    {} as Record<string, LinkedCourse[]>
+  )
