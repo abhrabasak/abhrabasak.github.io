@@ -23,7 +23,7 @@
   > form {
     @apply flex flex-col justify-center items-stretch w-4/5 lg:w-7/10 xl:w-3/5;
   }
-  h4 {
+  h1 {
     @apply text-center;
   }
   .contact-address {

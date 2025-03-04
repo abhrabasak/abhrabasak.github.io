@@ -9,7 +9,7 @@ const graphdata: Props = Astro.props;
 <section class={`${graphdata.id}-graph`}>
   {Object.entries(graphdata.items).map(([area, items]) => (
     <>
-      <h5>{area}</h5>
+      <h2>{area}</h2>
       {Object.entries(items).map(([item, strength]) => (
         <span class="primary label radius">{item} ({strength}/100)</span>
         <div class="radius progress success">

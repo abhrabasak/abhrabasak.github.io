@@ -11,7 +11,7 @@
 }
 .work-exp {
   @apply p-4;
-  h4,
+  h1,
   p {
     @apply text-center;
   }

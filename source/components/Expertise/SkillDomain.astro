@@ -13,16 +13,16 @@ const displaySkills = skills
 ---
 
 <div class="domain-card">
-  <h5>{title}</h5>
+  <h2>{title}</h2>
   <div class="domain-icons">
     {
       displaySkills.map(({ name, url, icon }) => (
-        <div class="skill-badge">
+        <span class="skill-badge">
           <IconResolver {...{ name, url, icon }} />
           <a href={url} class="skill-name">
             {name}
           </a>
-        </div>
+        </span>
       ))
     }
   </div>
