@@ -52,6 +52,28 @@
   location: Hyderabad, TS, India
   stack: [https://stackshare.io/abhra/bing-entity-experiences]
 
+- company: Microsoft India R&D Pvt Ltd
+  link: microsoft.com
+  position: Software Development Engineer Intern
+  project: Bing Autosuggest
+  date: 2013-2013
+  icon:
+    - color/50/microsoft
+    - fluency/50//bing--v1
+  description: AutoSuggest Deep-links Navigation for Microsoft product support queries on Bing.com
+  location: Hyderabad, TS, India
+
+- company: IT University of Copenhagen
+  link: ituc.dk
+  position: Teaching Assistant
+  project: Software Engineering & Software Qualities
+  date: 2013-2013
+  icon:
+    - office/50/university
+    - external-solidglyph-m-oki-orlando/50/external-software-engineering-engineering-solid-solidglyph-m-oki-orlando
+  description: Description
+  location: Copenhagen, Denmark
+
 - company: Indian Institute of Technology (IIT) Mandi
   link: iitmandi.ac.in
   position: Coordinator & Principal Developer

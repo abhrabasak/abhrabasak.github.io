@@ -9,7 +9,8 @@
 .projects-intro {
   @apply max-w-[1100px] text-center p-4;
 }
-.work-exp {
+.work-exp,
+.acad-projects {
   @apply p-4;
   h1,
   p {
@@ -19,73 +20,75 @@
 .work-exp-timeline {
   @apply flex flex-wrap justify-center gap-4;
   > * {
-    @apply basis-[530px];
+    @apply basis-[535px]; /* TODO @media */
   }
 }
+.work-exp-card,
+.project-card {
+  @apply card-z grid p-4 transform duration-200 hover:scale-102;
+}
 .work-exp-card {
-  @apply card-z p-4 grid;
   grid:
-    "icon comp comp date" 1fr
-    "icon posn proj proj" 1fr
-    "icon desc desc desc" 1fr
-    / 1fr 6fr 5fr;
+    "icon comp comp comp date" 1fr
+    "icon posn posn proj proj" 0.5fr
+    "icon locn locn . ." 0.5fr
+    "icon desc desc desc desc" 1fr
+    / 1fr 4fr 2fr 3fr 4fr;
   .company-icons {
-    @apply flex flex-col justify-evenly pr-2;
-    grid-area: icon;
+    @apply flex flex-col justify-evenly pr-2 area-[icon];
   }
   .company {
-    @apply font-bold;
-    grid-area: comp;
+    @apply font-bold area-[comp];
   }
   .position {
-    grid-area: posn;
+    @apply area-[posn];
   }
   .date {
-    grid-area: date;
+    @apply area-[date] text-right;
   }
   .project {
-    @apply text-right;
-    grid-area: proj;
+    @apply area-[proj] text-right;
+  }
+  .location {
+    @apply area-[locn];
   }
   .position,
   .date,
-  .project {
+  .project,
+  .location,
+  .description {
     @apply supress;
   }
   .description {
     grid-area: desc;
   }
 }
-.project-articles {
-  @apply flex flex-wrap justify-center gap-6 mt-2.5;
+.acad-proj-list {
+  @apply flex flex-wrap justify-center gap-4 mt-2.5;
   > * {
-    @apply basis-[530px];
+    @apply basis-[535px]; /* TODO @media */
   }
 }
 .project-card {
-  @apply card-z grid mb-2.5;
   grid:
-    "icon url url url" 1fr
+    "icon url url year" 1fr
     "icon syn syn syn" 0.5fr
-    "year tech tech ." 1fr
+    "icon tech tech ." 0.5fr
     / 1.5fr 8fr 2fr;
   .icons8-icon {
-    @apply p-4 text-center;
-    grid-area: icon;
+    @apply text-center area-[icon];
   }
   .project-url {
-    @apply font-bold pt-4;
-    grid-area: url;
+    @apply font-bold area-[url];
   }
   .synopsis {
-    grid-area: syn;
+    @apply area-[syn];
   }
   .tech {
-    grid-area: tech;
+    @apply area-[tech];
   }
   .year {
-    @apply text-center;
-    grid-area: year;
+    @apply text-center area-[year];
   }
   .synopsis,
   .tech,

@@ -10,12 +10,13 @@ const { exp } = Astro.props;
 
 <article class="work-exp-card">
   <span class="company-icons">
-    <Icons8 iconName={exp.icon[0]} link={"#"} site={exp.company} />
-    <Icons8 iconName={exp.icon[1]} link={"#"} site={exp.company} />
+    <Icons8 iconName={exp.icon[0]} link={exp.link} site={exp.company} />
+    <Icons8 iconName={exp.icon[1]} link={exp.link} site={exp.company} />
   </span>
-  <span class="company">{exp.company}</span>
+  <span class="company"><a href={exp.link}>{exp.company}</a></span>
   <span class="position">{exp.position}</span>
   <span class="project">{exp.project}</span>
   <span class="date">{exp.date}</span>
+  <span class="location">{exp.location}</span>
   <span class="description">{exp.description}</span>
 </article>

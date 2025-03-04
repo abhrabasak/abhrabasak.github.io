@@ -13,7 +13,7 @@ const workexp = workexpYaml as Experience[];
 
 <main class="projects view">
   <section class="projects-intro">
-    <h1>Projects</h1>
+    <h1>Portfolio</h1>
     <p>
       A list of stuff I've worked on and contributed to till date. I personally
       attempt to use a different set of technologies for each individual
@@ -35,12 +35,20 @@ const workexp = workexpYaml as Experience[];
   </section>
   <HorizontalRule />
   <section class="personal-projects"></section>
-  <section class="project-articles">
-    {
-      Object.entries(projects).map(
-        ([_, p]) => p.enabled && <ProjectCard {...p} />
-      )
-    }
+  <section class="acad-projects">
+    <h1>Academic Projects</h1>
+    <p>
+      Here are some of the academic projects that I pursued at my university.
+      These have allowed me to apply theory to practice and have contributed
+      significantly to my learning and growth.
+    </p>
+    <div class="acad-proj-list">
+      {
+        Object.entries(projects).map(
+          ([_, p]) => p.enabled && <ProjectCard {...p} />
+        )
+      }
+    </div>
   </section>
   <section class="competitions"></section>
 </main>

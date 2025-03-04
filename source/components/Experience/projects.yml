@@ -29,12 +29,12 @@ iit-hci-usability:
 
 iit-btp-hazelward:
   enabled: true
-  name: Hazelward - High Performance Computational Intelligence
+  name: Hazelward - Computational Intelligence Framework
   icon: fluency/50/video-card
   occupation: IIT Mandi
   year: 2013-14
   url: https://github.com/abhrabasak/hazelward
-  synopsis: A generalized Concurrent Prediction Framework based on Machine Learning for GPUs
+  synopsis: A General-Purpose GPU-Parallelized Machine Learning & Prediction Framework
   text: >
     Designed a generalized Concurrent Prediction Framework based on Machine Learning for GPUs.
     Initial release of the framework tentatively includes Feed-Forward Neural Networks, Fuzzy Control Systems and Genetic Algorithms.

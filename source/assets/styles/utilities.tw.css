@@ -7,8 +7,10 @@
 }
 
 @utility card-z {
-  @apply theme-outline rounded-2xl;
-  background-color: #0006;
+  @apply theme-outline rounded-2xl bg-card-bg;
+  @variant hover {
+    @apply outline-gray-400;
+  }
 }
 
 @utility hrule {
@@ -37,4 +39,8 @@
 
 @utility supress {
   @apply text-[0.7rem] text-gray-400;
+}
+
+@utility area-* {
+  grid-area: --value([*]);
 }
