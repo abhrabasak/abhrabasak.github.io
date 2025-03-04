@@ -5,10 +5,9 @@ import Certification from "./Certification.astro";
 import IconResolver from "../Html/IconResolver.astro";
 
 import icons from "@icons/hyper.yml";
-import dpy from "./dev-profiles.yml";
-const profiles = dpy as string[];
-import dsy from "./dev-skills.yml";
-const skillTypes = Object.entries(dsy as Record<string, string[]>).filter(
+import devY from "./dev.yml";
+const dev = devY as { profiles: string[]; skills: Record<string, string[]> };
+const skillTypes = Object.entries(dev.skills).filter(
   ([t, _]) => !t.startsWith("_")
 );
 
@@ -23,7 +22,7 @@ import "./expertise.tw.css";
       has code samples.
     </p>
     <div class="dev-profiles">
-      {profiles.map((p) => <IconResolver {...icons[p]} />)}
+      {dev.profiles.map((p) => <IconResolver {...icons[p]} />)}
     </div>
   </section>
   <HorizontalRule />

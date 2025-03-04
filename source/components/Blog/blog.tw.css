@@ -1,0 +1,8 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+@import "../../assets/styles/theme.tw.css";
+@import "../../assets/styles/utilities.tw.css";
+
+.margin-auto {
+  @apply flex flex-col justify-center text-center;
+}
