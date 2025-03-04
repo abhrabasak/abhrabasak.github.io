@@ -11,7 +11,7 @@ const { pathname } = Astro.url;
       Object.entries(pages).map(([name, p]) => (
         <a href={p.url} data-active={pathname === p.url}>
           <span class="name">{name}</span>
-          <span class="icon">
+          <span class="icon" title={name}>
             <LineAwesome icon={p.icon} />
           </span>
         </a>

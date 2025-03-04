@@ -21,15 +21,14 @@ nav.site-header-nav {
     @apply py-4 px-0 h-12;
   }
   .name {
-    @apply sm:hidden md:inline lg:inline;
+    @apply hidden md:inline;
   }
   .icon {
-    @apply sm:inline md:hidden lg:hidden;
+    @apply inline md:hidden;
   }
 }
 .view {
-  @apply py-[0.9375rem] px-0;
-  @apply lg:min-h-[87.5vh] md:min-h-[84vh] sm:min-h-[84vh];
+  @apply py-[0.9375rem] px-0 min-h-[88vh];
 }
 .hrule {
   @apply hrule;

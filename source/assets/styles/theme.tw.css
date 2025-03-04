@@ -7,6 +7,9 @@
   --color-body-reset: #fefefe;
   --color-link-primary: teal;
 
+  --breakpoint-xs: 30rem;
+  --breakpoint-3xl: 120rem;
+
   --shadow-card-hover: 5px 5px 12px rgba(0, 0, 0, 0.05);
 
   --body-font-family: "Segoe UI", "Helvetica Neue", Helvetica,
