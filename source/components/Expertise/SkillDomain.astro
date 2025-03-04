@@ -7,9 +7,7 @@ interface Props {
   skills: string[];
 }
 const { title, skills } = Astro.props;
-const displaySkills = skills
-  .filter((s) => !s.startsWith("_"))
-  .map((s) => icons[s]);
+const displaySkills = skills.map((s) => icons[s]);
 ---
 
 <div class="domain-card">

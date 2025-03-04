@@ -1,15 +1,13 @@
 ---
-import SkillDomain from "./SkillDomain.astro";
 import HorizontalRule from "../Html/HorizontalRule.astro";
-import Certification from "./Certification.astro";
 import IconResolver from "../Html/IconResolver.astro";
+import Certification from "./Certification.astro";
+import SkillDomain from "./SkillDomain.astro";
 
 import icons from "@icons/hyper.yml";
 import devY from "./dev.yml";
-const dev = devY as { profiles: string[]; skills: Record<string, string[]> };
-const skillTypes = Object.entries(dev.skills).filter(
-  ([t, _]) => !t.startsWith("_")
-);
+import { L, type Developer } from "./Developer";
+const dev = L(devY as Developer);
 
 import "./expertise.tw.css";
 ---
@@ -27,7 +25,7 @@ import "./expertise.tw.css";
   </section>
   <HorizontalRule />
   <section class="skills-categories">
-    {skillTypes.map(([t, s]) => <SkillDomain title={t} skills={s} />)}
+    {dev.skills.map(([t, s]) => <SkillDomain title={t} skills={s} />)}
   </section>
   <HorizontalRule />
   <Certification />

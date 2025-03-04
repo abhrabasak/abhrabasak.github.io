@@ -15,3 +15,8 @@ export const zs = z.object({
 });
 
 export type zt = z.infer<typeof zs>;
+export type InterestRecord = Record<string, Interest>;
+
+export const L = (data: InterestRecord) => Object.entries(data).filter(
+  ([t, _]) => !t.startsWith("_")
+);
