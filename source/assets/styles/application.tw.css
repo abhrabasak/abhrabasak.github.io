@@ -8,6 +8,11 @@ body {
   @apply text-body-reset font-(family-name:--body-font-family) p-0!;
   @apply bg-(image:--bg-image) bg-center bg-cover;
 }
+.body-alt {
+  --bg-dots: radial-gradient(teal 1px, transparent 0);
+  --bg-size: 40px 40px;
+  @apply bg-black bg-(image:--bg-dots) bg-(length:--bg-size);
+}
 header,
 main,
 footer {
