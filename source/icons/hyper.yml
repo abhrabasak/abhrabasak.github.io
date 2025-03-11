@@ -86,7 +86,7 @@ pandas:
   url: https://pandas.pydata.org
 sklearn:
   name: scikit-learn
-  icon:
+  icon: devicon::scikitlearn/scikitlearn-original
   url: https://scikit-learn.org
 skimage:
   name: scikit-image
@@ -154,7 +154,7 @@ k8s:
   url: https://kubernetes.io
 vercel:
   name: Vercel
-  icon: icons8::color/100/vercel
+  icon: devicon::vercel/vercel-original
   url: https://vercel.com
 ado:
   name: AzureDevOps
@@ -184,6 +184,10 @@ figma:
   name: Figma
   icon: icons8::officel/100/figma
   url: https://figma.com
+jupyter:
+  name: Jupyter
+  icon: icons8::fluency/100/jupyter
+  url: https://jupyter.org
 mongodb:
   name: MongoDB
   icon: icons8::color/100/mongodb
