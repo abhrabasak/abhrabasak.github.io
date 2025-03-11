@@ -37,7 +37,8 @@
 }
 .skill-badge {
   @apply grid grid-cols-[1fr_2fr];
-  > .icons8-icon {
+  > .icons8-icon,
+  > .devicons-icon {
     @apply text-right;
   }
   img {
