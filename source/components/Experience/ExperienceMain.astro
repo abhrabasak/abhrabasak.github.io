@@ -5,9 +5,9 @@ import HorizontalRule from "../Html/HorizontalRule.astro";
 
 import { L, type ProjectRecord } from "./Project";
 import type { Experience } from "./Experience";
-import projectsY from "./projects.yml";
+import acadPY from "./academic-projects.yml";
 import workexpY from "./work-experience.yml";
-const projects = L(projectsY as ProjectRecord);
+const acadProj = L(acadPY as ProjectRecord);
 const workexp = workexpY as Experience[];
 
 import "./experience.tw.css";
@@ -45,7 +45,7 @@ import "./experience.tw.css";
       significantly to my learning and growth.
     </p>
     <div class="acad-proj-list">
-      {projects.map(([_, p]) => <ProjectCard {...p} />)}
+      {acadProj.map(([_, p]) => <ProjectCard {...p} />)}
     </div>
   </section>
   <section class="competitions"></section>
